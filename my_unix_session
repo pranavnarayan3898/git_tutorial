@@ -2796,4 +2796,682 @@ Untracked files:
 	[31m.sudo_as_admin_successful[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit -m "deleted temp.txt file"[K[K[K[K[K[K
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit -m "deleted temp.txt file"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ka
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 4.8             /home/pranav/.git/COMMIT_EDITMSG                        [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[3d[39;49m[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d# Changes to be committed:[8d#       modified:   my_unix_session[9d#       deleted:    temp.txt[10d#[11d# Untracked files:[12d#       .bash_history[13d#       .bash_logout[14d#       .bashrc[15d#       .gitconfig[16d#       .lesshst[17d#       .motd_shown[18d#       .profile[19d#       .sudo_as_admin_successful[20d#[2d[39m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dd[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25l.[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lx[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25l;[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ll[41d[K[2;21H[?12l[?25h[?25le[?12l[?25h[?25l7[3;41r8[3dM[1;43r[3;1H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: /home/pranav/.git/COMMIT_EDITMSG(B[m[41;53H[?12l[?25h[?25l[41;34H[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;33H(B[0;7m[ Wrote 20 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K[master c07586b] deleted temp.txt file
+ 2 files changed, 119 insertions(+), 1 deletion(-)
+ delete mode 100644 temp.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git statius[K[K[Kus
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano .gitignore
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        .gitignore                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[m*.log[?12l[?25h[?25l[3d[?12l[?25h[?25l[2;6H[?12l[?25h[?25l[41;31H(B[0;7m[ Cutbuffer is empty ](B[m[2;6H[?12l[?25h[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano .gitignore[5Pgit statuscommit -am "deleted temp.txt file"nt -m [K[5Pstatusrm temp.txtv text.txt[1Pgit statuscommit --amend[8Pstatusadd my_unix_session status[Kcommit --amend[8Pstatuscheckout temp.txt[11Pstatuscommit --amend[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kffe .bash_history
+      .bashrc
+        .gitconfig
+        .lesshst
+        .motd_shown
+        .profile
+        .sudo_as_admin_successful
+Command 'ffe' not found, but can be installed with:
+
+sudo apt install ffe
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .bash_logout
+.bash_logout: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .bashrc
+.bashrc: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .gitconfig
+.gitconfig: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .lesshst
+.lesshst: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .motd_shown
+.motd_shown: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .profile
+.profile: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .sudo_as_admin_successful .bash_history
+        .bash_logout
+        .bashrc
+        .gitconfig
+        .lesshst
+        .motd_shown
+        .profile
+        .sudo_as_admin_successful.sudo_as_admin_successful: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .bash_logout
+.bash_logout: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .bashrc
+.bashrc: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .gitconfig
+.gitconfig: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .lesshst
+.lesshst: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .motd_shown
+.motd_shown: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .profile
+.profile: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$         .sudo_as_admin_successful[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+There are stopped jobs.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ exit
+exit
+[43;1H[?1049l[23;0;0t[?1l>[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004lReceived SIGHUP or SIGTERM
+Received SIGHUP or SIGTERM
+[43;1H[?1049l[23;0;0t[?1l>[43;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;43r[?12l[?25h[?1049h[22;0;0t[1;43r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 4.8                        .gitignore                         Modified  [3;1H(B[m*.log[41;35H(B[0;7m[ Read 1 line ][42d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?2004h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 4.8                        .gitignore                         Modified  [3;1H(B[m*.log[41;35H(B[0;7m[ Read 1 line ][42d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?2004h[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 4.8                        .gitignore                         Modified  [3;1H(B[m*.log[41d[?1h=[H[2J(B[0;7m  GNU nano 4.8                        .gitignore                         Modified  [3;1H(B[m*.log[41d[1;82H[1;82H[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d
+Buffer written to .gitignore.save
+[41;19H(B[0;1m[37m[41m[ Error writing .gitignore.save: File exists ][39;49m(B[m
+Buffer not written to .gitignore.save: File exists
+
+Script done on 2022-07-20 00:12:37+05:30 [COMMAND_EXIT_CODE="1"]
+Script started on 2022-07-20 00:16:08+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="43"]
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+README  draft.txt  error.log  [0m[01;34mmy_project[0m  my_unix_session  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.gitignore.save[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add --a
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .bash_history[m
+	[32mnew file:   .bash_logout[m
+	[32mnew file:   .bashrc[m
+	[32mnew file:   .gitconfig[m
+	[32mnew file:   .gitignore.save[m
+	[32mnew file:   .lesshst[m
+	[32mnew file:   .motd_shown[m
+	[32mnew file:   .profile[m
+	[32mnew file:   .sudo_as_admin_successful[m
+	[32mmodified:   my_unix_session[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ci[K[Kgit comint[K[K[Kmin[Kt -m "all files are commited"
+[master d6a5356] all files are commited
+ 10 files changed, 477 insertions(+), 1 deletion(-)
+ create mode 100644 .bash_history
+ create mode 100644 .bash_logout
+ create mode 100644 .bashrc
+ create mode 100644 .gitconfig
+ create mode 100644 .gitignore.save
+ create mode 100644 .lesshst
+ create mode 100644 .motd_shown
+ create mode 100644 .profile
+ create mode 100644 .sudo_as_admin_successful
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ touch conti[Kribute.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontribute.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add --a
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   contribute.txt[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit --ament
+error: unknown option `ament'
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit --ament[Kd
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 24 lines ](B[m[H(B[0;7m  GNU nano 4.8             /home/pranav/.git/COMMIT_EDITMSG                        [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mall files are commited[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Wed Jul 20 00:17:09 2022 +0530[8d#[9d# On branch master[10d# Changes to be committed:[11d#       new file:   .bash_history[12d#       new file:   .bash_logout[13d#       new file:   .bashrc[14d#       new file:   .gitconfig[15d#       new file:   .gitignore.save[16d#       new file:   .lesshst[17d#       new file:   .motd_shown[18d#       new file:   .profile[19d#       new file:   .sudo_as_admin_successful[20d#       new file:   contribute.txt[21d#       modified:   my_unix_session[22d#[23d# Changes not staged for commit:[24d#       modified:   my_unix_session[25d#[2d[39m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m7[2;40r8[2dM[1;43r[3;1H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: /home/pranav/.git/COMMIT_EDITMSG(B[m[41;53H[?12l[?25h[?25l[41;34H[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;33H(B[0;7m[ Wrote 25 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K[master c5b33ef] all files are commited
+ Date: Wed Jul 20 00:17:09 2022 +0530
+ 11 files changed, 477 insertions(+), 1 deletion(-)
+ create mode 100644 .bash_history
+ create mode 100644 .bash_logout
+ create mode 100644 .bashrc
+ create mode 100644 .gitconfig
+ create mode 100644 .gitignore.save
+ create mode 100644 .lesshst
+ create mode 100644 .motd_shown
+ create mode 100644 .profile
+ create mode 100644 .sudo_as_admin_successful
+ create mode 100644 contribute.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano contribute.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 4.8                      contribute.txt                                 [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dh[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25la[41d[K[2;25H[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: contribute.txt(B[m[41;35H[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git stau[K[Katus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add contribue[Kte.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git staut[K[Ktus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   contribute.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nagit statusadd contribute.txt[12Pstatusnano contribute.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 4.8                      contribute.txt                                 [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mhi this is pranav narayan working on git[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l[41d[K[2;27H[?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2;41H.[?12l[?25h[?25l[3d[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lHhi this is pranav narayan working on git.H[?12l[?25h[?25l[1P[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: contribute.txt(B[m[41;35H[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 2 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   contribute.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status[Knana[Ko contribute,txt[K[K[K[K.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 4.8                      contribute.txt                                 [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mHi this is pranav narayan working on git.[?12l[?25h[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git rest[Ket HEAd[KD contribute.txt
+Unstaged changes after reset:
+M	contribute.txt
+M	my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano contribute.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 4.8                      contribute.txt                                 [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mHi this is pranav narayan working on git.[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m7[2;40r8[2dM[1;43r[3;1H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: contribute.txt(B[m[41;35H[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 3 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add --a
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git on[K[Kcomin[K[Knit[K[K[Kmit -amend
+error: did you mean `--amend` (with two dashes)?
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git statyus[K[K[Kus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   contribute.txt[m
+	[32mmodified:   my_unix_session[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ gity[K status --ament[Kd
+error: unknown option `amend'
+usage: git status [<options>] [--] <pathspec>...
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+    --no-renames          do not detect renames
+    -M, --find-renames[=<n>]
+                          detect renames, optionally set similarity index
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit --amend
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 21 lines ](B[m[H(B[0;7m  GNU nano 4.8             /home/pranav/.git/COMMIT_EDITMSG                        [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mall files are commited[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Wed Jul 20 00:17:09 2022 +0530[8d#[9d# On branch master[10d# Changes to be committed:[11d#       new file:   .bash_history[12d#       new file:   .bash_logout[13d#       new file:   .bashrc[14d#       new file:   .gitconfig[15d#       new file:   .gitignore.save[16d#       new file:   .lesshst[17d#       new file:   .motd_shown[18d#       new file:   .profile[19d#       new file:   .sudo_as_admin_successful[20d#       new file:   contribute.txt[21d#       modified:   my_unix_session[22d#[2d[39m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m7[2;40r8[2dM[1;43r[3;1H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: /home/pranav/.git/COMMIT_EDITMSG(B[m[41;53H[?12l[?25h[?25l[41;34H[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;33H(B[0;7m[ Wrote 22 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K[master 5ba9e04] all files are commited
+ Date: Wed Jul 20 00:17:09 2022 +0530
+ 11 files changed, 707 insertions(+), 1 deletion(-)
+ create mode 100644 .bash_history
+ create mode 100644 .bash_logout
+ create mode 100644 .bashrc
+ create mode 100644 .gitconfig
+ create mode 100644 .gitignore.save
+ create mode 100644 .lesshst
+ create mode 100644 .motd_shown
+ create mode 100644 .profile
+ create mode 100644 .sudo_as_admin_successful
+ create mode 100644 contribute.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git [K[K[K[Knano sta[K[K[Kcontribute.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 3 lines ](B[m[H(B[0;7m  GNU nano 4.8                      contribute.txt                                 [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[mHi this is pranav narayan working on git.[A[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dh[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l[41d[K[2;11H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25ly[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lc[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l:[?12l[?25h[?25l>[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: contribute.txt(B[m[41;35H[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 3 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git restore contribute.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git[K[K[Knona contribute,[K,tr[K[K[K.txt
+
+Command 'nona' not found, but can be installed with:
+
+sudo apt install hugin-tools
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano contribute.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 3 lines ](B[m[H(B[0;7m  GNU nano 4.8                      contribute.txt                                 [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[mHi this is pranav narayan working on git.[A[?12l[?25h[?25l[3d[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2;40r[40;1H
+[1;43r[2;1H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: contribute.txt(B[m[41;35H[?12l[?25h[?25l(B[0;7mu(B[m[41;36H[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?    [42d Y(B[m Yes[K[43d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[41;33H[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;51H[39;49m(B[0;7mu[1;74H        (B[m[41;34H(B[0;7m[ Wrote 2 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git [K[K[K[Kgoy [K[K[K[Kgit remote
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ c[Kls
+README          contribute.txtu  error.log   my_unix_session
+contribute.txt  draft.txt        [0m[01;34mmy_project[0m  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ce[Kd my_projed[Kct
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ ls
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../contribute.txtu[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd ..
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ git status
+fatal: not a git repository (or any of the parent directories): .git
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ mv p[Kp[K[K[K[Kls
+[0m[01;34mpranav[0m
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ my prt[Koject[K[K[K[K[K[K[K[K[K[Kmy[K[Kmv mypro[K[K[K[K[Kpranav/mypro[K[K[K_project my_project
+mv: cannot move 'pranav/my_project' to 'my_project': Permission denied
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ mkdir pr
+mkdir: cannot create directory ‘pr’: Permission denied
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ p[Kcd pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git stau[K[K[Ktatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontribute.txtu[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd..[K[K ..
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ cd ..
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ cd ..
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ cd jp[K[Khome
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ [[Kpranav
+pranav: command not found
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ cd pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontribute.txtu[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nona[K[K[K[Knano contriu[Kbute[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit ce[Kheckout --cibt[K[Kntribute.txtu
+error: unknown option `cintribute.txtu'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --guess               second guess 'git checkout <no-such-branch>' (default)
+    --overlay             use overlay mode (default)
+    -q, --quiet           suppress progress reporting
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+    -m, --merge           perform a 3-way merge with the new branch
+    --conflict <style>    conflict style (merge or diff3)
+    -d, --detach          detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    -f, --force           force checkout (throw away local modifications)
+    --orphan <new-branch>
+                          new unparented branch
+    --overwrite-ignore    update ignored files (default)
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontribute.txtu[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git statuscheckout --cintribute.txtu[K[Kt
+error: unknown option `cintribute.txt'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --guess               second guess 'git checkout <no-such-branch>' (default)
+    --overlay             use overlay mode (default)
+    -q, --quiet           suppress progress reporting
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+    -m, --merge           perform a 3-way merge with the new branch
+    --conflict <style>    conflict style (merge or diff3)
+    -d, --detach          detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    -f, --force           force checkout (throw away local modifications)
+    --orphan <new-branch>
+                          new unparented branch
+    --overwrite-ignore    update ignored files (default)
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontribute.txtu[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano contribute.txtu
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 4.8                      contribute.txtu                                [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mHi this is pranav narayan working on git.[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dkHi this is pranav narayan working on git.k[?12l[?25h[?25l[1P[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: contribute.txtu(B[m[41;36H[?12l[?25h[?25l(B[0;7m (B[m[41;35H[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?   [42d Y(B[m Yes[K[43d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[41;33H[?12l[?25h[?25l(B[0;7mFile "contribute.txt" exists; OVERWRITE? (B[m[?12l[?25h[?25l[41;34H[1K (B[0;7m[ Writing... ](B[m[K[1;51H[39;49m(B[0;7m [1;74H        (B[m[41;34H(B[0;7m[ Wrote 2 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontribute.txtu[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rv ci[Kontribute.txtu
+rv: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rm contribute.txtu
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ m[Kls
+README  contribute.txt  draft.txt  error.log  [0m[01;34mmy_project[0m  my_unix_session  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd myp[K_oroject
+bash: cd: my_oroject: No such file or directory
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd my_project
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../contribute.txt[m
+	[31mmodified:   ../my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git inint
+git: 'inint' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git inint[K[Kt
+Initialized empty Git repository in /home/pranav/my_project/.git/
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rm my_project
+rm: cannot remove 'my_project': Is a directory
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rm -r my_project
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rm[K[Kls
+README  contribute.txt  draft.txt  error.log  my_unix_session  [0m[01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd thesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ ls
+quotations.txt  quotes.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ mkdir my_o[K[K[K[K[K[K[K[K[K[Kcd.[K ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ j[Kmkdir my_project
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+README  contribute.txt  draft.txt  error.log  [0m[01;34mmy_project[0m  my_unix_session  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd myp[K_project
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../contribute.txt[m
+	[31mmodified:   ../my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git clone[K[K[K[K[K[K[K[K[K^V^?[K[K^V[KV[Kgit clone hh[Kttps://githun.co[K[K[K[Kb.con[Km/schacon/ticgit
+Cloning into 'ticgit'...
+remote: Enumerating objects: 1857, done.[K
+Receiving objects:   0% (1/1857)Receiving objects:   1% (19/1857)Receiving objects:   2% (38/1857)Receiving objects:   3% (56/1857)Receiving objects:   4% (75/1857)Receiving objects:   5% (93/1857)Receiving objects:   6% (112/1857)Receiving objects:   7% (130/1857)Receiving objects:   8% (149/1857)Receiving objects:   9% (168/1857)Receiving objects:  10% (186/1857)Receiving objects:  11% (205/1857)Receiving objects:  12% (223/1857)Receiving objects:  13% (242/1857)Receiving objects:  14% (260/1857)Receiving objects:  15% (279/1857)Receiving objects:  16% (298/1857)Receiving objects:  17% (316/1857)Receiving objects:  18% (335/1857)Receiving objects:  19% (353/1857)Receiving objects:  20% (372/1857)Receiving objects:  21% (390/1857)Receiving objects:  22% (409/1857)Receiving objects:  23% (428/1857)Receiving objects:  24% (446/1857)Receiving objects:  25% (465/1857)Receiving objects:  26% (483/1857)Receiving objects:  27% (502/1857)Receiving objects:  28% (520/1857)Receiving objects:  29% (539/1857)Receiving objects:  30% (558/1857)Receiving objects:  31% (576/1857)Receiving objects:  32% (595/1857)Receiving objects:  33% (613/1857)Receiving objects:  34% (632/1857)Receiving objects:  35% (650/1857)Receiving objects:  36% (669/1857)Receiving objects:  37% (688/1857)Receiving objects:  38% (706/1857)Receiving objects:  39% (725/1857)Receiving objects:  40% (743/1857)Receiving objects:  41% (762/1857)Receiving objects:  42% (780/1857)Receiving objects:  43% (799/1857)Receiving objects:  44% (818/1857)Receiving objects:  45% (836/1857)Receiving objects:  46% (855/1857)Receiving objects:  47% (873/1857)Receiving objects:  48% (892/1857)Receiving objects:  49% (910/1857)Receiving objects:  50% (929/1857)Receiving objects:  51% (948/1857)Receiving objects:  52% (966/1857)Receiving objects:  53% (985/1857)Receiving objects:  54% (1003/1857)Receiving objects:  55% (1022/1857)Receiving objects:  56% (1040/1857)Receiving objects:  57% (1059/1857)Receiving objects:  58% (1078/1857)Receiving objects:  59% (1096/1857)Receiving objects:  60% (1115/1857)Receiving objects:  61% (1133/1857)Receiving objects:  62% (1152/1857)Receiving objects:  63% (1170/1857)Receiving objects:  64% (1189/1857)Receiving objects:  65% (1208/1857)Receiving objects:  66% (1226/1857)Receiving objects:  67% (1245/1857)Receiving objects:  68% (1263/1857)Receiving objects:  69% (1282/1857)Receiving objects:  70% (1300/1857)Receiving objects:  71% (1319/1857)Receiving objects:  72% (1338/1857)Receiving objects:  73% (1356/1857)Receiving objects:  74% (1375/1857)Receiving objects:  75% (1393/1857)Receiving objects:  76% (1412/1857)Receiving objects:  77% (1430/1857)Receiving objects:  78% (1449/1857)Receiving objects:  79% (1468/1857)Receiving objects:  80% (1486/1857)Receiving objects:  81% (1505/1857)Receiving objects:  82% (1523/1857)remote: Total 1857 (delta 0), reused 0 (delta 0), pack-reused 1857[K
+Receiving objects:  83% (1542/1857)Receiving objects:  84% (1560/1857)Receiving objects:  85% (1579/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  86% (1598/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  87% (1616/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  88% (1635/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  89% (1653/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  90% (1672/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  91% (1690/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  92% (1709/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  93% (1728/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  94% (1746/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  95% (1765/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  96% (1783/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  97% (1802/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  98% (1820/1857), 308.01 KiB | 607.00 KiB/sReceiving objects:  99% (1839/1857), 308.01 KiB | 607.00 KiB/sReceiving objects: 100% (1857/1857), 308.01 KiB | 607.00 KiB/sReceiving objects: 100% (1857/1857), 334.06 KiB | 664.00 KiB/s, done.
+Resolving deltas:   0% (0/837)Resolving deltas:   1% (9/837)Resolving deltas:   2% (20/837)Resolving deltas:   3% (26/837)Resolving deltas:   4% (40/837)Resolving deltas:   5% (42/837)Resolving deltas:  14% (125/837)Resolving deltas:  15% (130/837)Resolving deltas:  16% (138/837)Resolving deltas:  17% (145/837)Resolving deltas:  18% (151/837)Resolving deltas:  19% (161/837)Resolving deltas:  22% (189/837)Resolving deltas:  23% (199/837)Resolving deltas:  24% (206/837)Resolving deltas:  25% (214/837)Resolving deltas:  26% (222/837)Resolving deltas:  27% (232/837)Resolving deltas:  28% (241/837)Resolving deltas:  29% (243/837)Resolving deltas:  30% (257/837)Resolving deltas:  31% (261/837)Resolving deltas:  32% (275/837)Resolving deltas:  33% (277/837)Resolving deltas:  34% (286/837)Resolving deltas:  36% (302/837)Resolving deltas:  37% (315/837)Resolving deltas:  38% (320/837)Resolving deltas:  39% (330/837)Resolving deltas:  40% (335/837)Resolving deltas:  41% (345/837)Resolving deltas:  42% (354/837)Resolving deltas:  43% (362/837)Resolving deltas:  44% (369/837)Resolving deltas:  46% (391/837)Resolving deltas:  47% (395/837)Resolving deltas:  48% (403/837)Resolving deltas:  50% (420/837)Resolving deltas:  51% (428/837)Resolving deltas:  52% (443/837)Resolving deltas:  53% (444/837)Resolving deltas:  54% (453/837)Resolving deltas:  55% (463/837)Resolving deltas:  56% (470/837)Resolving deltas:  57% (482/837)Resolving deltas:  60% (508/837)Resolving deltas:  61% (511/837)Resolving deltas:  62% (519/837)Resolving deltas:  63% (531/837)Resolving deltas:  65% (546/837)Resolving deltas:  68% (576/837)Resolving deltas:  69% (578/837)Resolving deltas:  70% (590/837)Resolving deltas:  72% (605/837)Resolving deltas:  73% (615/837)Resolving deltas:  74% (621/837)Resolving deltas:  75% (631/837)Resolving deltas:  76% (638/837)Resolving deltas:  77% (648/837)Resolving deltas:  78% (655/837)Resolving deltas:  79% (662/837)Resolving deltas:  80% (674/837)Resolving deltas:  82% (690/837)Resolving deltas:  83% (697/837)Resolving deltas:  84% (706/837)Resolving deltas:  85% (713/837)Resolving deltas:  86% (727/837)Resolving deltas:  89% (746/837)Resolving deltas:  90% (754/837)Resolving deltas:  92% (773/837)Resolving deltas:  93% (780/837)Resolving deltas: 100% (837/837)Resolving deltas: 100% (837/837), done.
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ git statuys[K[Ks
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../contribute.txt[m
+	[31mmodified:   ../my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m./[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ cd yt[K[Kyo[K[Ktichg[K[Kgit
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git remote
+origin
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ cd ../..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ .[Kno[Kano .gitignore
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        .gitignore                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[m*.log[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dp*.logp[?12l[?25h[?25l*.log[K[?12l[?25h[?25l*[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l[3d[?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25l_[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: .gitignore(B[m[41;31H[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 2 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$  [Kgit[K[K[Kgit[K[K[Kcd my_project [K/ticgity[K
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ gity[K remote
+origin
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ got[K[Kit remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ cd ..
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ \[Kdc[K[Kcd gi[Krit
+bash: cd: grit: No such file or directory
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ gir[Kt remote
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ cd grit
+bash: cd: grit: No such file or directory
+]0;pranav@TIGER03427: ~/my_project[01;32mpranav@TIGER03427[00m:[01;34m~/my_project[00m$ t[Kcd tr[Kicgit
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git re[K[K[K[K[K[Kcd dr[K[Kgrit
+bash: cd: grit: No such file or directory
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ ls
+LICENSE_GPL  README.mkd  TODO  [0m[01;34mexamples[0m  [01;34mnote[0m  ticgit-ng.gemspec
+LICENSE_MIT  Rakefile    [01;34mbin[0m   [01;34mlib[0m       [01;34mspec[0m
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git remote add pd[Kb https;[K:ll[K[K//github.com/[[Kpaulboo ne/ticgit
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+pb	https://github.com/paulboone/ticgit (fetch)
+pb	https://github.com/paulboone/ticgit (push)
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git fetch pd
+fatal: 'pd' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git fetch pd[Kb
+remote: Enumerating objects: 43, done.[K
+remote: Counting objects:   4% (1/22)[Kremote: Counting objects:   9% (2/22)[Kremote: Counting objects:  13% (3/22)[Kremote: Counting objects:  18% (4/22)[Kremote: Counting objects:  22% (5/22)[Kremote: Counting objects:  27% (6/22)[Kremote: Counting objects:  31% (7/22)[Kremote: Counting objects:  36% (8/22)[Kremote: Counting objects:  40% (9/22)[Kremote: Counting objects:  45% (10/22)[Kremote: Counting objects:  50% (11/22)[Kremote: Counting objects:  54% (12/22)[Kremote: Counting objects:  59% (13/22)[Kremote: Counting objects:  63% (14/22)[Kremote: Counting objects:  68% (15/22)[Kremote: Counting objects:  72% (16/22)[Kremote: Counting objects:  77% (17/22)[Kremote: Counting objects:  81% (18/22)[Kremote: Counting objects:  86% (19/22)[Kremote: Counting objects:  90% (20/22)[Kremote: Counting objects:  95% (21/22)[Kremote: Counting objects: 100% (22/22)[Kremote: Counting objects: 100% (22/22), done.[K
+remote: Total 43 (delta 22), reused 22 (delta 22), pack-reused 21[K
+Unpacking objects:   2% (1/43)Unpacking objects:   4% (2/43)Unpacking objects:   6% (3/43)Unpacking objects:   9% (4/43)Unpacking objects:  11% (5/43)Unpacking objects:  13% (6/43)Unpacking objects:  16% (7/43)Unpacking objects:  18% (8/43)Unpacking objects:  20% (9/43)Unpacking objects:  23% (10/43)Unpacking objects:  25% (11/43)Unpacking objects:  27% (12/43)Unpacking objects:  30% (13/43)Unpacking objects:  32% (14/43)Unpacking objects:  34% (15/43)Unpacking objects:  37% (16/43)Unpacking objects:  39% (17/43)Unpacking objects:  41% (18/43)Unpacking objects:  44% (19/43)Unpacking objects:  46% (20/43)Unpacking objects:  48% (21/43)Unpacking objects:  51% (22/43)Unpacking objects:  53% (23/43)Unpacking objects:  55% (24/43)Unpacking objects:  58% (25/43)Unpacking objects:  60% (26/43)Unpacking objects:  62% (27/43)Unpacking objects:  65% (28/43)Unpacking objects:  67% (29/43)Unpacking objects:  69% (30/43)Unpacking objects:  72% (31/43)Unpacking objects:  74% (32/43)Unpacking objects:  76% (33/43)Unpacking objects:  79% (34/43)Unpacking objects:  81% (35/43)Unpacking objects:  83% (36/43)Unpacking objects:  86% (37/43)Unpacking objects:  88% (38/43)Unpacking objects:  90% (39/43)Unpacking objects:  93% (40/43)Unpacking objects:  95% (41/43)Unpacking objects:  97% (42/43)Unpacking objects: 100% (43/43)Unpacking objects: 100% (43/43), 5.99 KiB | 278.00 KiB/s, done.
+From https://github.com/paulboone/ticgit
+ * [new branch]      master     -> pb/master
+ * [new branch]      ticgit     -> pb/ticgit
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/schacon/ticgit
+  Push  URL: https://github.com/schacon/ticgit
+  HEAD branch: master
+  Remote branches:
+    master tracked
+    ticgit tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git remote
+origin
+pb
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ re[K[Kgit remote remoa[K[K[Ka[Kname op[K[Kpd p[K[K[Kd[Ks[Kb op
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ ig[K[Kgit remote pd[K[K[K[K[Kte
+op
+origin
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git remote[Ke remove[K[K[K[K[Km op
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git remote
+origin
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ git tag
+[?1h=[K[?1l>]0;pranav@TIGER03427: ~/my_project/ticgit[01;32mpranav@TIGER03427[00m:[01;34m~/my_project/ticgit[00m$ cd ../..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git tag
+[?1h=[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+	[31mmodified:   contribute.txt[m
+	[31mmodified:   my_unix_session[m
+
+no changes added to 
