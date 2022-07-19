@@ -1,0 +1,1646 @@
+Script started on 2022-07-18 21:26:20+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ks
+ks: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ pwd
+/home/pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -F
+my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -F[Khelp
+ls: invalid option -- 'e'
+Try 'ls --help' for more information.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report ls translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -j
+ls: invalid option -- 'j'
+Try 'ls --help' for more information.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ man ls
+[?1049h[22;0;0t[?1h=LS(1)                             User Commands                            LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the  FILEs  (the current directory by default).[m
+       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with  [1m-l[0m,  scale  sizes  by  SIZE  when   printing   them;   e.g.,[m
+              '--block-size=M'; see SIZE format below[m
+[m
+       [1m-B[0m, [1m--ignore-backups[0m[m
+              do not list implied entries ending with ~[m
+[m
+       [1m-c[0m     with  [1m-lt[0m:  sort by, and show, ctime (time of last modification of[m
+              file status information); with [1m-l[0m: show ctime and  sort  by  name;[m
+              otherwise: sort by ctime, newest first[m
+[m
+       [1m-C[0m     list entries by columns[m
+[m
+       [1m--color[0m[=[4mWHEN[24m][m
+              colorize  the  output;  WHEN can be 'always' (default if omitted),[m
+              'auto', or 'never'; more info below[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--directory[0m[m
+[7m Manual page ls(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              list directories themselves, not their contents[m
+[7m Manual page ls(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D[0m, [1m--dired[0m[m
+[7m Manual page ls(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[43;1H[K[7m Manual page ls(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ls - list directory contents[m
+[43;1H[K[7m Manual page ls(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[43;1H[K[7m Manual page ls(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[43;1H[K[7m Manual page ls(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMLS(1)                             User Commands                            LS(1)[m
+[43;1H[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--directory[0m[m
+[7m Manual page ls(1) line 3 (press h for help or q to quit)[27m[K[K[HM[m
+[HMLS(1)                             User Commands                            LS(1)[m
+[43;1H[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[m
+       [1m-d[0m, [1m--directory[0m[m
+              list directories themselves, not their contents[m
+[m
+       [1m-D[0m, [1m--dired[0m[m
+              generate output designed for Emacs' dired mode[m
+[m
+       [1m-f[0m     do not sort, enable [1m-aU[0m, disable [1m-ls[0m [1m--color[0m[m
+[m
+       [1m-F[0m, [1m--classify[0m[m
+              append indicator (one of */=>@|) to entries[m
+[m
+       [1m--file-type[0m[m
+              likewise, except do not append '*'[m
+[m
+       [1m--format[0m=[4mWORD[24m[m
+              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m, long  [1m-l[0m,  single-column  [1m-1[0m,[m
+              verbose [1m-l[0m, vertical [1m-C[0m[m
+[m
+       [1m--full-time[0m[m
+              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m[m
+[m
+       [1m-g[0m     like [1m-l[0m, but do not list owner[m
+[m
+       [1m--group-directories-first[0m[m
+              group directories before files;[m
+[m
+              can  be augmented with a [1m--sort[0m option, but any use of [1m--sort[0m=[4mnone[24m[m
+              ([1m-U[0m) disables grouping[m
+[m
+       [1m-G[0m, [1m--no-group[0m[m
+              in a long listing, don't print group names[m
+[m
+       [1m-h[0m, [1m--human-readable[0m[m
+              with [1m-l[0m and [1m-s[0m, print sizes like 1K 234M 2G etc.[m
+[m
+       [1m--si[0m   likewise, but use powers of 1000 not 1024[m
+[m
+       [1m-H[0m, [1m--dereference-command-line[0m[m
+              follow symbolic links listed on the command line[m
+[m
+       [1m--dereference-command-line-symlink-to-dir[0m[m
+[7m Manual page ls(1) line 43 (press h for help or q to quit)[27m[K[K              follow each command line symbolic link[m
+[m
+              that points to a directory[m
+[m
+       [1m--hide[0m=[4mPATTERN[24m[m
+              do not list implied entries matching shell PATTERN (overridden  by[m
+              [1m-a[0m or [1m-A[0m)[m
+[m
+       [1m--hyperlink[0m[=[4mWHEN[24m][m
+              hyperlink  file  names; WHEN can be 'always' (default if omitted),[m
+              'auto', or 'never'[m
+[m
+       [1m--indicator-style[0m=[4mWORD[24m[m
+              append indicator with style WORD to entry names:  none  (default),[m
+              slash ([1m-p[0m), file-type ([1m--file-type[0m), classify ([1m-F[0m)[m
+[m
+       [1m-i[0m, [1m--inode[0m[m
+              print the index number of each file[m
+[m
+       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m[m
+              do not list implied entries matching shell PATTERN[m
+[m
+       [1m-k[0m, [1m--kibibytes[0m[m
+              default  to 1024-byte blocks for disk usage; used only with [1m-s[0m and[m
+              per directory totals[m
+[m
+       [1m-l[0m     use a long listing format[m
+[m
+       [1m-L[0m, [1m--dereference[0m[m
+              when showing file information for a symbolic link,  show  informa‐[m
+              tion for the file the link references rather than for the link it‐[m
+              self[m
+[m
+       [1m-m[0m     fill width with a comma separated list of entries[m
+[m
+       [1m-n[0m, [1m--numeric-uid-gid[0m[m
+              like [1m-l[0m, but list numeric user and group IDs[m
+[m
+       [1m-N[0m, [1m--literal[0m[m
+              print entry names without quoting[m
+[m
+       [1m-o[0m     like [1m-l[0m, but do not list group information[m
+[7m Manual page ls(1) line 85 (press h for help or q to quit)[27m[K[K[HM       [1m--dereference-command-line-symlink-to-dir[0m[m
+[HM[m
+[HM              follow symbolic links listed on the command line[m
+[HM       [1m-H[0m, [1m--dereference-command-line[0m[m
+[HM[m
+[HM       [1m--si[0m   likewise, but use powers of 1000 not 1024[m
+[HM[m
+[HM              with [1m-l[0m and [1m-s[0m, print sizes like 1K 234M 2G etc.[m
+[HM       [1m-h[0m, [1m--human-readable[0m[m
+[HM[m
+[HM              in a long listing, don't print group names[m
+[HM       [1m-G[0m, [1m--no-group[0m[m
+[HM[m
+[HM              ([1m-U[0m) disables grouping[m
+[HM              can  be augmented with a [1m--sort[0m option, but any use of [1m--sort[0m=[4mnone[24m[m
+[HM[m
+[HM              group directories before files;[m
+[HM       [1m--group-directories-first[0m[m
+[HM[m
+[HM       [1m-g[0m     like [1m-l[0m, but do not list owner[m
+[HM[m
+[HM              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m[m
+[HM       [1m--full-time[0m[m
+[HM[m
+[HM              verbose [1m-l[0m, vertical [1m-C[0m[m
+[HM              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m, long  [1m-l[0m,  single-column  [1m-1[0m,[m
+[HM       [1m--format[0m=[4mWORD[24m[m
+[HM[m
+[HM              likewise, except do not append '*'[m
+[HM       [1m--file-type[0m[m
+[HM[m
+[HM              append indicator (one of */=>@|) to entries[m
+[HM       [1m-F[0m, [1m--classify[0m[m
+[HM[m
+[HM       [1m-f[0m     do not sort, enable [1m-aU[0m, disable [1m-ls[0m [1m--color[0m[m
+[HM[m
+[HM              generate output designed for Emacs' dired mode[m
+[HM       [1m-D[0m, [1m--dired[0m[m
+[HM[m
+[HM              list directories themselves, not their contents[m
+[HM       [1m-d[0m, [1m--directory[0m[m
+[HM[m
+[43;1H[K[7m Manual page ls(1) line 43 (press h for help or q to quit)[27m[K[K[HM              'auto', or 'never'; more info below[m
+[HM              colorize  the  output;  WHEN can be 'always' (default if omitted),[m
+[HM       [1m--color[0m[=[4mWHEN[24m][m
+[HM[m
+[HM       [1m-C[0m     list entries by columns[m
+[HM[m
+[HM              otherwise: sort by ctime, newest first[m
+[HM              file status information); with [1m-l[0m: show ctime and  sort  by  name;[m
+[HM       [1m-c[0m     with  [1m-lt[0m:  sort by, and show, ctime (time of last modification of[m
+[HM[m
+[HM              do not list implied entries ending with ~[m
+[HM       [1m-B[0m, [1m--ignore-backups[0m[m
+[HM[m
+[HM              '--block-size=M'; see SIZE format below[m
+[HM              with  [1m-l[0m,  scale  sizes  by  SIZE  when   printing   them;   e.g.,[m
+[HM       [1m--block-size[0m=[4mSIZE[24m[m
+[HM[m
+[HM              print C-style escapes for nongraphic characters[m
+[HM       [1m-b[0m, [1m--escape[0m[m
+[HM[m
+[HM              with [1m-l[0m, print the author of each file[m
+[HM       [1m--author[0m[m
+[HM[m
+[HM              do not list implied . and ..[m
+[HM       [1m-A[0m, [1m--almost-all[0m[m
+[HM[m
+[HM              do not ignore entries starting with .[m
+[HM       [1m-a[0m, [1m--all[0m[m
+[HM[m
+[HM       Mandatory arguments to long options are mandatory for short options too.[m
+[HM[m
+[HM       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[HM       List  information  about  the  FILEs  (the current directory by default).[m
+[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       ls - list directory contents[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMLS(1)                             User Commands                            LS(1)[m
+[43;1H[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[m
+       [1m-d[0m, [1m--directory[0m[m
+              list directories themselves, not their contents[m
+[m
+       [1m-D[0m, [1m--dired[0m[m
+              generate output designed for Emacs' dired mode[m
+[m
+       [1m-f[0m     do not sort, enable [1m-aU[0m, disable [1m-ls[0m [1m--color[0m[m
+[m
+       [1m-F[0m, [1m--classify[0m[m
+              append indicator (one of */=>@|) to entries[m
+[m
+       [1m--file-type[0m[m
+              likewise, except do not append '*'[m
+[m
+       [1m--format[0m=[4mWORD[24m[m
+              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m, long  [1m-l[0m,  single-column  [1m-1[0m,[m
+              verbose [1m-l[0m, vertical [1m-C[0m[m
+[m
+       [1m--full-time[0m[m
+              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m[m
+[m
+       [1m-g[0m     like [1m-l[0m, but do not list owner[m
+[m
+       [1m--group-directories-first[0m[m
+              group directories before files;[m
+[m
+              can  be augmented with a [1m--sort[0m option, but any use of [1m--sort[0m=[4mnone[24m[m
+              ([1m-U[0m) disables grouping[m
+[m
+       [1m-G[0m, [1m--no-group[0m[m
+              in a long listing, don't print group names[m
+[m
+       [1m-h[0m, [1m--human-readable[0m[m
+              with [1m-l[0m and [1m-s[0m, print sizes like 1K 234M 2G etc.[m
+[m
+       [1m--si[0m   likewise, but use powers of 1000 not 1024[m
+[m
+       [1m-H[0m, [1m--dereference-command-line[0m[m
+              follow symbolic links listed on the command line[m
+[m
+       [1m--dereference-command-line-symlink-to-dir[0m[m
+[7m Manual page ls(1) line 43 (press h for help or q to quit)[27m[K[K              follow each command line symbolic link[m
+[m
+              that points to a directory[m
+[m
+       [1m--hide[0m=[4mPATTERN[24m[m
+              do not list implied entries matching shell PATTERN (overridden  by[m
+              [1m-a[0m or [1m-A[0m)[m
+[m
+       [1m--hyperlink[0m[=[4mWHEN[24m][m
+              hyperlink  file  names; WHEN can be 'always' (default if omitted),[m
+              'auto', or 'never'[m
+[m
+       [1m--indicator-style[0m=[4mWORD[24m[m
+              append indicator with style WORD to entry names:  none  (default),[m
+              slash ([1m-p[0m), file-type ([1m--file-type[0m), classify ([1m-F[0m)[m
+[m
+       [1m-i[0m, [1m--inode[0m[m
+              print the index number of each file[m
+[m
+       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m[m
+              do not list implied entries matching shell PATTERN[m
+[m
+       [1m-k[0m, [1m--kibibytes[0m[m
+              default  to 1024-byte blocks for disk usage; used only with [1m-s[0m and[m
+              per directory totals[m
+[m
+       [1m-l[0m     use a long listing format[m
+[m
+       [1m-L[0m, [1m--dereference[0m[m
+              when showing file information for a symbolic link,  show  informa‐[m
+              tion for the file the link references rather than for the link it‐[m
+              self[m
+[m
+       [1m-m[0m     fill width with a comma separated list of entries[m
+[m
+       [1m-n[0m, [1m--numeric-uid-gid[0m[m
+              like [1m-l[0m, but list numeric user and group IDs[m
+[m
+       [1m-N[0m, [1m--literal[0m[m
+              print entry names without quoting[m
+[m
+       [1m-o[0m     like [1m-l[0m, but do not list group information[m
+[7m Manual page ls(1) line 85 (press h for help or q to quit)[27m[K[K[m
+       [1m-p[0m, [1m--indicator-style[0m=[4mslash[24m[m
+              append / indicator to directories[m
+[m
+       [1m-q[0m, [1m--hide-control-chars[0m[m
+              print ? instead of nongraphic characters[m
+[m
+       [1m--show-control-chars[0m[m
+              show nongraphic characters as-is (the default, unless  program  is[m
+              'ls' and output is a terminal)[m
+[m
+       [1m-Q[0m, [1m--quote-name[0m[m
+              enclose entry names in double quotes[m
+[m
+       [1m--quoting-style[0m=[4mWORD[24m[m
+              use  quoting  style  WORD for entry names: literal, locale, shell,[m
+              shell-always, shell-escape, shell-escape-always, c, escape  (over‐[m
+              rides QUOTING_STYLE environment variable)[m
+[m
+       [1m-r[0m, [1m--reverse[0m[m
+              reverse order while sorting[m
+[m
+       [1m-R[0m, [1m--recursive[0m[m
+              list subdirectories recursively[m
+[m
+       [1m-s[0m, [1m--size[0m[m
+              print the allocated size of each file, in blocks[m
+[m
+       [1m-S[0m     sort by file size, largest first[m
+[m
+       [1m--sort[0m=[4mWORD[24m[m
+              sort  by  WORD  instead  of name: none ([1m-U[0m), size ([1m-S[0m), time ([1m-t[0m),[m
+              version ([1m-v[0m), extension ([1m-X[0m)[m
+[m
+       [1m--time[0m=[4mWORD[24m[m
+              with [1m-l[0m, show time as WORD instead of default  modification  time:[m
+              atime or access or use ([1m-u[0m); ctime or status ([1m-c[0m); also use speci‐[m
+              fied time as sort key if [1m--sort[0m=[4mtime[24m (newest first)[m
+[m
+       [1m--time-style[0m=[4mTIME_STYLE[24m[m
+              time/date format with [1m-l[0m; see TIME_STYLE below[m
+[m
+[7m Manual page ls(1) line 127 (press h for help or q to quit)[27m[K[K       [1m-t[0m     sort by modification time, newest first[m
+[m
+       [1m-T[0m, [1m--tabsize[0m=[4mCOLS[24m[m
+              assume tab stops at each COLS instead of 8[m
+[m
+       [1m-u[0m     with [1m-lt[0m: sort by, and show, access time;  with  [1m-l[0m:  show  access[m
+              time  and  sort  by  name;  otherwise: sort by access time, newest[m
+              first[m
+[m
+       [1m-U[0m     do not sort; list entries in directory order[m
+[m
+       [1m-v[0m     natural sort of (version) numbers within text[m
+[m
+       [1m-w[0m, [1m--width[0m=[4mCOLS[24m[m
+              set output width to COLS.  0 means no limit[m
+[m
+       [1m-x[0m     list entries by lines instead of by columns[m
+[m
+       [1m-X[0m     sort alphabetically by entry extension[m
+[m
+       [1m-Z[0m, [1m--context[0m[m
+              print any security context of each file[m
+[m
+       [1m-1[0m     list one file per line.  Avoid '\n' with [1m-q[0m or [1m-b[0m[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       The SIZE argument is an  integer  and  optional  unit  (example:  10K  is[m
+       10*1024).   Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (pow‐[m
+       ers of 1000).[m
+[m
+       The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or  +FOR‐[m
+       MAT.   FORMAT  is interpreted like in date(1).  If FORMAT is FORMAT1<new‐[m
+       line>FORMAT2, then FORMAT1 applies to non-recent files and FORMAT2 to re‐[m
+       cent  files.  TIME_STYLE prefixed with 'posix-' takes effect only outside[m
+       the POSIX locale.  Also the TIME_STYLE environment variable sets the  de‐[m
+       fault style to use.[m
+[m
+       Using  color  to  distinguish  file types is disabled both by default and[m
+[7m Manual page ls(1) line 169 (press h for help or q to quit)[27m[K[K       with [1m--color[0m=[4mnever[24m.  With [1m--color[0m=[4mauto[24m, ls emits color  codes  only  when[m
+       standard  output  is  connected to a terminal.  The LS_COLORS environment[m
+       variable can change the settings.  Use the dircolors command to set it.[m
+[m
+   [1mExit[0m [1mstatus:[0m[m
+       0      if OK,[m
+[m
+       1      if minor problems (e.g., cannot access subdirectory),[m
+[m
+       2      if serious trouble (e.g., cannot access command-line argument).[m
+[m
+[1mAUTHOR[0m[m
+       Written by Richard M. Stallman and David MacKenzie.[m
+[m
+[1mREPORTING[0m [1mBUGS[0m[m
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>[m
+       Report ls translation bugs to <https://translationproject.org/team/>[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright © 2018 Free Software Foundation, Inc.  License GPLv3+: GNU  GPL[m
+       version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+       This is free software: you are free to change and redistribute it.  There[m
+       is NO WARRANTY, to the extent permitted by law.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       Full documentation at: <https://www.gnu.org/software/coreutils/ls>[m
+       or available locally via: info '(coreutils) ls invocation'[m
+[m
+GNU coreutils 8.30               September 2019                            LS(1)[m
+[7m Manual page ls(1) line 198/239 (END) (press h for help or q to quit)[27m[K[K[HM              output version information and exit[m
+[HM       [1m--version[0m[m
+[HM[m
+[HM       [1m--help[0m display this help and exit[m
+[HM[m
+[HM       [1m-1[0m     list one file per line.  Avoid '\n' with [1m-q[0m or [1m-b[0m[m
+[HM[m
+[HM              print any security context of each file[m
+[HM       [1m-Z[0m, [1m--context[0m[m
+[HM[m
+[HM       [1m-X[0m     sort alphabetically by entry extension[m
+[HM[m
+[HM       [1m-x[0m     list entries by lines instead of by columns[m
+[HM[m
+[HM              set output width to COLS.  0 means no limit[m
+[HM       [1m-w[0m, [1m--width[0m=[4mCOLS[24m[m
+[HM[m
+[HM       [1m-v[0m     natural sort of (version) numbers within text[m
+[HM[m
+[HM       [1m-U[0m     do not sort; list entries in directory order[m
+[HM[m
+[HM              first[m
+[HM              time  and  sort  by  name;  otherwise: sort by access time, newest[m
+[HM       [1m-u[0m     with [1m-lt[0m: sort by, and show, access time;  with  [1m-l[0m:  show  access[m
+[HM[m
+[HM              assume tab stops at each COLS instead of 8[m
+[HM       [1m-T[0m, [1m--tabsize[0m=[4mCOLS[24m[m
+[HM[m
+[HM       [1m-t[0m     sort by modification time, newest first[m
+[HM[m
+[HM              time/date format with [1m-l[0m; see TIME_STYLE below[m
+[HM       [1m--time-style[0m=[4mTIME_STYLE[24m[m
+[HM[m
+[HM              fied time as sort key if [1m--sort[0m=[4mtime[24m (newest first)[m
+[HM              atime or access or use ([1m-u[0m); ctime or status ([1m-c[0m); also use speci‐[m
+[HM              with [1m-l[0m, show time as WORD instead of default  modification  time:[m
+[HM       [1m--time[0m=[4mWORD[24m[m
+[HM[m
+[HM              version ([1m-v[0m), extension ([1m-X[0m)[m
+[HM              sort  by  WORD  instead  of name: none ([1m-U[0m), size ([1m-S[0m), time ([1m-t[0m),[m
+[HM       [1m--sort[0m=[4mWORD[24m[m
+[HM[m
+[43;1H[K[7m Manual page ls(1) line 156/239 80% (press h for help or q to quit)[27m[K[K[HM       [1m-S[0m     sort by file size, largest first[m
+[HM[m
+[HM              print the allocated size of each file, in blocks[m
+[HM       [1m-s[0m, [1m--size[0m[m
+[HM[m
+[HM              list subdirectories recursively[m
+[HM       [1m-R[0m, [1m--recursive[0m[m
+[HM[m
+[HM              reverse order while sorting[m
+[HM       [1m-r[0m, [1m--reverse[0m[m
+[HM[m
+[HM              rides QUOTING_STYLE environment variable)[m
+[HM              shell-always, shell-escape, shell-escape-always, c, escape  (over‐[m
+[HM              use  quoting  style  WORD for entry names: literal, locale, shell,[m
+[HM       [1m--quoting-style[0m=[4mWORD[24m[m
+[HM[m
+[HM              enclose entry names in double quotes[m
+[HM       [1m-Q[0m, [1m--quote-name[0m[m
+[HM[m
+[HM              'ls' and output is a terminal)[m
+[HM              show nongraphic characters as-is (the default, unless  program  is[m
+[HM       [1m--show-control-chars[0m[m
+[HM[m
+[HM              print ? instead of nongraphic characters[m
+[HM       [1m-q[0m, [1m--hide-control-chars[0m[m
+[HM[m
+[HM              append / indicator to directories[m
+[HM       [1m-p[0m, [1m--indicator-style[0m=[4mslash[24m[m
+[HM[m
+[HM       [1m-o[0m     like [1m-l[0m, but do not list group information[m
+[HM[m
+[HM              print entry names without quoting[m
+[HM       [1m-N[0m, [1m--literal[0m[m
+[HM[m
+[HM              like [1m-l[0m, but list numeric user and group IDs[m
+[HM       [1m-n[0m, [1m--numeric-uid-gid[0m[m
+[HM[m
+[HM       [1m-m[0m     fill width with a comma separated list of entries[m
+[HM[m
+[HM              self[m
+[HM              tion for the file the link references rather than for the link it‐[m
+[HM              when showing file information for a symbolic link,  show  informa‐[m
+[43;1H[K[7m Manual page ls(1) line 114/239 63% (press h for help or q to quit)[27m[K[K[HM       [1m-L[0m, [1m--dereference[0m[m
+[HM[m
+[HM       [1m-l[0m     use a long listing format[m
+[HM[m
+[HM              per directory totals[m
+[HM              default  to 1024-byte blocks for disk usage; used only with [1m-s[0m and[m
+[HM       [1m-k[0m, [1m--kibibytes[0m[m
+[HM[m
+[HM              do not list implied entries matching shell PATTERN[m
+[HM       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m[m
+[HM[m
+[HM              print the index number of each file[m
+[HM       [1m-i[0m, [1m--inode[0m[m
+[HM[m
+[HM              slash ([1m-p[0m), file-type ([1m--file-type[0m), classify ([1m-F[0m)[m
+[HM              append indicator with style WORD to entry names:  none  (default),[m
+[HM       [1m--indicator-style[0m=[4mWORD[24m[m
+[HM[m
+[HM              'auto', or 'never'[m
+[HM              hyperlink  file  names; WHEN can be 'always' (default if omitted),[m
+[HM       [1m--hyperlink[0m[=[4mWHEN[24m][m
+[HM[m
+[HM              [1m-a[0m or [1m-A[0m)[m
+[HM              do not list implied entries matching shell PATTERN (overridden  by[m
+[HM       [1m--hide[0m=[4mPATTERN[24m[m
+[HM[m
+[HM              that points to a directory[m
+[HM[m
+[HM              follow each command line symbolic link[m
+[HM       [1m--dereference-command-line-symlink-to-dir[0m[m
+[HM[m
+[HM              follow symbolic links listed on the command line[m
+[HM       [1m-H[0m, [1m--dereference-command-line[0m[m
+[HM[m
+[HM       [1m--si[0m   likewise, but use powers of 1000 not 1024[m
+[HM[m
+[HM              with [1m-l[0m and [1m-s[0m, print sizes like 1K 234M 2G etc.[m
+[HM       [1m-h[0m, [1m--human-readable[0m[m
+[HM[m
+[HM              in a long listing, don't print group names[m
+[HM       [1m-G[0m, [1m--no-group[0m[m
+[HM[m
+[43;1H[K[7m Manual page ls(1) line 72/239 46% (press h for help or q to quit)[27m[K[K[HM              ([1m-U[0m) disables grouping[m
+[HM              can  be augmented with a [1m--sort[0m option, but any use of [1m--sort[0m=[4mnone[24m[m
+[HM[m
+[HM              group directories before files;[m
+[HM       [1m--group-directories-first[0m[m
+[HM[m
+[HM       [1m-g[0m     like [1m-l[0m, but do not list owner[m
+[HM[m
+[HM              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m[m
+[HM       [1m--full-time[0m[m
+[HM[m
+[HM              verbose [1m-l[0m, vertical [1m-C[0m[m
+[HM              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m, long  [1m-l[0m,  single-column  [1m-1[0m,[m
+[HM       [1m--format[0m=[4mWORD[24m[m
+[HM[m
+[HM              likewise, except do not append '*'[m
+[HM       [1m--file-type[0m[m
+[HM[m
+[HM              append indicator (one of */=>@|) to entries[m
+[HM       [1m-F[0m, [1m--classify[0m[m
+[HM[m
+[HM       [1m-f[0m     do not sort, enable [1m-aU[0m, disable [1m-ls[0m [1m--color[0m[m
+[HM[m
+[HM              generate output designed for Emacs' dired mode[m
+[HM       [1m-D[0m, [1m--dired[0m[m
+[HM[m
+[HM              list directories themselves, not their contents[m
+[HM       [1m-d[0m, [1m--directory[0m[m
+[HM[m
+[HM              'auto', or 'never'; more info below[m
+[HM              colorize  the  output;  WHEN can be 'always' (default if omitted),[m
+[HM       [1m--color[0m[=[4mWHEN[24m][m
+[HM[m
+[HM       [1m-C[0m     list entries by columns[m
+[HM[m
+[HM              otherwise: sort by ctime, newest first[m
+[HM              file status information); with [1m-l[0m: show ctime and  sort  by  name;[m
+[HM       [1m-c[0m     with  [1m-lt[0m:  sort by, and show, ctime (time of last modification of[m
+[HM[m
+[HM              do not list implied entries ending with ~[m
+[HM       [1m-B[0m, [1m--ignore-backups[0m[m
+[HM[m
+[43;1H[K[7m Manual page ls(1) line 30/239 28% (press h for help or q to quit)[27m[K[K/[Khh[K[Kff[Kii[Kll[Kww[K[K[K[K[K[7m Manual page ls(1) line 30/239 28% (press h for help or q to quit)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[43;1H[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[43;1H[K[K[HM              '--block-size=M'; see SIZE format below[m
+[HM              with  [1m-l[0m,  scale  sizes  by  SIZE  when   printing   them;   e.g.,[m
+[HM       [1m--block-size[0m=[4mSIZE[24m[m
+[HM[m
+[HM              print C-style escapes for nongraphic characters[m
+[HM       [1m-b[0m, [1m--escape[0m[m
+[HM[m
+[HM              with [1m-l[0m, print the author of each file[m
+[HM       [1m--author[0m[m
+[HM[m
+[HM              do not list implied . and ..[m
+[HM       [1m-A[0m, [1m--almost-all[0m[m
+[HM[m
+[HM              do not ignore entries starting with .[m
+[HM       [1m-a[0m, [1m--all[0m[m
+[HM[m
+[HM       Mandatory arguments to long options are mandatory for short options too.[m
+[HM[m
+[HM       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[HM       List  information  about  the  FILEs  (the current directory by default).[m
+[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       ls - list directory contents[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMLS(1)                             User Commands                            LS(1)[m
+[43;1H[K[7m Manual page ls(1) line 1/239 17% (press h for help or q to quit)[27m[K[K[K[7m Manual page ls(1) line 1/239 17% (press h for help or q to quit)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[43;1H[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[43;1H[K[K?[K[K[7mNo previous regular expression  (press RETURN)[27m[43;1H[K[K[?1l>[?1049l[23;0;0t]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ -l
+-l: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -l
+total 36
+-rw-r--r-- 1 pranav pranav 36864 Jul 18 21:30 my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -h
+my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -t
+my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -r
+my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd..
+cd..: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd ..
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ ls [K[K[Kpwd
+/home
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ ls
+[0m[01;34mpranav[0m
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ cd ..
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ ls -t
+[0m[01;34metc[0m  [30;42mtmp[0m   [01;34mdev[0m  [01;34mroot[0m  [01;34mmnt[0m         [01;34mboot[0m  [01;34musr[0m    [01;34mopt[0m  [01;36mlibx32[0m  [01;36mlib64[0m  [01;36msbin[0m  [01;34msnap[0m
+[01;34mrun[0m  [01;34mproc[0m  [01;34msys[0m  [01;34mhome[0m  [01;34mlost+found[0m  [01;34mvar[0m   [01;34mmedia[0m  [01;34msrv[0m  [01;36mlib32[0m   [01;36mlib[0m    [01;36mbin[0m   [01;32minit[0m
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ ls -r
+[0m[01;34mvar[0m  [30;42mtmp[0m  [01;34msrv[0m   [01;36msbin[0m  [01;34mroot[0m  [01;34mopt[0m  [01;34mmedia[0m       [01;36mlibx32[0m  [01;36mlib32[0m  [01;32minit[0m  [01;34metc[0m  [01;34mboot[0m
+[01;34musr[0m  [01;34msys[0m  [01;34msnap[0m  [01;34mrun[0m   [01;34mproc[0m  [01;34mmnt[0m  [01;34mlost+found[0m  [01;36mlib64[0m   [01;36mlib[0m    [01;34mhome[0m  [01;34mdev[0m  [01;36mbin[0m
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ ls -rt
+[0m[01;32minit[0m  [01;36mbin[0m   [01;36mlib[0m    [01;36mlib32[0m   [01;34msrv[0m  [01;34mmedia[0m  [01;34mvar[0m   [01;34mlost+found[0m  [01;34mhome[0m  [01;34msys[0m  [01;34mproc[0m  [01;34mrun[0m
+[01;34msnap[0m  [01;36msbin[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mopt[0m  [01;34musr[0m    [01;34mboot[0m  [01;34mmnt[0m         [01;34mroot[0m  [01;34mdev[0m  [30;42mtmp[0m   [01;34metc[0m
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ ls _F[K[K-F homw
+ls: cannot access 'homw': No such file or directory
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ ls -F homw[Ke
+[0m[01;34mpranav[0m/
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ pwd
+/
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ cd home
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ cd pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ pwd
+/home/pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -F -a
+[0m[01;34m.[0m/             .bash_logout  .lesshst     .sudo_as_admin_successful
+[01;34m..[0m/            .bashrc       .motd_shown  my_unix_session
+.bash_history  [01;34m.landscape[0m/   .profile
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls nor[K[K[K[K[K[Kcd ..
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ cd ..
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ ls home/pranav/
+my_unix_session
+]0;pranav@TIGER03427: /[01;32mpranav@TIGER03427[00m:[01;34m/[00m$ cd home/pranav/
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ p
+Display all 287 possibilities? (y or n)
+p2p-mesh.mof                      polprou.mof
+p2p-pnrp.mof                      polstore.dll
+p2pnetsh.dll                      polstore.mof
+p2psvc.dll                        popcon-largest-unused
+p9np.dll                          popd
+p9rdrservice.dll                  popularity-contest
+pa-info                           poqexec.exe
+pacat                             portabledeviceapi.mof
+pacjsworker.exe                   portabledeviceclassextension.mof
+packager.dll                      portabledeviceconnectapi.mof
+pacmd                             portabledevicetypes.mof
+pactl                             portabledevicewiacompat.mof
+padsp                             posetup.dll
+pageant.exe                       pospaymentsworker.exe
+pager                             pots.dll
+pam-auth-update                   powercfg.cpl
+pam_extrausers_chkpwd             powercfg.exe
+pam_extrausers_update             powercpl.dll
+pam_getenv                        powermeterprovider.mof
+pam_tally                         poweroff
+pam_tally2                        powershell.exe
+pam_timestamp_check               powershell.exe.config
+pamon                             powershell_ise.exe
+panmap.dll                        powershell_ise.exe.config
+paplay                            powrprof.dll
+parec                             ppcRsopCompSchema.mof
+parecord                          ppcRsopUserSchema.mof
+parted                            pr
+partprobe                         prauthproviders.dll
+partx                             preconv
+passwd                            prevhost.exe
+paste                             prflbmsg.dll
+pastebinit                        print
+pasuspender                       print.exe
+patch                             printenv
+pathchk                           printerbanner
+pautoenr.dll                      printf
+pax11publish                      printfilterpipelineprxy.dll
+pbget                             printfilterpipelinesvc.exe
+pbput                             printticketvalidation.dll
+pbputs                            printui.dll
+pbrush.exe                        printui.exe
+--More--[Kpcacli.dll                        prlimit
+--More--[K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ pdw
+
+Command 'pdw' not found, did you mean:
+
+  command 'pwd' from deb coreutils (8.30-3ubuntu2)
+  command 'cdw' from deb cdw (0.8.1-1build4)
+  command 'pd' from deb puredata-core (0.50.2-3)
+  command 'pdd' from deb pdd (1.4-2)
+  command 'pfw' from deb pftools (3+dfsg-3)
+  command 'pdl' from deb pdl (1:2.020-3)
+  command 'pda' from deb speech-tools (1:2.5.0-8build1)
+  command 'psw' from deb wise (2.4.1-21)
+  command 'paw' from deb paw-common (1:2.14.04.dfsg.2-9.1build4)
+  command 'pmw' from deb pmw (1:4.30-1)
+
+Try: sudo apt install <deb name>
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ pwd
+/home/pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -f[KF
+my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mkdir thesis
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ pwd
+/home/pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+my_unix_session  [0m[01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd thesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ pws
+
+Command 'pws' not found, did you mean:
+
+  command 'psw' from deb wise (2.4.1-21)
+  command 'pts' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'rpws' from deb ratpoison (1.4.9-1)
+  command 'ps' from deb procps (2:3.3.16-1ubuntu2)
+  command 'pvs' from deb lvm2 (2.03.07-1ubuntu1)
+  command 'pwd' from deb coreutils (8.30-3ubuntu2)
+  command 'pms' from deb pms (0.42-1build4)
+  command 'aws' from deb awscli (1.17.14-1)
+  command 'pcs' from deb pcs (0.10.4-3)
+
+Try: sudo apt install <deb name>
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ pd[Kse[K[Kwd
+/home/pranav/thesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ to[K[K[K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano f[Kde[Kraft.tex[K[Kxt
+[?2004h[?1049h[22;0;0t[1;20r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[18;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                         draft.txt                                   [1;82H(B[m[19d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[20d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[18d[2d[39;49m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l![?12l[?25h[?25l6[?12l[?25h[?25l [?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l![?12l[?25h[?25l[18d(B[0;7mSave modified buffer?                                                              [19;1H Y(B[m Yes[K[20d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[18;23H[?12l[?25h[?25l[19d(B[0;7m^G(B[m Get Help[19;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[19;61H(B[0;7mM-B(B[m Backup File[20d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[20;61H(B[0;7m^T(B[m To Files[18d(B[0;7mFile Name to Write: draft.txt(B[m[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[35G[1K (B[0;7m[ Cancelled ](B[m[K[19;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[20;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[18d[2;13H[?12l[?25h[?25l[18d(B[0;7mSave modified buffer?                                                              [19;1H Y(B[m Yes[K[20d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[18;23H[?12l[?25h[?25l[19d(B[0;7m^G(B[m Get Help[19;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[19;61H(B[0;7mM-B(B[m Backup File[20d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[20;61H(B[0;7m^T(B[m To Files[18d(B[0;7mFile Name to Write: draft.txt(B[m[18;30H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[K[19;2H(B[0;7mL(B[m Refresh   (B[0;7m^W(B[m Where Is  (B[0;7mM-Q(B[m Previous (B[0;7m^P(B[m Prev Line (B[0;7m^Y(B[m Prev Page (B[0;7mM-\(B[m First Line[20;2H(B[0;7mX(B[m Close     (B[0;7m^Q(B[m Where Was (B[0;7mM-W(B[m Nex[40G(B[0;7m^N(B[m Next Line (B[0;7m^V(B[m Next Page (B[0;7mM-/(B[m Last Line[18d[1;3H(B[0;7m            [1;33HWrite File Help Text[1;74H        (B[m[2d[39;49m(B[m Type the name that you wish to save the current file as and press [36mEnter[3;2H[39m(B[mto save the file.[5d If you have selected text with the mark, you will be prompted to save[6d only the selected portion to a separate file.  To reduce the chance of[7d overwriting the current file with just a portion of it, the current[8d filename is not the default in this mode.[10d The following function keys are available in Write File mode:[12d[36m^G[39m(B[m     ([36mF1[39m(B[m)[18GDisplay this help text[13d[36m^C[13;18H[39m(B[mCancel the current function[15d[36mM-D[15;18H[39m(B[mToggle the use of DOS format[16d[36mM-M[16;18H[39m(B[mToggle the use of Mac format[17d[36mM-A[17;18H[39m(B[mToggle appending[2d[2;18r[18;1H
+[1;20r[17;1H[36mM-P[17;18H[39m(B[mToggle prepending[2d[2;18r[18;1H
+[1;20r[17;1H[36mM-B[17;18H[39m(B[mToggle backing up of the original file[2d7[2;17r8M[1;20r[2;2Hto save the file.[3d[2;18r[18;1H
+[1;20r[17;1H[36mM-B[17;18H[39m(B[mToggle backing up of the original file[2d[2;18r[18;1H
+[1;20r[2;1H[2;18r[18;1H
+[1;20r[17;1H[36m^T[17;18H[39m(B[mGo to file browser[2d[2;18r[18;1H
+[1;20r[17;18HClose buffer without saving it[2d[19;2H(B[0;7mG(B[m Get Help         (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[20;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Forma[40G (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[18d[1;3H(B[0;7mGNU nano 4.8[1;33H       draft.txt    [1;74HModified(B[m[2d[39;49m(B[mhello world![K[3d[K[5d[K[7d[K[8d[K[10d[K[11d[K[12d[K[13d[K[14d[K[16d[K[17d[K[18d(B[0;7mFile Name to Write: draft.txt                                                      [18;1H(B[m[18;21H[?12l[?25h[?25l(B[0;7mDdraft.txt(B[m[18;22H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[18;22H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l(B[0;7mdraft.txt (B[m[18;21H[?12l[?25h[?25l[18;22H[?12l[?25h[?25l[18;23H[?12l[?25h[?25l[18;24H[?12l[?25h[?25l[18;25H[?12l[?25h[?25l[18;26H[?12l[?25h[?25l[18;27H[?12l[?25h[?25l[18;28H[?12l[?25h[?25l[18;29H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l(B[0;7md(B[m[18;31H[?12l[?25h[?25l(B[0;7m (B[m[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[18;30H[?12l[?25h[?25l[1;3H(B[0;7m            [1;34HDIR: /home/pranav/[1;74H        [18d(B[m[K[1;82H[19;14H(B[0;7m^_(B[m Go To Dir (B[0;7m^W(B[m Where Is  (B[0;7mM-Q(B[m Previous (B[0;7m^B(B[m Back      (B[0;7m^P(B[m Prev Line[20;2H(B[0;7mX(B[m Close     (B[0;7m^L(B[m Refresh   (B[0;7m^Q(B[m Where Was (B[0;7mM-W(B[m Next     (B[0;7m^F(B[m Forward   (B[0;7m^N(B[m Next Line[18d[1;82H[2d(B[0;7m..                     (parent dir)(B[m  .landscape[2;68H(dir)[3d.local[3;31H(dir)  thesis[3;68H(dir)[4d.bash_history[4;31H11  B  .bash_logout[4;67H220  B[5d.bashrc[5;32H3 KB  .draft.txt.swp[5;69H1 KB[6d.lesshst[6;31H28  B  .motd_shown[6;69H0  B[7d.profile[7;30H807  B  .sudo_as_admin_successful[69G0  B[8dmy_unix_session[8;31H52 KB[1;3H(B[0;7mGNU nano 4.8[1;34H      draft.txt   [1;74HModified(B[m[2dhello world![K[3d[K[4d[K[5d[K[6d[K[7d[K[8d[K[19;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[20;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[18d(B[0;7mFile Name to Write: draft.txt                                                      [18;1H(B[m[18;30H[?12l[?25h[?25l[?12l[?25h[?25l[K(B[0;7mFile Name to Write [DOS Format]: draft.txt                                         [18;1H(B[m[18;43H[?12l[?25h[?25l[18;34H[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[18;34H(B[0;7m[ Wrote 1 line ](B[m[J[20d[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ d[Kpwd
+/home/pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+draft.txt  my_unix_session  [0m[01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd thesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ ls
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ ls -F
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ d[Kcd [K[K[Knam[Kno draft.txt
+[?2004h[?1049h[22;0;0t[1;20r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[18;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                         draft.txt                                   [1;82H(B[m[19d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[20d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[18d[2d[39;49m(B[m[?12l[?25h[?25l[18d[J[20d[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano draft.txt
+[?2004h[?1049h[22;0;0t[1;20r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[18;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                         draft.txt                                   [1;82H(B[m[19d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[20d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[18d[2d[39;49m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l[19;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[20;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[18d(B[0;7mFile Name to Write: draft.txt                                                      [18;1H(B[m[18;30H[?12l[?25h[?25l(B[0;7m`(B[m[18;31H[?12l[?25h[?25l(B[0;7m`(B[m[18;32H[?12l[?25h[?25l(B[0;7m`(B[m[18;33H[?12l[?25h[?25l(B[0;7md(B[m[18;34H[?12l[?25h[?25l(B[0;7m (B[m[18;33H[?12l[?25h[?25l(B[0;7m (B[m[18;32H[?12l[?25h[?25l(B[0;7m (B[m[18;31H[?12l[?25h[?25l(B[0;7m (B[m[18;30H[?12l[?25h[?25l[?12l[?25h[?25l[K(B[0;7mFile Name to Write [DOS Format]: draft.txt                                         [18;1H(B[m[18;43H[?12l[?25h[?25l[18;34H[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[18;34H(B[0;7m[ Wrote 1 line ](B[m[19;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[20;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[18d[2;12H[?12l[?25h[?25l[19;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[20;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[18d(B[0;7mFile Name to Write [DOS Format]: draft.txt                                         [18;1H(B[m[18;43H[?12l[?25h[?25l[?12l[?25h[?25l[K(B[0;7mFile Name to Append to [DOS Format]: draft.txt                                     [18;1H(B[m[18;47H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[K(B[0;7mFile Name to Prepend to [DOS Format]: draft.txt                                    [18;1H(B[m[18;48H[?12l[?25h[?25l[1;3H(B[0;7m            [1;30HDIR: /home/pranav/thesis/[18d(B[m[K[1;82H[19;14H(B[0;7m^_(B[m Go To Dir (B[0;7m^W(B[m Where Is  (B[0;7mM-Q(B[m Previous (B[0;7m^B(B[m Back      (B[0;7m^P(B[m Prev Line[20;2H(B[0;7mX(B[m Close     (B[0;7m^L(B[m Refresh   (B[0;7m^Q(B[m Where Was (B[0;7mM-W(B[m Next     (B[0;7m^F(B[m Forward   (B[0;7m^N(B[m Next Line[18d[1;82H[2d(B[0;7m..          (parent dir)(B[m  .draft.txt.swp[47G1 KB  draft.txt[2;72H13  B[1;30H(B[0;7m    DIR: /home/pranav/   [82G(B[m[18d[1;82H[2d..[21X[2;24H(parent dir)  .landscape[14X[2;68H(dir)[K[3d.local[3;31H(dir)  (B[0;7mthesis                        (dir)[4d(B[m.bash_history[4;31H11  B  .bash_logout[4;67H220  B[5d.bashrc[5;32H3 KB  .lesshst[5;68H28  B[6d.motd_shown[6;32H0  B  .profile[6;67H807  B[7d.sudo_as_admin_successful[32G0  B  draft.txt[7;68H14  B[8dmy_unix_session[8;31H60 KB[1;3H(B[0;7mGNU nano 4.8[1;34H      draft.txt   [82G(B[m[2dHello world[K[3d[K[4d[K[5d[K[6d[K[7d[K[8d[K[19;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[20;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[18d(B[0;7mFile Name to Prepend to [DOS Format]: draft.txt                                    [18;1H(B[m[18;48H[?12l[?25h[?25l[18;34H[1K (B[0;7m[ Writing... ](B[m[K[18;34H(B[0;7m[ Wrote 1 line ](B[m[19;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[20;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[18d[2;12H[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[3d[?12l[?25h[?25l[18d(B[0;7mSave modified buffer?                                                              [19;1H Y(B[m Yes[K[20d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[18;23H[?12l[?25h[?25l[19d(B[0;7m^G(B[m Get Help[19;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[19;61H(B[0;7mM-B(B[m Backup File[20d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[20;61H(B[0;7m^T(B[m To Files[18d(B[0;7mFile Name to Write [DOS Format]: draft.txt(B[m[18;43H[?12l[?25h[?25l[19d[J[18;27H[1K (B[0;1m[37m[41m[ File on disk has changed ][39;49m(B[m[K(B[0;7mFile was modified since you opened it; continue saving?                            [19;1H Y(B[m Yes[20d(B[0;7m N(B[m No[20;17H(B[0;7m^C(B[m Cancel[18;57H[?12l[?25h[?25l[1;74H(B[0;7m        [18d(B[m[K[1;82H[19d[J[20d[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ ls
+draft.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ md[Kv thesis/f[Kdraft.te[Kxt theisi[K[K[Ksis/quates.txt
+mv: cannot stat 'thesis/draft.txt': No such file or directory
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd ..mv thesis/draft.txt thesis/quates.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ pwd theis[K[Ksis
+/home/pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls te[Khesis
+quates.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mv theisi[K[K[Ksis/quotes.te[Kxt
+mv: missing destination file operand after 'thesis/quotes.txt'
+Try 'mv --help' for more information.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mv thesis/quotes.txtaotes.txt[C[1Ptes.txt
+mv: missing destination file operand after 'thesis/quates.txt'
+Try 'mv --help' for more information.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mv thesis/quates.txt
+mv: missing destination file operand after 'thesis/quates.txt'
+Try 'mv --help' for more information.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mv --help
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report mv translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls thmv --help[4Pls thesis
+quates.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mv thesis/quates.txt
+mv: missing destination file operand after 'thesis/quates.txt'
+Try 'mv --help' for more information.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd f[Kthesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ cd thesismv thesis/quates.txt
+mv: missing destination file operand after 'thesis/quates.txt'
+Try 'mv --help' for more information.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ mv -i
+mv: missing file operand
+Try 'mv --help' for more information.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ mv --interactive
+mv: missing file operand
+Try 'mv --help' for more information.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ mv --interactivei[Kthesis/quates.txt .
+mv: cannot stat 'thesis/quates.txt': No such file or directory
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd ..mv thesis/quates.txt .
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls thesis
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cp m[Kquates.ts=[K[Kxt thesis/w[Kquotato[Kions.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ c[Klscp quates.txt thesis/quotations.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls thesis[Kmv thesis/quates.txt .cd ..[Kmv thesis/quates.txt .[6P--interactivei[Kthesis/quates.txt[11Pcd thesismv thesis/quates.txt[11Pcd thesismv thesis/quates.txt-i[K-interactivethesis/quates.txt .cd ..[Kmv thesis/quates.txt .[13Pls thesiscp quates.txt thesis/quotations.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K thesis
+quotations.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ for loo_variable in 0 1 2 3 4 5 6 7 8 9
+> do
+> [K> 
+Display all 6482 possibilities? (y or n)
+!                                                                        dxgi.dll
+./                                                                       dxgiadaptercache.exe
+07409496-a423-4a3e-b620-2cfb01a9318d_HyperV-ComputeNetwork.dll           dxgwdi.dll
+0ae3b998-9a38-4b72-a4c4-06849441518d_Servicing-Stack.dll                 dxilconv.dll
+69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll                 dxpps.dll
+6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll            dxtmsft.dll
+:                                                                        dxtrans.dll
+@AdvancedKeySettingsNotification.png                                     dxva2.dll
+@AppHelpToast.png                                                        dynamoapi.dll
+@AudioToastIcon.png                                                      e2freefrag
+@BackgroundAccessToastIcon.png                                           e2fsck
+@EnrollmentToastIcon.png                                                 e2image
+@StorageSenseToastIcon.png                                               e2label
+@VpnToastIcon.png                                                        e2mmpstatus
+@WLOGO_48x48.png                                                         e2scrub
+@WindowsHelloFaceToastIcon.png                                           e2scrub_all
+@WindowsUpdateToastIcon.contrast-black.png                               e2undo
+@WindowsUpdateToastIcon.contrast-white.png                               e4crypt
+@WindowsUpdateToastIcon.png                                              e4defrag
+@WirelessDisplayToast.png                                                eShims.dll
+@bitlockertoastimage.png                                                 eUICCsCSP.dll
+@edptoastimage.png                                                       eaimeapi.mof
+@language_notification_icon.png                                          eapp3hst.dll
+@optionalfeatures.png                                                    eappcfg.dll
+@windows-hello-V4.1.gif                                                  eappcfgui.dll
+ACPBackgroundManagerPolicy.dll                                           eappgnui.dll
+AJRouter.dll                                                             eapphost.dll
+APHostClient.dll                                                         eappprxy.dll
+APHostRes.dll                                                            eapprovp.dll
+APHostService.dll                                                        eapputil.dll
+APMon.dll                                                                eapsimextdesktop.dll
+APMonUI.dll                                                              eapsvc.dll
+ARP.EXE                                                                  easconsent.dll
+AUDIOKSE.dll                                                             easinvoker.exe
+AarSvc.dll                                                               easinvoker.proxystub.dll
+AboutSettingsHandlers.dll                                                easwrt.dll
+AboveLockAppHost.dll                                                     eatmydata
+AcGenral.dll                                                             ebtables
+AcLayers.dll                                                             ebtables-nft
+AcSpecfc.dll                                                             ebtables-nft-restore
+AcWinRT.dll                                                              ebtables-nft-save
+AcXtrnal.dll                                                             ebtables-restore
+--More--[K> 
+Display all 6482 possibilities? (y or n)
+>  d[K[Keejdddnono[K[K[K
+> weskkdkdechoihdsaoihdoashoidjasoiohonok[K[K[Kxpokopxjkopkxsssssss[7@(arg: 1)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111[C[C
+Display all 6482 possibilities? (y or n)
+!                                                                        dxgi.dll
+./                                                                       dxgiadaptercache.exe
+07409496-a423-4a3e-b620-2cfb01a9318d_HyperV-ComputeNetwork.dll           dxgwdi.dll
+0ae3b998-9a38-4b72-a4c4-06849441518d_Servicing-Stack.dll                 dxilconv.dll
+69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll                 dxpps.dll
+6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll            dxtmsft.dll
+:                                                                        dxtrans.dll
+@AdvancedKeySettingsNotification.png                                     dxva2.dll
+@AppHelpToast.png                                                        dynamoapi.dll
+@AudioToastIcon.png                                                      e2freefrag
+@BackgroundAccessToastIcon.png                                           e2fsck
+@EnrollmentToastIcon.png                                                 e2image
+@StorageSenseToastIcon.png                                               e2label
+@VpnToastIcon.png                                                        e2mmpstatus
+@WLOGO_48x48.png                                                         e2scrub
+@WindowsHelloFaceToastIcon.png                                           e2scrub_all
+@WindowsUpdateToastIcon.contrast-black.png                               e2undo
+@WindowsUpdateToastIcon.contrast-white.png                               e4crypt
+@WindowsUpdateToastIcon.png                                              e4defrag
+@WirelessDisplayToast.png                                                eShims.dll
+@bitlockertoastimage.png                                                 eUICCsCSP.dll
+@edptoastimage.png                                                       eaimeapi.mof
+@language_notification_icon.png                                          eapp3hst.dll
+@optionalfeatures.png                                                    eappcfg.dll
+@windows-hello-V4.1.gif                                                  eappcfgui.dll
+ACPBackgroundManagerPolicy.dll                                           eappgnui.dll
+AJRouter.dll                                                             eapphost.dll
+APHostClient.dll                                                         eappprxy.dll
+APHostRes.dll                                                            eapprovp.dll
+APHostService.dll                                                        eapputil.dll
+APMon.dll                                                                eapsimextdesktop.dll
+APMonUI.dll                                                              eapsvc.dll
+ARP.EXE                                                                  easconsent.dll
+AUDIOKSE.dll                                                             easinvoker.exe
+AarSvc.dll                                                               easinvoker.proxystub.dll
+AboutSettingsHandlers.dll                                                easwrt.dll
+AboveLockAppHost.dll                                                     eatmydata
+AcGenral.dll                                                             ebtables
+AcLayers.dll                                                             ebtables-nft
+AcSpecfc.dll                                                             ebtables-nft-restore
+AcWinRT.dll                                                              ebtables-nft-save
+AcXtrnal.dll                                                             ebtables-restore
+--More--[KAccountsRt.dll                                                           ebtables-save
+ActionCenter.dll                                                         ec2metadata
+ActionCenterCPL.dll                                                      echo
+ActionQueue.dll                                                          ed
+ActivationClient.dll                                                     edgeIso.dll
+ActivationManager.dll                                                    edgeangle.dll
+ActivationVdev.dll                                                       edgehtml.dll
+ActiveHours.png                                                          edit
+ActiveSyncCsp.dll                                                        editor
+ActiveSyncProvider.dll                                                   editres
+AdaptiveCards.dll                                                        edpauditapi.dll
+AddressParser.dll                                                        edpcsp.dll
+AdmTmpl.dll                                                              edpnotify.exe
+AdvancedEmojiDS.dll                                                      edptask.dll
+AgentService.exe                                                         edputil.dll
+AgentWmi.mof                                                             eeprov.dll
+AgentWmiUninstall.mof                                                    eeutil.dll
+AggregatorHost.exe                                                       efsadu.dll
+Analog.Shell.Broker.dll                                                  efscore.dll
+AnalogCommonProxyStub.dll                                                efsext.dll
+ApiSetHost.AppExecutionAlias.dll                                         efslsaext.dll
+AppContracts.dll                                                         efssvc.dll
+AppExtension.dll                                                         efsui.exe
+AppHostRegistrationVerifier.exe                                          efsutil.dll
+AppIdPolicyEngineApi.dll                                                 efswrt.dll
+AppInstallerPrompt.Desktop.dll                                           egrep
+AppListBackupLauncher.dll                                                eject
+AppLockerCSP.dll                                                         elif
+AppManagementConfiguration.dll                                           els.dll
+AppMon.dll                                                               elsTrans.dll
+AppReadiness.dll                                                         else
+AppResolver.dll                                                          elshyph.dll
+AppVCatalog.dll                                                          elslad.dll
+AppVClient.exe                                                           embeddedlockdownwmi.mof
+AppVClientPS.dll                                                         embeddedlockdownwmi_Uninstall.mof
+AppVDllSurrogate.exe                                                     embeddedmodesvc.dll
+AppVEntStreamingManager.dll                                              embeddedmodesvcapi.dll
+AppVEntSubsystemController.dll                                           enable
+AppVEntSubsystems64.dll                                                  enc2xs
+AppVEntVirtualization.dll                                                encapi.dll
+AppVFileSystemMetadata.dll                                               encguess
+AppVIntegration.dll                                                      energy.dll
+--More--[KAppVManifest.dll                                                         energyprov.dll
+--More--[KAppVNice.exe                                                             energytask.dll
+--More--[KAppVOrchestration.dll                                                    enrollmentapi.dll
+AppVPolicy.dll                                                           enterprisecsps.dll
+AppVPublishing.dll                                                       enterpriseetw.dll
+AppVReporting.dll                                                        enterpriseresourcemanager.dll
+AppVScripting.dll                                                        env
+AppVSentinel.dll                                                         envsubst
+AppVShNotify.exe                                                         eqn
+AppVStreamMap.dll                                                        eqossnap.dll
+AppVStreamingUX.dll                                                      era_check
+AppVTerminator.dll                                                       era_dump
+AppXApplicabilityBlob.dll                                                era_invalidate
+AppXDeploymentClient.dll                                                 era_restore
+AppXDeploymentExtensions.desktop.dll                                     es.dll
+AppXDeploymentExtensions.onecore.dll                                     esac
+AppXDeploymentServer.dll                                                 esent.dll
+Apphlpdm.dll                                                             esentprf.dll
+ApplicationControlCSP.dll                                                esentutl.exe
+ApplicationFrame.dll                                                     esevss.dll
+ApplicationFrameHost.exe                                                 esrb.rs
+ApplySettingsTemplateCatalog.exe                                         esscli.dll
+ApplyTrustOffline.exe                                                    ethtool
+AppointmentActivation.dll                                                eudcedit.exe
+AppointmentApis.dll                                                      eval
+ApproveChildRequest.exe                                                  eventcls.dll
+AppvClientEventLog.dll                                                   eventcreate.exe
+AppxAllUserStore.dll                                                     eventvwr.exe
+AppxApplicabilityEngine.dll                                              eventvwr.msc
+AppxPackaging.dll                                                        evr.dll
+AppxProvisioning.xml                                                     ex
+AppxSip.dll                                                              exec
+AppxStreamingDataSourcePS.dll                                            execmodelproxy.dll
+AppxSysprep.dll                                                          exit
+AssignedAccessCsp.dll                                                    expand
+AssignedAccessGuard.exe                                                  expand.exe
+AssignedAccessManager.dll                                                expiry
+AssignedAccessRuntime.dll                                                explorer.exe
+AssignedAccessShellProxy.dll                                             export
+AtBroker.exe                                                             expr
+AttestationWmiProvider.dll                                               extrac32.exe
+AttestationWmiProvider.mof                                               f1db7d81-95be-4911-935a-8ab71629112a_HyperV-IsolatedVM.dll
+AttestationWmiProvider_Uninstall.mof                                     f3ahvoas.dll
+AudioEndpointBuilder.dll                                                 f989b52d-f928-44a3-9bf1-bf0c1da6a0d6_HyperV-DeviceVirtualization.dll
+--More--[K> weskkdkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111[C[C[1Peskkdkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111[C[C[1Pskkdkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111[C[C[1Pkkdkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111[C[C[C[1Pdkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111[C[C[1Pdkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111[C[C
+> 
+> sijiy
+> sss
+> 
+> 
+> done
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'srs' from deb srs (0.31-6)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'ass' from deb irpas (0.10-7)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'srs' from deb srs (0.31-6)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+  command 'ass' from deb irpas (0.10-7)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'srs' from deb srs (0.31-6)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'ass' from deb irpas (0.10-7)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'srs' from deb srs (0.31-6)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'ass' from deb irpas (0.10-7)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+  command 'sds' from deb simh (3.8.1-6)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'srs' from deb srs (0.31-6)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'ass' from deb irpas (0.10-7)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'srs' from deb srs (0.31-6)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'ass' from deb irpas (0.10-7)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'sks' from deb sks (1.1.6-14)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'ass' from deb irpas (0.10-7)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'srs' from deb srs (0.31-6)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'srs' from deb srs (0.31-6)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'ass' from deb irpas (0.10-7)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'ass' from deb irpas (0.10-7)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'srs' from deb srs (0.31-6)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+
+Try: sudo apt install <deb name>
+
+eejdddn: command not found
+dkdechoihdsaoihdoashoidjasoiohoxpokopxjkopkxsssssss222222grjrfytrfytrfytrytrytfghfdhgdfgtdy54876908768976897687678787871111: command not found
+sijiy: command not found
+
+Command 'sss' not found, did you mean:
+
+  command 'sssd' from deb sssd-common (2.2.3-3)
+  command 'sks' from deb sks (1.1.6-14)
+  command 'ssh' from deb openssh-client (1:8.2p1-4)
+  command 'sssh' from deb guile-ssh (0.11.3-2)
+  command 'ssr' from deb soundscaperenderer-common (0.5.0~dfsg-4build1)
+  command 'gss' from deb libgss-dev (1.0.3-4)
+  command 'sass' from deb ruby-sass (3.7.4-1ubuntu1)
+  command 'srs' from deb srs (0.31-6)
+  command 'ss' from deb iproute2 (5.5.0-1ubuntu1)
+  command 'sys' from deb openafs-client (1.8.4~pre1-1ubuntu2)
+  command 'ass' from deb irpas (0.10-7)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'scss' from deb ruby-sass (3.7.4-1ubuntu1)
+
+Try: sudo apt install <deb name>
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ for i in {1..10}
+> do
+> echo "iteration $i"
+> done
+iteration 1
+iteration 2
+iteration 3
+iteration 4
+iteration 5
+iteration 6
+iteration 7
+iteration 8
+iteration 9
+iteration 10
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano [K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano [K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano [K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano [K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano  [K[K middle.sh
+[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                         middle.sh                                   [1;82H(B[m[38d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[39d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[37d[2d[39;49m(B[m[?12l[?25h[?25l[37;17H(B[0;7m[ line 1/1 (100%), col 1/1 (100%), char 0/0 (0%) ](B[m[2d[?12l[?25h[?25l[37d[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+draft.txt  my_unix_session  quates.txt  [0m[01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cat draft.txt
+hello world!
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ grep not draft,[K.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudo apt get ubs[K[K[Kistall[K[K[K[K[Knstall gu[Kit
+[sudo] password for pranav: 
+Sorry, try again.
+[sudo] password for pranav: 
+Sorry, try again.
+[sudo] password for pranav: 
+sudo: 3 incorrect password attempts
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudo apt get install git
+[sudo] password for pranav: 
+Sorry, try again.
+[sudo] password for pranav: 
+Sorry, try again.
+[sudo] password for pranav: 
+sudo: 3 incorrect password attempts
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-07-18 23:32:50+05:30 [COMMAND_EXIT_CODE="1"]
+Script started on 2022-07-19 13:26:20+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="43"]
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+draft.txt  my_unix_session  quates.txt  [0m[01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sufo[K[K[K[Ksodo[K[K[K[Ksudo apt get install git
+[sudo] password for pranav: 
+[1;31mE: [0mInvalid operation get[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ root@123
+root@123: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ root@123sudo apt get install git
+[1;31mE: [0mInvalid operation get[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudo aot==[K[K[K[Kpt install git=[K-all
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudi[Ko dnf install git-all
+sudo: dnf: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ apt-get install git
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ apt-get install git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt intall git-all
+[1;31mE: [0mInvalid operation intall[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudo apt intall git-all[K[K[K[K
+[1;31mE: [0mInvalid operation intall[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudo apt get instll==[K[K[K[Kall git
+[1;31mE: [0mInvalid operation get[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ suda apt install git
+
+Command 'suda' not found, did you mean:
+
+  command 'sudo' from deb sudo (1.8.31-1ubuntu1)
+  command 'sudo' from deb sudo-ldap (1.8.31-1ubuntu1)
+
+Try: sudo apt install <deb name>
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sua[Kdo apt install git
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git --res[K[K[Kversion
+git version 2.25.1
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.m[Kname "Pranav Narayan"
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.email pranavn[K.narayan@tigeranalytics^V [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.c om
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ getr[K config --global init.defaultBranch main
+
+Command 'get' not found, but there are 18 similar ones.
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ get config --global init.defaultBranch main[C[1P[C[1P[1@g[1@i
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global init.defaultBranch main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit congig[K[K[Kg[Kfig --list
+[?1h=user.name=Pranav Narayan[m
+user.email=pranav.narayan@tigeranalytics.com[m
+init.defaultbranch=main[m
+[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git help congi[K[Kfig
+[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                      Git Manual                      GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] name [m [value [value_regex]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --replace-all name value [value_r[m egex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get[m  name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get[m -all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] [--na[m me-only] --get-regexp name_regex [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name U[m RL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [-z|--null] [--name-only] -l | --[m list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is[m
+       actually the section and the key separated by a dot, and the value will[m
+       be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--add[0m option. If[m
+       you want to update or unset an option which can occur on multiple lines,[m
+       a POSIX regexp [1mvalue_regex[0m needs to be given. Only the existing values[m
+       that match the regexp are updated or unset. If you want to handle the[m
+       lines that do [1mnot[0m match the regex, just prepend a single exclamation mark[m
+       in front (see also the section called “EXAMPLES”).[m
+[m
+       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ml[Kkdir my_project
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+draft.txt  [0m[01;34mmy_project[0m  my_unix_session  quates.txt  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mv thesis/quate[K[K[K[K[K[K[K[K[K[K[K[Kquates[K[K[K[K[K[K[K[K[Kls thesis
+quotations.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ move[K[K[Kv thesis[K[K[K[K[K[Kquates.txt thesis/quotes.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ mv quates.txt thesis/quotes.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls thesis[K
+quotations.txt  quotes.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+draft.txt  [0m[01;34mmy_project[0m  my_unix_session  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd thesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git init
+Initialized empty Git repository in /home/pranav/thesis/.git/
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git init
+Initialized empty Git repository in /home/pranav/.git/
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd thesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$  re[Km .git
+rm: cannot remove '.git': Is a directory
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ ce[Kd..[K[K ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mdraft.txt[m
+	[31mmy_unix_session[m
+	[31mthesis/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ echo 'or[K[Kpranav' > README
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git stau[Ktus
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mREADME[m
+	[31mdraft.txt[m
+	[31mmy_unix_session[m
+	[31mthesis/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add REad[K[KADE[KME[KE
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git stu[Katus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mdraft.txt[m
+	[31mmy_unix_session[m
+	[31mthesis/[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git statusd[K
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mdraft.txt[m
+	[31mthesis/[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git ass [K[K[Kdd thesis
+error: 'thesis/' does not have a commit checked out
+fatal: adding files failed
+]0;pranav@TIGER034
