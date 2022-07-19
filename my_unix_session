@@ -2678,4 +2678,122 @@ Untracked files:
 	[31m.bashrc[m
 	[31m.gitconfig[m
 	[31m.lesshst[m
-	[31m.motd_shown[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rm text[K[Kmp.[K[K[K[K[K[K[K[Kgit commint [K[K[Kt --amend
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 25 lines ](B[m[H(B[0;7m  GNU nano 4.8             /home/pranav/.git/COMMIT_EDITMSG                        [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mtaemp.txt file is added[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Tue Jul 19 17:21:48 2022 +0530[8d#[9d# On branch master[10d# Changes to be committed:[11d#       modified:   my_unix_session[12d#       new file:   temp.txt[13d#[14d# Changes not staged for commit:[15d#       modified:   my_unix_session[16d#[17d# Untracked files:[18d#       .bash_history[19d#       .bash_logout[20d#       .bashrc[21d#       .gitconfig[22d#       .lesshst[23d#       .motd_shown[24d#       .profile[25d#       .sudo_as_admin_successful[26d#[2d[39m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m7[2;40r8[2dM[1;43r[3;1H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: /home/pranav/.git/COMMIT_EDITMSG(B[m[41;53H[?12l[?25h[?25l[41;34H[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;33H(B[0;7m[ Wrote 26 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K[master 7cd18a2] taemp.txt file is added
+ Date: Tue Jul 19 17:21:48 2022 +0530
+ 2 files changed, 36 insertions(+), 1 deletion(-)
+ create mode 100644 temp.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add my_unix_session 
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit --ament[Kd
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 22 lines ](B[m[H(B[0;7m  GNU nano 4.8             /home/pranav/.git/COMMIT_EDITMSG                        [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mtaemp.txt file is added[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Tue Jul 19 17:21:48 2022 +0530[8d#[9d# On branch master[10d# Changes to be committed:[11d#       modified:   my_unix_session[12d#       new file:   temp.txt[13d#[14d# Untracked files:[15d#       .bash_history[16d#       .bash_logout[17d#       .bashrc[18d#       .gitconfig[19d#       .lesshst[20d#       .motd_shown[21d#       .profile[22d#       .sudo_as_admin_successful[23d#[2d[39m(B[m[?12l[?25h[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K[master 5e3aab0] taemp.txt file is added
+ Date: Tue Jul 19 17:21:48 2022 +0530
+ 2 files changed, 342 insertions(+), 1 deletion(-)
+ create mode 100644 temp.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rv text.te[Kxt
+rv: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ rm text[K[K[Kemp.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ t[Kgt[K[Kgit status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+	[31mdeleted:    temp.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cit [K[K[K[Kgit commint =[K-m 
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commint -m [K[K[K[K[K[Kt -m "deleted temp.txt file"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+	[31mdeleted:    temp.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit -m "deleted temp.txt file"[K[K[K[K[K[K
