@@ -1643,4 +1643,133 @@ Untracked files:
 ]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git ass [K[K[Kdd thesis
 error: 'thesis/' does not have a commit checked out
 fatal: adding files failed
-]0;pranav@TIGER034
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add thesis/
+error: 'thesis/' does not have a commit checked out
+fatal: adding files failed
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add thesis/*
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   my_unix_session[m
+	[32mnew file:   thesis/quotations.txt[m
+	[32mnew file:   thesis/quotes.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mdraft.txt[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add my_unix_session 
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git sta[Katus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   my_unix_session[m
+	[32mnew file:   thesis/quotations.txt[m
+	[32mnew file:   thesis/quotes.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mdraft.txt[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git d[Kstatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   my_unix_session[m
+	[32mnew file:   thesis/quotations.txt[m
+	[32mnew file:   thesis/quotes.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mdraft.txt[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status -s
+[32mA[m  README
+[32mA[m  my_unix_session
+[32mA[m  thesis/quotations.txt
+[32mA[m  thesis/quotes.txt
+[31m??[m .bash_history
+[31m??[m .bash_logout
+[31m??[m .bashrc
+[31m??[m .gitconfig
+[31m??[m .landscape/
+[31m??[m .lesshst
+[31m??[m .motd_shown
+[31m??[m .profile
+[31m??[m .sudo_as_admin_successful
+[31m??[m draft.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cat .gittignore
+cat: .gittignore: No such file or directory
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ a[Kcat gi[K[K.gitignore
+cat: .gitignore: No such file or directory
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ got [K[K[Kit stu[Katus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   my_unix_session[m
+	[32mnew file:   thesis/quotations.txt[m
+	[32mnew file:   thesis/quotes.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.landscape/[m
+	[31m.lesshst[m
+	[31m.motd_shown[m
+	[31m.profile[m
+	[31m.sudo_as_admin_successful[m
+	[31mdraft.txt[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ con[Kmmit -[K[K[K[K[K[K[K[Kgit commitn-m "[K[K[K[K[K -
