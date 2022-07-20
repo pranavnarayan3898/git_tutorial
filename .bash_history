@@ -240,3 +240,175 @@ script -a ~/my_unix-session
 rm my_unix-session
 ls
 script -a ~/my_unix_session
+ls
+git status
+git add --a
+git status
+git commit -m "all files are commited"
+git status
+touch contribute.txt
+git status
+git add --a
+git status
+git commit --ament
+git commit --amend
+git status
+nano contribute.txt
+git status
+git add contribute.txt
+git status
+nano contribute.txt
+git status
+nano contribute.txt
+git reset HEAD contribute.txt
+git status
+nano contribute.txt
+git add --a
+git commit -amend
+git status
+git status --amend
+git commit --amend
+git status
+nano contribute.txt
+git status
+git restore contribute.txt
+nona contribute.txt
+nano contribute.txt
+git remote
+ls
+cd my_project
+ls
+git status
+cd ..
+git status
+ls
+mv pranav/my_project my_project
+mkdir pr
+cd pranav
+git status
+cd ..
+cd home
+pranav
+cd pranav
+git status
+git checkout --cintribute.txtu
+git status
+git checkout --cintribute.txt
+git status
+nano contribute.txtu
+git status
+rv contribute.txtu
+rm contribute.txtu
+git status
+ls
+cd my_oroject
+cd my_project
+git status
+git inint
+git init
+git status
+cd ..
+rm my_project
+rm -r my_project
+ls
+cd thesis
+ls
+cd ..
+mkdir my_project
+ls
+cd my_project
+git status
+git clone https://github.com/schacon/ticgit
+git status
+cd ticgit
+git remote
+cd ../..
+nano .gitignore
+git status
+cd my_project/ticgit
+git remote
+git remote -v
+cd ..
+cd grit
+git remote
+cd grit
+cd ticgit
+cd grit
+ls
+git remote add pb https://github.com/paulboone/ticgit
+git remote -v
+git fetch pd
+git fetch pb
+git remote show origin
+git remote
+git remote rename pb op
+git remote
+git remote rm op
+git remote
+git status
+git tag
+cd ../..
+git tag
+git status
+git commit --amend
+git status
+git add --a
+git commit --amend
+git status
+tag -l
+git tag
+
+
+git show v0.1
+git status
+git tag v0.2 -lw
+git tag v0.2-lw
+git tag
+git show v0.2-lw
+git log --pretty=oneline
+git tag -a v0.3 ed4107
+git tag
+git show v0.3
+git tag - v0.3
+git tag -d v0.3
+git tag
+git show v0.3
+git tag -a v0.3 ed4107
+git tag
+git status
+git add my_unix_session 
+git commit -m "done with git 2nd chapter"
+git show v0.4 -m "chapter two end"
+git tag
+git tag -a v0.4 -m "chapter 2 end"
+git tag
+git show v0.4
+git status
+exit
+git status
+clear
+script -a ~/my_unix_session
+git status
+ls
+cd thesis
+ls
+git status
+git init
+git status
+cat answers.txt
+nano answer.txt
+git status
+git add -a
+git add-all
+git add --all
+git status
+git commit -m 'Initial commit'
+git status
+git branch testing
+git log
+git checkout testing
+git log
+vit --help
+vim --help
+vim answer.txt
+exit

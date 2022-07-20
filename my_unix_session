@@ -3756,4 +3756,768 @@ Date:   Tue Jul 19 15:00:04 2022 +0530[m
 [32m+[m[32m/home/pranav[m[41m[7m^M[27m[m[m
 [32m+[m[32m0;pranav@TIGER03427: ~[7m^G[27m[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -F[m[41m[7m^M[27m[m[m
 [32m+[m[32mmy_unix_session[m[41m[7m^M[27m[m[m
-[32m+[m[32m0;pranav@TIGER03427: ~[7m^G[27m[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -help[m[41m[7m^M[27m[
+[32m+[m[32m0;pranav@TIGER03427: ~[7m^G[27m[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls -help[m[41m[7m^M[27m[m[m
+[32m+[m[32mls: invalid option -- 'e'[m[41m[7m^M[27m[m[m
+[32m+[m[32mTry 'ls --help' for more information.[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;pranav@TIGER03427: ~[7m^G[27m[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls --help[m[41m[7m^M[27m[m[m
+[32m+[m[32mUsage: ls [OPTION]... [FILE]...[m[41m[7m^M[27m[m[m
+[32m+[m[32mList information about the FILEs (the current directory by default).[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git tag - v0.3
+fatal: '-' is not a valid tag name.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git tag -s[Kd v0.3
+Deleted tag 'v0.3' (was 8f41f0a)
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git tap[Kg
+[?1h=v0.1[m
+v0.2-lw[m
+[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git tag -d v0.3[1P v0.3[1Pshow[C[C[C[C[C
+fatal: ambiguous argument 'v0.3': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git show v0.3[6Ptag -d v0.3[1P v0.3[1Pshow[C[C[C[C[C[6Ptag -a v0.3 ed4107
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m  GNU nano 4.8               /home/pranav/.git/TAG_EDITMSG                         [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[3d[39;49m[36m#[4d# Write a message for tag:[5d#   v0.3[6d# Lines starting with '#' will be ignored.[2d[39m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dt[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lf[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l7[3;40r8[3dM[1;43r[3;1H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: /home/pranav/.git/TAG_EDITMSG(B[m[41;50H[?12l[?25h[?25l[41;34H[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 6 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git ya[K[Ktag
+[?1h=v0.1[m
+v0.2-lw[m
+v0.3[m
+[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add my_unix_session 
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit -m "doe[Kne wiet[K[Kth git 2[K2nd chapter"
+[master 9604a2f] done with git 2nd chapter
+ 1 file changed, 283 insertions(+), 1 deletion(-)
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ got[K[Kit commit -m "done with git 2nd chapter"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Padd my_unix_session status[K[3Ptag -a v0.3 ed4107[9Pshow v0.3[6Ptag -d v0.3[1P v0.3[1Pshow[C[C[C[C[C[6Ptag -a v0.3 ed4107log --pretty=oneline[8Pshow v0.2-lwtag[K v0.2-lw -lw[6Pstatushow v0.1[6Ptag -a v0.1 -m "1st version of the project"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K4[Kl[Ka v0.[Kshow v0.1[3Ptatushow v0.1[6Ptag -a v0.l[K[K[K[K[1Ptag -lgit tag -a v0.[Kshow v0.1[3Ptatustag v0.2 -lw[1P-lw[Kshow v0.2-lwlog --pretty=oneline[2Ptag -a v0.3 ed4107[Kshow v0.3[1@tag -[C[C[C[C[Cd v0.3[Kshow v0.3tag -a v0.3 ed4107[Kstatusadd my_unix_session commit -m "done with git 2nd chapter"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcommit -m "done with git 2nd chapter"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Padd my_unix_session status[K[3Ptag -a v0.3 ed4107[9Pshow v0.3[6Ptag -d v0.3[1P v0.3[1Pshow[C[C[C[C[C[6Ptag -a v0.3 ed4107log --pretty=oneline[2Ptag -a v0.3 ed4107[K -a v0.3 ed4107log --pretty=oneline[8Pshow v0.2-lwtag[K v0.2-lw -lw[6Pstatushow v0.1[K4 -m "chapter two de[K[Ked[Knd"
+fatal: ambiguous argument 'v0.4': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ got [K[K[Kt[Kit version[K[K[K[K[K[K[Ktag
+[?1h=v0.1[m
+v0.2-lw[m
+v0.3[m
+[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git tagshow v0.4 -m "chapter two end"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "done with git 2nd chapter"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Padd my_unix_session status[K[3Ptag -a v0.3 ed4107[9Pshow v0.3[6Ptag -d v0.3[1P v0.3[1Pshow[C[C[C[C[C[6Ptag -a v0.3 ed4107log --pretty=oneline[8Pshow v0.2-lwtag[K v0.2-lw -lw[6Pstatushow v0.1[6Ptag[C[C[C[C[C[C[C[K[K[K[K[K[K[Kgit tag -a v0.[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit tag[Kgit tag[Kgit show v0.1[Kgit tag[1Ptag -lgit statuscommit --amend[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit tag -a v0.4 -, [K[K[K-m "chapter 2 end"
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git tag
+[?1h=v0.1[m
+v0.2-lw[m
+v0.3[m
+v0.4[m
+[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git show ov[Kv[K[Kv0.4
+[?1h=[33mtag v0.4[m[m
+Tagger: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 03:18:42 2022 +0530[m
+[m
+chapter 2 end[m
+[m
+[33mcommit 9604a2fad63a0698b58bc21fe8503ed4824a1354[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v0.4[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 03:14:29 2022 +0530[m
+[m
+    done with git 2nd chapter[m
+[m
+[1mdiff --git a/my_unix_session b/my_unix_session[m[m
+[1mindex ec2c519..305fe82 100644[m[m
+[1m--- a/my_unix_session[m[m
+[1m+++ b/my_unix_session[m[m
+[36m@@ -3474,4 +3474,286 @@[m [mChanges not staged for commit:[m[m
+        [31mmodified:   contribute.txt[m[m[m
+        [31mmodified:   my_unix_session[m[m[m
+ [m[m
+[31m-no changes added to [m[m
+\ No newline at end of file[m[m
+[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;pranav@TIGER03427: ~[7m^G[27m[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commit --amend[m[41m[7m^M[27m[m[m
+[32m+[m[32mhint: Waiting for your editor to close the file... [m[39;49m[39;49m[m[0;7m[ Reading... ][m[0;7m[ Read 26 lines ][m[0;7m[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m  GNU nano 4.8             /home/pranav/.git/COMMIT_EDITMSG                        [m[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[7m^M[27m[0;7m^G[m Get Help  [0;7m^O[m Write Out [0;7m^W[m Where Is  [0;7m^K[m Cut Text  [0;7m^J[m Justify   [0;7m^C[m Cur Pos[7m^M[27m[0;7m^X[m E[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[mxit[0;7m^R[m Read File [0;7m^\[m Replace   [0;7m^U[m Paste Text[0;7m^T[m To Spell  [0;7m^_[m Go To Line[7m^M[27m[39;49m[mall files are[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m commited[7m^M[27m[36m# Please enter the commit message for your changes. Lines starting[7m^M[27m# wi[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36mth '#' will be ignored, and an empty message aborts the commit.[7m^M[27m[1m#[0m Date:      Wed J[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36mul 20 00:17:09 2022 +0530[7m^M[27m[1m#[0m On branch master[7m^M[27m# Changes to be committed:[7m^M[27m#       [m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36mnew file:   .bash_history[7m^M[27m#       new file:   .bash_logout[7m^M[27m#       new file:   .b[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36mashrc[7m^M[27m#       new file:   .gitconfig[7m^M[27m#       new file:   .gitignore.save[7m^M[27m#      [m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36m new file:   .lesshst[7m^M[27m#       new file:   .motd_shown[7m^M[27m#       new file:   .profil[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36me[7m^M[27m#       new file:   .sudo_as_admin_successful[7m^M[27m#       new file:   contribute.tx[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36mt[7m^M[27m#       modified:   my_unix_session[7m^M[27m[1m#[0m Changes not staged for commit:[7m^M[27m#       m[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36modified:   .gitignore[7m^M[27m#       modified:   contribute.txt[7m^M[27m#       modified:   my_u[m [32m[m[32m[m[39;49m[39;49m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[0;7m[m[39;49m[m[36mnix_session[7m^M[27m[39m[m[7m^M^M[27m[master d329447] all files are commited[m[41m[7m^M[27m[m[m
+[32m+[m[32m Date: Wed Jul 20 00:17:09 2022 +0530[m[41m[7m^M[27m[m[m
+[32m+[m[32m 11 files changed, 659 insertions(+), 1 deletion(-)[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .bash_history[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .bash_logout[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ex[Kgit statushow v0.4[6Ptag[K[K[K[K[K[K[Kexit
+exit
+
+Script done on 2022-07-20 03:20:32+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-07-20 12:31:49+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="43"]
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .bash_history[m
+	[31mmodified:   my_unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+README  contribute.txt  draft.txt  error.log  [0m[01;34mmy_project[0m  my_unix_session  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd thes8s[K[Kis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ ls
+quotations.txt  quotes.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ g8tn[K[K[Kit status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mquotations.txt[m
+	[31mquotes.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git init
+Reinitialized existing Git repository in /home/pranav/thesis/.git/
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mquotations.txt[m
+	[31mquotes.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ touch[K[K[K[K[Kcat anst[Kwers.txt
+cat: answers.txt: No such file or directory
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano and[Kswer.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                        answer.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25lT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[41d[K[2;14H[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: answer.txt(B[m[41;31H[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31manswer.txt[m
+	[31mquotations.txt[m
+	[31mquotes.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git add-all
+git: 'add-all' is not a git command. See 'git --help'.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git add --all
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   answer.txt[m
+	[32mnew file:   quotations.txt[m
+	[32mnew file:   quotes.txt[m
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git comminmt [K[K[K[Kty[K -m "[K'Initial commint[K[Ky[Kt"[K'
+[master (root-commit) 03b6881] Initial commit
+ 3 files changed, 5 insertions(+)
+ create mode 100644 answer.txt
+ create mode 100644 quotations.txt
+ create mode 100644 quotes.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ [K]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ [K]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ [K]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git bt[Kranch testing
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log
+[?1h=[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mtesting[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout testing
+Switched to branch 'testing'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log
+[?1h=[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m, [m[1;32mmaster[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ vit -h=-[K[K[K-help
+
+Command 'vit' not found, but can be installed with:
+
+sudo apt install vit
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ vim --help
+VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr 15 2020 06:40:31)
+
+Usage: vim [arguments] [file ..]       edit specified file(s)
+   or: vim [arguments] -               read text from stdin
+   or: vim [arguments] -t tag          edit file where tag is defined
+   or: vim [arguments] -q [errorfile]  edit file with first error
+
+Arguments:
+   --			Only file names after this
+   -v			Vi mode (like "vi")
+   -e			Ex mode (like "ex")
+   -E			Improved Ex mode
+   -s			Silent (batch) mode (only for "ex")
+   -d			Diff mode (like "vimdiff")
+   -y			Easy mode (like "evim", modeless)
+   -R			Readonly mode (like "view")
+   -Z			Restricted mode (like "rvim")
+   -m			Modifications (writing files) not allowed
+   -M			Modifications in text not allowed
+   -b			Binary mode
+   -l			Lisp mode
+   -C			Compatible with Vi: 'compatible'
+   -N			Not fully Vi compatible: 'nocompatible'
+   -V[N][fname]		Be verbose [level N] [log messages to fname]
+   -D			Debugging mode
+   -n			No swap file, use memory only
+   -r			List swap files and exit
+   -r (with file name)	Recover crashed session
+   -L			Same as -r
+   -A			Start in Arabic mode
+   -H			Start in Hebrew mode
+   -T <terminal>	Set terminal type to <terminal>
+   --not-a-term		Skip warning for input/output not being a terminal
+   --ttyfail		Exit if input or output is not a terminal
+   -u <vimrc>		Use <vimrc> instead of any .vimrc
+   --noplugin		Don't load plugin scripts
+   -p[N]		Open N tab pages (default: one for each file)
+   -o[N]		Open N windows (default: one for each file)
+   -O[N]		Like -o but split vertically
+   +			Start at end of file
+   +<lnum>		Start at line <lnum>
+   --cmd <command>	Execute <command> before loading any vimrc file
+   -c <command>		Execute <command> after loading the first file
+   -S <session>		Source file <session> after loading the first file
+   -s <scriptin>	Read Normal mode commands from file <scriptin>
+   -w <scriptout>	Append all typed commands to file <scriptout>
+   -W <scriptout>	Write all typed commands to file <scriptout>
+   -x			Edit encrypted files
+   --startuptime <file>	Write startup timing messages to <file>
+   -i <viminfo>		Use <viminfo> instead of .viminfo
+   --clean		'nocompatible', Vim defaults, no plugins, no viminfo
+   -h  or  --help	Print Help (this message) and exit
+   --version		Print version information and exit
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ vim answer.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;43r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[43;1H"answer.txt" 1L, 46C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HThis is the answer file for the test perpose.
+[94m~                                                                                  [3;1H~                                                                                  [4;1H~                                                                                  [5;1H~                                                                                  [6;1H~                                                                                  [7;1H~                                                                                  [8;1H~                                                                                  [9;1H~                                                                                  [10;1H~                                                                                  [11;1H~                                                                                  [12;1H~                                                                                  [13;1H~                                                                                  [14;1H~                                                                                  [15;1H~                                                                                  [16;1H~                                                                                  [17;1H~                                                                                  [18;1H~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [37;1H~                                                                                  [38;1H~                                                                                  [39;1H~                                                                                  [40;1H~                                                                                  [41;1H~                                                                                  [42;1H~                                                                                  [m[43;66H1,1[11CAll[1;1H[?25h[?25l[43;56H^[[1;1H[43;58H[[1;1H[43;59H>[1;1H[43;60H0[1;1H[43;61H;[1;1H[43;62H1[1;1H[43;63H0[1;1H[43;64H;[1;1H[43;56H         [1;1H[?25h[?25l[43;56Hd[1;1H[?25h[?25l[43;57Hd[1;1H[43;56H  [1;1H[1;1H[K[43;1H--No lines in buffer--[43;66H[K[43;66H0,0-1[9CAll[1;1H[?25h[?25l[43;56Hd[1;1H[?25h[?25l[43;57Hw[1;1H[43;56H  [1;1H[?25h[?25l[43;56He[1;1H[43;56H [1;1H[?25h[?25l[43;56Ho[1;1H[43;56H [2;1H[43;1H[1m-- INSERT --[m[43;13H[K[43;66H2,1[11CAll[2;1H[K[2;1H[?25h[?25li[43;68H2[2;2H[?25h[?25lj[43;68H3[2;3H[?25h[43;1H[K[2;2H[?25l[43;56H^[[2;2H[43;56H  [2;3H[43;66H2,2[11CAll[2;2H[?25h[?25l[43;56Hq[2;2H[?25h[?25l[43;57H^[[2;2H[43;57H  [2;2H[43;57H^[[2;2H[43;56H   [2;2H[?25h[?25l[43;56H~@k[2;2H[43;56H   [2;1H[43;68H1[2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [1;1H[43;66H1,0-1[1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [2;1H[43;66H2,1  [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [2;1H[?25h[?25l[43;56H~@k[2;1H[43;56H   [1;1H[43;66H1,0-1[1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[?25l[43;56H~@k[1;1H[43;56H   [1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1Hij
+[94m~                                                                                                                                                                       [4;1H~                                                                                                                                                                       [5;1H~                                                                                                                                                                       [6;1H~                                                                                                                                                                       [7;1H~                                                                                                                                                                       [8;1H~                                                                                                                                                                       [9;1H~                                                                                                                                                                       [10;1H~                                                                                                                                                                       [11;1H~                                                                                                                                                                       [12;1H~                                                                                                                                                                       [13;1H~                                                                                                                                                                       [14;1H~                                                                                                                                                                       [15;1H~                                                                                                                                                                       [16;1H~                                                                                                                                                                       [17;1H~                                                                                                                                                                       [18;1H~                                                                                                                                                                       [19;1H~                                                                                                                                                                       [20;1H~                                                                                                                                                                       [21;1H~                                                                                                                                                                       [22;1H~                                                                                                                                                                       [23;1H~                                                                                                                                                                       [24;1H~                                                                                                                                                                       [25;1H~                                                                                                                                                                       [26;1H~                                                                                                                                                                       [27;1H~                                                                                                                                                                       [28;1H~                                                                                                                                                                       [29;1H~                                                                                                                                                                       [30;1H~                                                                                                                                                                       [31;1H~                                                                                                                                                                       [32;1H~                                                                                                                                                                       [33;1H~                                                                                                                                                                       [34;1H~                                                                                                                                                                       [35;1H~                                                                                                                                                                       [36;1H~                                                                                                                                                                       [37;1H~                                                                                                                                                                       [38;1H~                                                                                                                                                                       [39;1H~                                                                                                                                                                       [40;1H~                                                                                                                                                                       [41;1H~                                                                                                                                                                       [42;1H~                                                                                                                                                                       [m[43;151H1,0-1[9CAll[1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [2;1H[43;151H2,1  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;2H[43;153H2[2;2H[?25h[?25l[43;141H~@k[2;2H[43;141H   [2;2H[?25h[?25l[43;141H~@k[2;2H[43;141H   [2;1H[43;153H1[2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [1;1H[43;151H1,0-1[1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141Ho[1;1H[43;141H [2;1H[43;1H[1m-- INSERT --[m[43;151H[K[43;151H2,1[11CTop[2;42r[2;1H[L[1;43r[43;151H[K[43;151H2,1[11CAll[2;1H[?25h[?25li[43;153H2[2;2H[?25h[?25lh[43;153H3[2;3H[?25h[?25loi[43;153H5[2;5H[?25h[?25lu[43;153H6[2;6H[?25h[?25lh[43;153H7[2;7H[?25h[?25lo[43;153H8[2;8H[?25h[?25li[43;153H9[2;9H[?25h[?25lh[43;153H10[2;10H[?25h[43;1H[K[2;9H[?25l[43;141H^[[2;9H[43;141H  [2;10H[43;151H2,9[11CAll[2;9H[?25h[?25l[43;141H^[[2;9H[43;141H  [2;9H[43;141H^[[2;9H[43;141H  [2;9H[?25h[?25l[43;141Hh[2;9H[43;141H [2;8H[43;153H8[2;8H[?25h[?25l[43;141Ho[2;8H[43;141H [3;1H[43;1H[1m-- INSERT --[m[43;151H[K[43;151H3,1[11CTop[3;42r[3;1H[L[1;43r[43;151H[K[43;151H3,1[11CAll[3;1H[?25h[?25li[43;153H2[3;2H[?25h[?25lh[43;153H3[3;3H[?25h[?25lh[43;153H4[3;4H[?25h[?25lo[43;153H5[3;5H[?25h[?25li[43;153H6[3;6H[?25h[?25lh[43;153H7[3;7H[?25h[?25li[43;153H8[3;8H[?25h[?25lo[43;153H9[3;9H[?25h[43;1H[K[3;8H[?25l[43;141H^[[3;8H[43;141H  [3;9H[43;151H3,8[11CAll[3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H^[[3;8H[43;141H  [3;8H[43;141H^[[3;8H[43;141H  [3;8H[?25h[?25l[43;141H~@k[3;8H[43;141H   [3;7H[43;153H7[3;7H[?25h[?25l[43;141H~@k[3;7H[43;141H   [3;6H[43;153H6[3;6H[?25h[?25l[43;141H~@k[3;6H[43;141H   [3;5H[43;153H5[3;5H[?25h[?25l[43;141H~@k[3;5H[43;141H   [3;4H[43;153H4[3;4H[?25h[?25l[43;141H~@k[3;4H[43;141H   [3;3H[43;153H3[3;3H[?25h[?25l[43;141H~@k[3;3H[43;141H   [3;2H[43;153H2[3;2H[?25h[?25l[43;141H~@k[3;2H[43;141H   [3;1H[43;153H1[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [2;9H[43;151H2,9[2;9H[?25h[?25l[43;141H~@k[2;9H[43;141H   [2;8H[43;153H8[2;8H[?25h[?25l[43;141H~@k[2;8H[43;141H   [2;7H[43;153H7[2;7H[?25h[?25l[43;141H~@k[2;7H[43;141H   [2;6H[43;153H6[2;6H[?25h[?25l[43;141H~@k[2;6H[43;141H   [2;5H[43;153H5[2;5H[?25h[?25l[43;141H~@k[2;5H[43;141H   [2;4H[43;153H4[2;4H[?25h[?25l[43;141H~@k[2;4H[43;141H   [2;4H[43;141Hdl[2;4H[43;141H  [2;4Huhoih[2;9H[K[2;4H[?25h[?25l[43;141H~@k[2;4H[43;141H   [2;4H[43;141Hdl[2;4H[43;141H  [2;4Hhoih[2;8H[K[2;4H[?25h[?25l[43;141H~@k[2;4H[43;141H   [2;4H[43;141Hdl[2;4H[43;141H  [2;4Hoih[2;7H[K[2;4H[?25h[?25l[43;141H~@k[2;4H[43;141H   [2;4H[43;141Hdl[2;4H[43;141H  [2;4Hih[2;6H[K[2;4H[?25h[?25l[43;141H~@k[2;4H[43;141H   [2;4H[43;141Hdl[2;4H[43;141H  [2;4Hh[2;5H[K[2;4H[?25h[?25l[43;141H~@k[2;4H[43;141H   [2;4H[43;141Hdl[2;4H[43;141H  [2;3H[2;4H[K[43;153H3[2;3H[?25h[?25l[43;141H~@k[2;3H[43;141H   [2;3H[43;141Hdl[2;3H[43;141H  [2;2H[2;3H[K[43;153H2[2;2H[?25h[?25l[43;141H~@k[2;2H[43;141H   [2;2H[43;141Hdl[2;2H[43;141H  [2;1H[2;2H[K[43;153H1[2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[2;1H[K[43;153H0-1[2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [2;1H[43;141Hdl[2;1H[43;141H  [2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [3;1H[43;151H3,1  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [4;1H[43;151H4[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1Hj[4;2H[K[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[4;1H[K[43;153H0-1[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [3;1H[43;151H3,1  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1Hhhoihio[3;8H[K[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1Hhoihio[3;7H[K[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1Hoihio[3;6H[K[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1Hihio[3;5H[K[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1Hhio[3;4H[K[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1Hio[3;3H[K[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1Ho[3;2H[K[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[3;1H[K[43;153H0-1[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [4;1H[43;151H4[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [3;1H[43;151H3[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [4;1H[43;151H4[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [3;1H[43;151H3[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [3;1H[43;141Hdl[3;1H[43;141H  [3;1H[?25h[?25l[43;151H4[4;1H[?25h[?25l[43;1H[1m-- VISUAL LINE --[m[43;151H[K[43;151H4,0-1[9CAll[4;1H[?25h[?25l[43;4H[1mINSERT --N[m[43;13H[K[43;151H4,1[11CAll[4;1HSs[43;153H3[4;3H[?25h[?25l VCSs[43;153H8[4;8H[?25h[?25l VCSs[43;153H13[4;13H[?25h[?25l VCSs[43;154H8[4;18H[?25h[?25l VCSs[43;153H23[4;23H[?25h[?25l VCSs[43;154H8[4;28H[?25h[?25l VCSs[43;153H33[4;33H[?25h[?25l VCSs[43;154H8[4;38H[?25h[?25l VCSs[43;153H43[4;43H[?25h[?25l VCSs[43;154H8[4;48H[?25h[43;1H[K[4;47H[?25l[43;141H^[[4;47H[43;141H  [4;48H[43;151H4,47[10CAll[4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[43;141H^[[4;47H[43;141H  [4;47H[43;141H^[[4;47H[43;141H  [4;47H[?25h[?25l[47mSs VCSs VCSs VCSs VCSs VCSs VCSs VCSs VCSs VCS[ms[47m [m[43;1H[1m-- VISUAL LINE --[m[43;151H[K[43;151H4,47[10CAll[4;47H[?25h[?25l[43;4H[1mINSERT --N[m[43;13H[K[43;151H4,1[11CAll[4;1HSs[4;3H[K[43;153H3[4;3H[?25h[?25l VCSs[43;153H8[4;8H[?25h[?25l VCSs[43;153H13[4;13H[?25h[?25l VCSs[43;154H8[4;18H[?25h[?25l VCSs[43;153H23[4;23H[?25h[?25l VCSs[43;154H8[4;28H[?25h[?25l[43;1H[K[43;151H4,27[10CAll[4;27H[?25h[?25l[43;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[43;151H[K[43;151H4,27[10CAll[4;27H[?25h[?25l[43;141Hq[4;27H[?25h[?25l[43;142Hq[4;27H[43;1H[1mrecording @q[m[43;13H[K[43;151H4,27[10CAll[4;27H[?25h[?25l[43;141Ha[4;27H[43;141H [4;28H[43;1H[1m--c INSERT --[m [1mrecording @q[m[43;151H[K[43;151H4,28[10CAll[4;28H[?25h[?25l1[43;154H9[4;29H[?25h[?25l[5;1H[K[43;151H5,1 [5;1H[?25h[?25l1[43;153H2[5;2H[?25h[?25la[43;153H3[5;3H[?25h[?25lq[43;153H4[5;4H[?25h[?25lq[43;153H5[5;5H[?25h[?25lq[43;153H6[5;6H[?25h[?25lq[43;153H7[5;7H[?25h[?25lq[43;153H8[5;8H[?25h[?25lq[43;153H9[5;9H[?25h[?25lq[43;153H10[5;10H[?25h[?25lq[43;154H1[5;11H[?25h[?25lq[43;154H2[5;12H[?25h[?25lq[43;154H3[5;13H[?25h[?25lq[43;154H4[5;14H[?25h[?25lq[43;154H5[5;15H[?25h[?25lq[43;154H6[5;16H[?25h[?25lq[43;154H7[5;17H[?25h[?25lq[43;154H8[5;18H[?25h[?25lq[43;154H9[5;19H[?25h[?25lq[43;153H20[5;20H[?25h[?25lq[43;154H1[5;21H[?25h[?25l1[43;154H2[5;22H[?25h[?25lq[43;154H3[5;23H[?25h[?25la[43;154H4[5;24H[?25h[?25l1[43;154H5[5;25H[?25h[?25l[6;1H[K[43;151H6,1 [6;1H[?25h[?25l@[43;153H2[6;2H[?25h[?25lq[43;153H3[6;3H[?25h[?25la[43;153H4[6;4H[?25h[?25l1[43;153H5[6;5H[?25h[?25l[6;4H[K[43;153H4[6;4H[?25h[?25l![43;153H5[6;5H[?25h[?25l[7;1H[K[43;151H7,1[7;1H[?25h[?25l[8;1H[K[43;151H8[8;1H[?25h[?25l VCSs[43;153H6[8;6H[?25h[?25l VCSs[43;153H11[8;11H[?25h[43;1H[1mrecording @qr[m[43;13H[K[8;10H[?25l[43;141H^[[8;10H[43;141H  [8;11H[43;151H8,10[10CAll[8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141Hl[8;10H[43;141H [8;10H[?25h[?25l[43;141Hm[8;10H[?25h[?25l[43;142Ho[8;10H[43;141H  [8;10H[?25h[?25l[43;141Hm[8;10H[?25h[?25l[43;142H^[[8;10H[43;142H  [8;10H[43;142H^[[8;10H[43;141H   [8;10H[?25h[?25l[43;141H^[[8;10H[43;141H  [8;10H[43;141H^[[8;10H[43;141H  [8;10H[?25h[?25l[43;141H~@k[8;10H[43;141H   [8;9H[43;153H9 [8;9H[?25h[?25l[43;141H~@k[8;9H[43;141H   [8;8H[43;153H8[8;8H[?25h[?25l[43;141H~@k[8;8H[43;141H   [8;7H[43;153H7[8;7H[?25h[?25l[43;141H~@k[8;7H[43;141H   [8;6H[43;153H6[8;6H[?25h[?25l[43;141H~@k[8;6H[43;141H   [8;5H[43;153H5[8;5H[?25h[?25l[43;141H~@k[8;5H[43;141H   [8;4H[43;153H4[8;4H[?25h[?25l[43;141H~@k[8;4H[43;141H   [8;3H[43;153H3[8;3H[?25h[?25l[43;141H~@k[8;3H[43;141H   [8;2H[43;153H2[8;2H[?25h[?25l[43;141H~@k[8;2H[43;141H   [8;1H[43;153H1[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [7;1H[43;151H7,0-1[7;1H[?25h[?25l[43;141H~@k[7;1H[43;141H   [6;4H[43;151H6,4  [6;4H[?25h[?25l[43;141H~@k[6;4H[43;141H   [6;3H[43;153H3[6;3H[?25h[?25l[43;141H~@k[6;3H[43;141H   [6;2H[43;153H2[6;2H[?25h[?25l[43;141H~@k[6;2H[43;141H   [6;1H[43;153H1[6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [5;24H[43;151H5,24[5;24H[?25h[?25l[43;141H~@k[5;24H[43;141H   [5;23H[43;154H3[5;23H[?25h[?25l[43;141H~@k[5;23H[43;141H   [5;22H[43;154H2[5;22H[?25h[?25l[43;141H~@k[5;22H[43;141H   [5;21H[43;154H1[5;21H[?25h[?25l[43;141H~@k[5;21H[43;141H   [5;20H[43;154H0[5;20H[?25h[?25l[43;141H~@k[5;20H[43;141H   [5;19H[43;153H19[5;19H[?25h[?25l[43;141H~@k[5;19H[43;141H   [5;18H[43;154H8[5;18H[?25h[?25l[43;141H~@k[5;18H[43;141H   [5;17H[43;154H7[5;17H[?25h[?25l[43;141H~@k[5;17H[43;141H   [5;16H[43;154H6[5;16H[?25h[?25l[43;141H~@k[5;16H[43;141H   [5;15H[43;154H5[5;15H[?25h[?25l[43;141H~@k[5;15H[43;141H   [5;14H[43;154H4[5;14H[?25h[?25l[43;141H~@k[5;14H[43;141H   [5;13H[43;154H3[5;13H[?25h[?25l[43;141H~@k[5;13H[43;141H   [5;12H[43;154H2[5;12H[?25h[?25l[43;141H~@k[5;12H[43;141H   [5;11H[43;154H1[5;11H[?25h[?25l[43;141H~@k[5;11H[43;141H   [5;10H[43;154H0[5;10H[?25h[?25l[43;141H~@k[5;10H[43;141H   [5;9H[43;153H9 [5;9H[?25h[?25l[43;141H~@k[5;9H[43;141H   [5;8H[43;153H8[5;8H[?25h[?25l[43;141H~@k[5;8H[43;141H   [5;7H[43;153H7[5;7H[?25h[?25l[43;141H~@k[5;7H[43;141H   [5;6H[43;153H6[5;6H[?25h[?25l[43;141H~@k[5;6H[43;141H   [5;5H[43;153H5[5;5H[?25h[?25l[43;141H~@k[5;5H[43;141H   [5;4H[43;153H4[5;4H[?25h[?25l[43;141H~@k[5;4H[43;141H   [5;3H[43;153H3[5;3H[?25h[?25l[43;141H~@k[5;3H[43;141H   [5;2H[43;153H2[5;2H[?25h[?25l[43;141H~@k[5;2H[43;141H   [5;1H[43;153H1[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [4;28H[43;151H4,28[4;28H[?25h[?25l[43;141H~@k[4;28H[43;141H   [4;27H[43;154H7[4;27H[?25h[?25l[43;141H~@k[4;27H[43;141H   [4;26H[43;154H6[4;26H[?25h[?25l[43;141H~@k[4;26H[43;141H   [4;25H[43;154H5[4;25H[?25h[?25l[43;141H~@k[4;25H[43;141H   [4;24H[43;154H4[4;24H[?25h[?25l[43;141H~@k[4;24H[43;141H   [4;23H[43;154H3[4;23H[?25h[?25l[43;141H~@k[4;23H[43;141H   [4;22H[43;154H2[4;22H[?25h[?25l[43;141H~@k[4;22H[43;141H   [4;22H[43;141Hdl[4;22H[43;141H  [4;22H VCSs1[4;28H[K[4;22H[?25h[?25l[43;141H~@k[4;22H[43;141H   [4;22H[43;141Hdl[4;22H[43;141H  [4;22HVCSs1[4;27H[K[4;22H[?25h[?25l[43;141H~@k[4;22H[43;141H   [4;22H[43;141Hdl[4;22H[43;141H  [4;22HCSs1[4;26H[K[4;22H[?25h[?25l[43;141H~@k[4;22H[43;141H   [4;22H[43;141Hdl[4;22H[43;141H  [4;22HSs1[4;25H[K[4;22H[?25h[?25l[43;141H~@k[4;22H[43;141H   [4;22H[43;141Hdl[4;22H[43;141H  [4;22Hs1[4;24H[K[4;22H[?25h[?25l[43;141H~@k[4;22H[43;141H   [4;22H[43;141Hdl[4;22H[43;141H  [4;22H1[4;23H[K[4;22H[?25h[?25l[43;141H~@k[4;22H[43;141H   [4;22H[43;141Hdl[4;22H[43;141H  [4;21H[4;22H[K[43;154H1[4;21H[?25h[?25l[43;141H~@k[4;21H[43;141H   [4;21H[43;141Hdl[4;21H[43;141H  [4;20H[4;21H[K[43;154H0[4;20H[?25h[?25l[43;141H~@k[4;20H[43;141H   [4;20H[43;141Hdl[4;20H[43;141H  [4;19H[4;20H[K[43;153H19[4;19H[?25h[?25l[43;141H~@k[4;19H[43;141H   [4;19H[43;141Hdl[4;19H[43;141H  [4;18H[4;19H[K[43;154H8[4;18H[?25h[?25l[43;141H~@k[4;18H[43;141H   [4;18H[43;141Hdl[4;18H[43;141H  [4;17H[43;154H7[4;17H[?25h[?25l[43;141H~@k[4;17H[43;141H   [4;17H[43;141Hdl[4;17H[43;141H  [4;16H[4;17H[K[43;154H6[4;16H[?25h[?25l[43;141H~@k[4;16H[43;141H   [4;16H[43;141Hdl[4;16H[43;141H  [4;15H[4;16H[K[43;154H5[4;15H[?25h[?25l[43;141H~@k[4;15H[43;141H   [4;15H[43;141Hdl[4;15H[43;141H  [4;14H[4;15H[K[43;154H4[4;14H[?25h[?25l[43;141H~@k[4;14H[43;141H   [4;14H[43;141Hdl[4;14H[43;141H  [4;13H[4;14H[K[43;154H3[4;13H[?25h[?25l[43;141H~@k[4;13H[43;141H   [4;13H[43;141Hdl[4;13H[43;141H  [4;12H[43;154H2[4;12H[?25h[?25l[43;141H~@k[4;12H[43;141H   [4;12H[43;141Hdl[4;12H[43;141H  [4;11H[4;12H[K[43;154H1[4;11H[?25h[?25l[43;141H~@k[4;11H[43;141H   [4;11H[43;141Hdl[4;11H[43;141H  [4;10H[4;11H[K[43;154H0[4;10H[?25h[?25l[43;141H~@k[4;10H[43;141H   [4;10H[43;141Hdl[4;10H[43;141H  [4;9H[4;10H[K[43;153H9 [4;9H[?25h[?25l[43;141H~@k[4;9H[43;141H   [4;9H[43;141Hdl[4;9H[43;141H  [4;8H[4;9H[K[43;153H8[4;8H[?25h[?25l[43;141H~@k[4;8H[43;141H   [4;8H[43;141Hdl[4;8H[43;141H  [4;7H[43;153H7[4;7H[?25h[?25l[43;141H~@k[4;7H[43;141H   [4;7H[43;141Hdl[4;7H[43;141H  [4;6H[4;7H[K[43;153H6[4;6H[?25h[?25l[43;141H~@k[4;6H[43;141H   [4;6H[43;141Hdl[4;6H[43;141H  [4;5H[4;6H[K[43;153H5[4;5H[?25h[?25l[43;141H~@k[4;5H[43;141H   [4;5H[43;141Hdl[4;5H[43;141H  [4;4H[4;5H[K[43;153H4[4;4H[?25h[?25l[43;141H~@k[4;4H[43;141H   [4;4H[43;141Hdl[4;4H[43;141H  [4;3H[4;4H[K[43;153H3[4;3H[?25h[?25l[43;141H~@k[4;3H[43;141H   [4;3H[43;141Hdl[4;3H[43;141H  [4;2H[43;153H2[4;2H[?25h[?25l[43;141H~@k[4;2H[43;141H   [4;2H[43;141Hdl[4;2H[43;141H  [4;1H[4;2H[K[43;153H1[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[4;1H[K[43;153H0-1[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [4;1H[43;141Hdl[4;1H[43;141H  [4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [5;1H[43;151H5,1  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [6;1H[43;151H6[6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [7;1H[43;151H7,0-1[7;1H[?25h[?25l[43;141H~@k[7;1H[43;141H   [8;1H[43;151H8,1  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1HVCSs VCSs[8;10H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1HCSs VCSs[8;9H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1HSs VCSs[8;8H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1Hs VCSs[8;7H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H VCSs[8;6H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1HVCSs[8;5H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1HCSs[8;4H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1HSs[8;3H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1Hs[8;2H[K[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[8;1H[K[43;153H0-1[8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [8;1H[43;141Hdl[8;1H[43;141H  [8;1H[?25h[?25l[43;141H~@k[8;1H[43;141H   [7;1H[43;151H7[7;1H[?25h[?25l[43;141H~@k[7;1H[43;141H   [6;1H[43;151H6,1  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [5;1H[43;151H5[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [4;1H[43;151H4,0-1[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [3;1H[43;151H3[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [2;1H[43;151H2[2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [1;1H[43;151H1[1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [1;1H[43;141Hdl[1;1H[43;141H  [1;1H[?25h[?25l[43;141H~@k[1;1H[43;141H   [2;1H[43;151H2[2;1H[?25h[?25l[43;141H~@k[2;1H[43;141H   [3;1H[43;151H3[3;1H[?25h[?25l[43;141H~@k[3;1H[43;141H   [4;1H[43;151H4[4;1H[?25h[?25l[43;141H~@k[4;1H[43;141H   [5;1H[43;151H5,1  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [6;1H[43;151H6[6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [7;1H[43;151H7,0-1[7;1H[?25h[?25l[43;141H~@k[7;1H[43;141H   [7;1H[43;141Hdl[7;1H[43;141H  [7;1H[?25h[?25l[43;141H~@k[7;1H[43;141H   [6;1H[43;151H6,1  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [5;1H[43;151H5[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Haq[17C1qa1[5;24H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hq[17C1qa1[5;23H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[17C1qa1[5;22H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[16C1qa1[5;21H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[15C1qa1[5;20H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[14C1qa1[5;19H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[13C1qa1[5;18H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[12C1qa1[5;17H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[11C1qa1[5;16H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[10C1qa1[5;15H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[9C1qa1[5;14H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[8C1qa1[5;13H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[7C1qa1[5;12H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hqqqqqq1qa1[5;11H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hqqqqq1qa1[5;10H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hqqqq1qa1[5;9H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hqqq1qa1[5;8H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hqq1qa1[5;7H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hq1qa1[5;6H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H1qa1[5;5H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Hqa1[5;4H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1Ha1[5;3H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H1[5;2H[K[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[5;1H[K[43;153H0-1[5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [5;1H[43;141Hdl[5;1H[43;141H  [5;1H[?25h[?25l[43;141H~@k[5;1H[43;141H   [6;1H[43;151H6,1  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1Hqa![6;4H[K[6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1Ha![6;3H[K[6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H![6;2H[K[6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[6;1H[K[43;153H0-1[6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141H~@k[6;1H[43;141H   [6;1H[43;141Hdl[6;1H[43;141H  [6;1H[?25h[?25l[43;141Ha[6;1H[43;141H [6;1H[43;1H[1m--c INSERT --[m [1mrecording @q[m[43;151H[K[43;151H6,1[11CAll[6;1H[?25h[?25lq[43;153H2[6;2H[?25h[?25lq[43;153H3[6;3H[?25h[?25la[43;153H4[6;4H[?25h[?25la[43;153H5[6;5H[?25h[?25la[43;153H6[6;6H[?25h[?25la[43;153H7[6;7H[?25h[?25la[43;153H8[6;8H[?25h[?25la[43;153H9[6;9H[?25h[?25lq[43;153H10[6;10H[?25h[?25lq[43;154H1[6;11H[?25h[?25lq[43;154H2[6;12H[?25h[?25lq[43;154H3[6;13H[?25h[?25lq[43;154H4[6;14H[?25h[?25lq[43;154H5[6;15H[?25h[?25lq[43;154H6[6;16H[?25h[?25lq[43;154H7[6;17H[?25h[?25lq[43;154H8[6;18H[?25h[?25lq[43;154H9[6;19H[?25h[?25lq[43;153H20[6;20H[?25h[?25l2[43;154H1[6;21H[?25h[?25l2[43;154H2[6;22H[?25h[?25l2[43;154H3[6;23H[?25h[?25l2[43;154H4[6;24H[?25h[?25l2[43;154H5[6;25H[?25h[?25l2[43;154H6[6;26H[?25h[?25lq[43;154H7[6;27H[?25h[?25l@[43;154H8[6;28H[?25h[?25l@[43;154H9[6;29H[?25h[?25l@[43;153H30[6;30H[?25h[?25l@[43;154H1[6;31H[?25h[?25l@[43;154H2[6;32H[?25h[?25l@[43;154H3[6;33H[?25h[?25l@[43;154H4[6;34H[?25h[?25l@[43;154H5[6;35H[?25h[?25l@[43;154H6[6;36H[?25h[?25l@[43;154H7[6;37H[?25h[?25l@[43;154H8[6;38H[?25h[?25l@[43;154H9[6;39H[?25h[?25l@[43;153H40[6;40H[?25h[?25l@[43;154H1[6;41H[?25h[?25l@[43;154H2[6;42H[?25h[?25l@[43;154H3[6;43H[?25h[?25l@[43;154H4[6;44H[?25h[?25l@[43;154H5[6;45H[?25h[?25l@[43;154H6[6;46H[?25h[?25l@[43;154H7[6;47H[?25h[?25l@[43;154H8[6;48H[?25h[?25l@[43;154H9[6;49H[?25h[?25l@[43;153H50[6;50H[?25h[?25l@[43;154H1[6;51H[?25h[?25l@[43;154H2[6;52H[?25h[?25lA[43;154H3[6;53H[?25h[?25lQ[43;154H4[6;54H[?25h[?25l[6;42r[42;1H
+[1;43r[6;1Hqqaaaaaaqqqqqqqqqqq222222q@@@@@@@@@@@@@@@@@@@@@@@@@AQ[42;1H[94m~                                                                                                                                                                       [m[43;151H[K[43;151H6,54[10CAll[6;54H[?25h[?25l
+[94m~                                                                                                                                                                       [6;54H[?25h[?25l[m[43;154H3[6;53H[?25h[?25l[43;154H2[6;52H[?25h[?25l[43;154H1[6;51H[?25h[?25l[43;154H0[6;50H[?25h[?25l[43;153H49[6;49H[?25h[?25l[43;154H8[6;48H[?25h[?25l[43;154H7[6;47H[?25h[?25l[43;154H6[6;46H[?25h[?25l[43;154H5[6;45H[?25h[?25l[43;154H4[6;44H[?25h[?25l[43;154H3[6;43H[?25h[?25l[43;154H2[6;42H[?25h[?25l[43;154H1[6;41H[?25h[?25l[43;154H0[6;40H[?25h[?25l[11CAQ[6;53H[K[6;40H[?25h[?25l[10CAQ[6;52H[K[6;40H[?25h[?25l[9CAQ[6;51H[K[6;40H[?25h[?25l[8CAQ[6;50H[K[6;40H[?25h[?25l[7CAQ[6;49H[K[6;40H[?25h[?25l@@@@@@AQ[6;48H[K[6;40H[?25h[?25l@@@@@AQ[6;47H[K[6;40H[?25h[?25l@@@@AQ[6;46H[K[6;40H[?25h[?25l@@@AQ[6;45H[K[6;40H[?25h[?25l@@AQ[6;44H[K[6;40H[?25h[?25l@AQ[6;43H[K[6;40H[?25h[?25lAQ[6;42H[K[6;40H[?25h[?25lQ[6;41H[K[6;40H[?25h[?25l[6;40H[K[6;40H[?25h[?25l[43;153H39[6;39H[?25h[?25l[43;154H8[6;38H[?25h[?25l[43;154H7[6;37H[?25h[?25l[43;154H6[6;36H[?25h[?25l[43;154H5[6;35H[?25h[?25l[43;154H4[6;34H[?25h[?25l[43;154H3[6;33H[?25h[?25l[43;154H2[6;32H[?25h[?25l[43;154H1[6;31H[?25h[?25l[43;154H0[6;30H[?25h[?25l[43;153H29[6;29H[?25h[?25l[43;154H8[6;28H[?25h[?25l[43;154H7[6;27H[?25h[?25l[43;154H6[6;26H[?25h[?25l[43;154H5[6;25H[?25h[?25l[43;154H4[6;24H[?25h[?25l[43;154H3[6;23H[?25h[?25l[43;154H2[6;22H[?25h[?25l[43;154H1[6;21H[?25h[?25l[43;154H0[6;20H[?25h[?25l[43;153H19[6;19H[?25h[?25l[43;154H8[6;18H[?25h[?25l[43;154H7[6;17H[?25h[?25l[43;154H6[6;16H[?25h[?25l[43;154H5[6;15H[?25h[?25l[43;154H4[6;14H[?25h[?25l[43;154H3[6;13H[?25h[?25Script started on 2022-07-20 13:28:18+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="43"]
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+README  contribute.txt  draft.txt  error.log  [0m[01;34mmy_project[0m  my_unix_session  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .bash_history[m
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.viminfo[m
+	[31mthesis/.answer.txt.swp[m
+	[31mthesis/answer.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ nano .git [K[K[K[K[K[K[K[K[K[Kcd thesis
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.answer.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ rm .ansewe[K[K[Ke[Kwer.txt.swp
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch testing
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git info
+git: 'info' is not a git command. See 'git --help'.
+
+The most similar commands are
+	init
+	mailinfo
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log
+[?1h=[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m, [m[1;32mmaster[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nao[Kno answer.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        answer.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mThis is the answer file for the test perpose.[?12l[?25h[?25lT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25l[41d[K[2;27H[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25l[3d[?12l[?25h[?25l[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[3dl[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25l[4d[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l![?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: answer.txt(B[m[41;31H[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 3 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch testing
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   answer.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git add ansew[K[Kwer.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch testing
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   answer.txt[m
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git commit -n [Km[K[Km 'mot[Kdified the answer file'
+[testing b2eb7cf] modified the answer file
+ 1 file changed, 2 insertions(+)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch testing
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git nano answer
+git: 'nano' is not a git command. See 'git --help'.
+
+The most similar commands are
+	annotate
+	daemon
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nao[Kno answer.tz[Kxr[Kt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 3 lines ](B[m[H(B[0;7m  GNU nano 4.8                        answer.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mThis is the answer file for the test perpose.[3dlearning git from start .[4dgit init![2d[?12l[?25h[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout master
+Switched to branch 'master'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano answerlt[K[K.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        answer.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mThis is the answer file for the test perpose.[?12l[?25h[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checjk[K[Kkout testing
+Switched to branch 'testing'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git he[K[Kcheckout masrte[K[K[Kter
+Switched to branch 'master'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout testing
+Switched to branch 'testing'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log
+[?1h=[33mcommit b2eb7cfbc32246ba5d5370d260e8ac71a64c5a54[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:31:32 2022 +0530[m
+[m
+    modified the answer file[m
+[m
+[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[33m ([m[1;32mmaster[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ got [K[K[Kit log testing
+[?1h=[33mcommit b2eb7cfbc32246ba5d5370d260e8ac71a64c5a54[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:31:32 2022 +0530[m
+[m
+    modified the answer file[m
+[m
+[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[33m ([m[1;32mmaster[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ che[K[K[Kgit checkout mastrer[K[K[Ker
+Switched to branch 'master'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano t[Kansewer[K[K[K[Ker.[K[K[K[K[K[Kanser[K[K[Kswer.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        answer.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mThis is the answer file for the test perpose.[?12l[?25h[?25lT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25l[41d[K[2;27H[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[3d[?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: answer.txt(B[m[41;31H[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 2 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git ass[K[Kdd answer.tst[K[Kxt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git comm[K[Kmmit -m 'edited answer file in master f[Kbranck[Kh"[K;[K'
+[master 4d72ec8] edited answer file in master branch
+ 1 file changed, 1 insertion(+)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ i[Kgut [K[K[Kit log
+[?1h=[33mcommit 4d72ec8787ac89994e8e0e1da594c56554e9d351[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:37:21 2022 +0530[m
+[m
+    edited answer file in master branch[m
+[m
+[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log testing
+[?1h=[33mcommit b2eb7cfbc32246ba5d5370d260e8ac71a64c5a54[m[33m ([m[1;32mtesting[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:31:32 2022 +0530[m
+[m
+    modified the answer file[m
+[m
+[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log
+[?1h=[33mcommit 4d72ec8787ac89994e8e0e1da594c56554e9d351[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:37:21 2022 +0530[m
+[m
+    edited answer file in master branch[m
+[m
+[33mcommit 03b6881316804a324c1f7c1b772a98b3a386e986[m[m
+Author: Pranav Narayan <pranav.narayan@tigeranalytics.com>[m
+Date:   Wed Jul 20 13:00:46 2022 +0530[m
+[m
+    Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log -online -decorate
+error: did you mean `--decorate` (with two dashes)?
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log --l[Konline -- decotate[K[K[K[Krate
+fatal: unrecognized argument: --online
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log --oneline --decorate
+[?1h=[33m4d72ec8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m edited answer file in master branch[m
+[33m03b6881[m Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout testing
+Switched to branch 'testing'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout testing[10Pstatuslog --oneline --decorateline -- decorate[3Ponline -decorate[K -online -decorate-online -- decorateeline --decorate
+[?1h=[33mb2eb7cf[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m modified the answer file[m
+[33m03b6881[m Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log --oneline --decorate --graph -aa[Kll
+error: switch `l' expects a numerical value
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log --oneline --decorate --graph -all[K[K[K[K--all
+[?1h=* [33m4d72ec8[m[33m ([m[1;32mmaster[m[33m)[m edited answer file in master branch[m
+[31m|[m * [33mb2eb7cf[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m modified the answer file[m
+[31m|[m[31m/[m  [m
+* [33m03b6881[m Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git cec[K[Kheckout mer[K[Kaster
+Switched to branch 'master'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git merge testing [K
+Auto-merging answer.txt
+CONFLICT (content): Merge conflict in answer.txt
+Automatic merge failed; fix conflicts and then commit the result.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   answer.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano answer.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;34H(B[0;7m[ Read 7 lines ](B[m[H(B[0;7m  GNU nano 4.8                        answer.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mThis is the answer file for the test perpose.[3d<<<<<<< HEAD[4dwe should start working in our project.[5d=======[6dlearning git from start .[7dgit init![8d>>>>>>> testing[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dfThis is the answer file for the test perpose.f[?12l[?25h[?25lffThis is the answer file for the test perpose.ff[?12l[?25h[?25lfffThis is the answer file for the test perpose.fff[?12l[?25h[?25l[1Pff[?12l[?25h[?25l[1Pf[?12l[?25h[?25l[1P[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25lw[?12l[?25h[?25l[A[?12l[?25h[?25l[1P[?12l[?25h[?25l[3;40r[40;1H
+[1;43r[2;46H<<<<<< HEAD[2;46H[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l[41d[K[2;51H[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25lE[?12l[?25h[?25lA[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[?12l[?25h[?25l[3;41r[41;1H
+[1;43r[2;46Hwe should start working in our projec(B[0;7m>[2;46H(B[m[?12l[?25h[?25lwe should start working in our project.[2;45H[?12l[?25h[?25l[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l
+
+Use "fg" to return to nano.
+
+[1]+  Stopped                 nano answer.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano answer.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41d(B[0;7mFile answer.txt is being edited by pranav (with nano 4.8, PID 914); open anyway?   [42;1H Y(B[m Yes[43d(B[0;7m N(B[m No[43;17H(B[0;7m^C(B[m Cancel[41;81H[?12l[?25h[?25l[41;34H[1K (B[0;7m[ Reading... ](B[m[K[41;34H(B[0;7m[ Read 7 lines ](B[m[H(B[0;7m  GNU nano 4.8                        answer.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[mThis is the answer file for the test perpose.[3d<<<<<<< HEAD[4dwe should start working in our project.[5d=======[6dlearning git from start .[7dgit init![8d>>>>>>> testing[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25lE[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[3;10HAD[K[?12l[?25h[?25lAD[K[?12l[?25h[?25lA[?12l[?25h[?25lD[K[?12l[?25h[?25lD[K[?12l[?25h[?25lD[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[3;41r[41;1H
+[1;43r[40;1H[K[2;46H[?12l[?25h[?25l[3;40H[?12l[?25h[?25l[4;8H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[4;41r[41;1H
+[1;43r[3;40H[?12l[?25h[?25l[4;26H[?12l[?25h[?25l[5;10H[?12l[?25h[?25l[6;16H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[5;10H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: answer.txt(B[m[41;31H[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 4 lines ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   answer.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
+Merging:
+answer.txt
+
+Normal merge conflict for 'answer.txt':
+  {local}: modified file
+  {remote}: modified file
+Hit return to start merge resolution tool (bc): d
+The merge tool bc is not available as 'bcompare'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git as[Kdd answer.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	[32mmodified:   answer.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31manswer_BACKUP_918.txt[m
+	[31manswer_BASE_918.txt[m
+	[31manswer_LOCAL_918.txt[m
+	[31manswer_REMOTE_918.txt[m
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ co[K[Kgit commint -m "[K'd[Ke[Kme[K[Kediting answer in merge file'
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git commint -m 'editing answer in merge file'[1P
+[master 4f82b5f] editing answer in merge file
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31manswer_BACKUP_918.txt[m
+	[31manswer_BASE_918.txt[m
+	[31manswer_LOCAL_918.txt[m
+	[31manswer_REMOTE_918.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git [K checkout testing
+Switched to branch 'testing'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31manswer_BACKUP_918.txt[m
+	[31manswer_BASE_918.txt[m
+	[31manswer_LOCAL_918.txt[m
+	[31manswer_REMOTE_918.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git ce[Kheckout main[K[K[K[Kmaster
+Switched to branch 'master'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ merger[K testing
+
+Command 'merge' not found, but can be installed with:
+
+sudo apt install rcs
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git merge ti[Kesting
+Already up to date.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31manswer_BACKUP_918.txt[m
+	[31manswer_BASE_918.txt[m
+	[31manswer_LOCAL_918.txt[m
+	[31manswer_REMOTE_918.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git se[K[Ka[Kbranck[Kh -d testing
+Deleted branch testing (was b2eb7cf).
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31manswer_BACKUP_918.txt[m
+	[31manswer_BASE_918.txt[m
+	[31manswer_LOCAL_918.txt[m
+	[31manswer_REMOTE_918.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git ass[K[Kd [Kd -a-[K[K-all
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git connin[K[K[K[K[K[Kcommit -,[Km 'master and testting[K[K[K[Kting branck [K[Kh are se[Kuccessfu lli[Ky merged'
+[master 928a6ea] master and testting branch are successfully merged
+ 4 files changed, 10 insertions(+)
+ create mode 100644 answer_BACKUP_918.txt
+ create mode 100644 answer_BASE_918.txt
+ create mode 100644 answer_LOCAL_918.txt
+ create mode 100644 answer_REMOTE_918.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ got s[K[K[K[Kit stau[K[K[Ka[Ktau[K[K[K[Kstatus
+On branch master
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git bt[Kranch
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branck[Kh test[K[Kst1
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ got branch
+
+Command 'got' not found, but there are 17 similar ones.
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ gi [K[Kit branch
+[?1h=* [32mmaster[m[m
+  test1[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano an[K[Kmanser[K[K[K[K[K[Kansw[K0.tr[Kxt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                         ans0.txt                                    [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lz[?12l[?25h[?25lw[?12l[?25h[?25l [41d[K[2;17H[?12l[?25h[?25le[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: ans0.txt(B[m[41;29H[?12l[?25h[?25l[34G[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ no[K[Kgit branch
+[?1h=* [32mmaster[m[m
+  test1[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git stau[K[K[K[Kstatus
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mans0.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ add ans0.txt
+
+Command 'add' not found, did you mean:
+
+  command 'dad' from deb debian-dad (1)
+  command 'adb' from deb adb (1:8.1.0+r23-5ubuntu2)
+  command 'ad' from deb netatalk (3.1.12~ds-4)
+  command 'axd' from deb afnix (2.9.2-2build1)
+  command 'amd' from deb am-utils (6.2+rc20110530-3.2ubuntu2)
+  command 'tdd' from deb devtodo (0.1.20-7build1)
+  command 'ddd' from deb ddd (1:3.3.12-5.2build1)
+  command 'atd' from deb at (3.1.23-1ubuntu1)
+  command 'pdd' from deb pdd (1.4-2)
+  command 'ldd' from deb libc-bin (2.31-0ubuntu9)
+  command 'dd' from deb coreutils (8.30-3ubuntu2)
+  command 'aid' from deb id-utils (4.6+git20120811-4ubuntu2)
+
+Try: sudo apt install <deb name>
+
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git add ans0.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git commint[K[Kt -m "ans0 is as[Kdded"
+[master 96c8556] ans0 is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ans0.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branck[Kh
+[?1h=* [32mmaster[m[m
+  test1[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git n[Kbranch test2
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branck[Kj[Kh
+[?1h=* [32mmaster[m[m
+  test1[m[m
+  test2[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout test1
+Switched to branch 'test1'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ nano test1.[K[K[K[K[K[Kans1.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                         ans1.txt                                    [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[41d[K[2;27H[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l1[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lk[?12l[?25h[?25l [?12l[?25h[?25lh[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: ans1.txt(B[m[41;29H[?12l[?25h[?25l[34G[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch test1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mans1.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ ghit [K[K[K[Kit add ans1.tct[K[Kxt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git commint[K[Kt ad[K[K-m "t[Kans1 is ad[Kdded"
+[test1 cf4ca7e] ans1 is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ans1.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git bta[K[Krancjh[K[Kh
+[?1h=  master[m[m
+* [32mtest1[m[m
+  test2[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git test[K[K[K[Kcheckout test2
+Switched to branch 'test2'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ get [K[K[Ku[Kit status
+On branch test2
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ noa[K[Kano s[Kans2.txt
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                         ans2.txt                                    [1;82H(B[m[42d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[41d[2d[39;49m(B[m[?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[2dt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[41d[K[2;23H[?12l[?25h[?25le[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?                                                              [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;23H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[43;61H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: ans2.txt(B[m[41;29H[?12l[?25h[?25l[34G[1K (B[0;7m[ Writing... ](B[m[K[1;74H(B[0;7m        (B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git add ans2.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git commit -m "n[Kans2 file is added
+> "
+[test2 e67cad8] ans2 file is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ans2.txt
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log --oneline --decorate --graph -aa[Kll
+error: switch `l' expects a numerical value
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git log --oneline --decorate --graph -all[K[K[K-all
+[?1h=* [33me67cad8[m[33m ([m[1;36mHEAD -> [m[1;32mtest2[m[33m)[m ans2 file is added[m
+* [33m96c8556[m[33m ([m[1;32mmaster[m[33m)[m ans0 is added[m
+[31m|[m * [33mcf4ca7e[m[33m ([m[1;32mtest1[m[33m)[m ans1 is added[m
+[31m|[m[31m/[m  [m
+* [33m928a6ea[m master and testting branch are successfully merged[m
+*   [33m4f82b5f[m editing answer in merge file[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33mb2eb7cf[m modified the answer file[m
+* [34m|[m [33m4d72ec8[m edited answer file in master branch[m
+[34m|[m[34m/[m  [m
+* [33m03b6881[m Initial commit[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branck[K[K[K[K[K[Kcheck ou[K[K[Kout master
+Switched to branch 'master'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git bar[K[Kranch
+[?1h=* [32mmaster[m[m
+  test1[m[m
+  test2[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch -v
+[?1h=* [32mmaster[m 96c8556 ans0 is added[m
+  test1 [m cf4ca7e ans1 is added[m
+  test2 [m e67cad8 ans2 file is added[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch --n[Kmerged
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch --n0[Ko-merged
+[?1h=  test1[m[m
+  test2[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch -d testing
+error: branch 'testing' not found.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch - test1
+fatal: '-' is not a valid branch name.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch -d test1
+error: The branch 'test1' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D test1'.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch --no [K-n[K[K[K[K[K[Ktest1
+fatal: A branch named 'test1' already exists.
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout testing'[K
+error: pathspec 'testing' did not match any file(s) known to git
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git checkout testing\\\[K[K[K[K[K[K1
+Switched to branch 'test1'
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch --no-merged master
+[?1h=* [32mtest1[m[m
+  test2[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch --move test1 testing [K1
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch
+[?1h=  master[m[m
+  test2[m[m
+* [32mtesting1[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git push test2[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch --all
+[?1h=  master[m[m
+  test2[m[m
+* [32mtesting1[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             got dd[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git branch --v
+[?1h=  master  [m 96c8556 ans0 is added[m
+  test2   [m e67cad8 ans2 file is added[m
+* [32mtesting1[m cf4ca7e ans1 is added[m
+[K[?1l>]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ git e[K[K[K[K[Kex[K[Kgit status
+On branch testing1
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/thesis[01;32mpranav@TIGER03427[00m:[01;34m~/thesis[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .bash_history[m
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.viminfo[m
+	[31mthesis/ans1.txt[m
+	[31mthesis/answer.txt[m
+	[31mthesis/answer_BACKUP_918.txt[m
+	[31mthesis/answer_BASE_918.txt[m
+	[31mthesis/answer_LOCAL_918.txt[m
+	[31mthesis/answer_REMOTE_918.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add -add
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and app
