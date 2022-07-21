@@ -4520,4 +4520,917 @@ usage: git add [<options>] [--] <pathspec>...
 
     -i, --interactive     interactive picking
     -p, --patch           select hunks interactively
-    -e, --edit            edit current diff and app
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .bash_history[m
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.viminfo[m
+	[31mthesis/ans1.txt[m
+	[31mthesis/answer.txt[m
+	[31mthesis/answer_BACKUP_918.txt[m
+	[31mthesis/answer_BASE_918.txt[m
+	[31mthesis/answer_LOCAL_918.txt[m
+	[31mthesis/answer_REMOTE_918.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git add --all
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   .bash_history[m
+	[32mnew file:   .viminfo[m
+	[32mmodified:   my_unix_session[m
+	[32mnew file:   thesis/ans1.txt[m
+	[32mnew file:   thesis/answer.txt[m
+	[32mnew file:   thesis/answer_BACKUP_918.txt[m
+	[32mnew file:   thesis/answer_BASE_918.txt[m
+	[32mnew file:   thesis/answer_LOCAL_918.txt[m
+	[32mnew file:   thesis/answer_REMOTE_918.txt[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git commint -,[Km "tha[K[K[Kchapter 3 con[K[K[Kdone!'[K"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   .bash_history[m
+	[32mnew file:   .viminfo[m
+	[32mmodified:   my_unix_session[m
+	[32mnew file:   thesis/ans1.txt[m
+	[32mnew file:   thesis/answer.txt[m
+	[32mnew file:   thesis/answer_BACKUP_918.txt[m
+	[32mnew file:   thesis/answer_BASE_918.txt[m
+	[32mnew file:   thesis/answer_LOCAL_918.txt[m
+	[32mnew file:   thesis/answer_REMOTE_918.txt[m
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git statuscommint -m "chapter 3 done!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K[Kgit statuscommint -m "chapter 3 done!"[C[1P
+[master f81f184] chapter 3 done!
+ 9 files changed, 1021 insertions(+), 1 deletion(-)
+ create mode 100644 .viminfo
+ create mode 100644 thesis/ans1.txt
+ create mode 100644 thesis/answer.txt
+ create mode 100644 thesis/answer_BACKUP_918.txt
+ create mode 100644 thesis/answer_BASE_918.txt
+ create mode 100644 thesis/answer_LOCAL_918.txt
+ create mode 100644 thesis/answer_REMOTE_918.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ non[K[Kane[K[K[K[Kscrri[K[Kipt -a ~/my_unix_session
+Script started, file is /home/pranav/my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ssh-keyden[K[K[Kgen -t ed25519 -C "pranav.narayan@tigeranalytics.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/pranav/.ssh/id_ed25519): 
+Created directory '/home/pranav/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/pranav/.ssh/id_ed25519
+Your public key has been saved in /home/pranav/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:8bEVFXNJs18a6QEhwBoU0bpsQrgQgcTjERDgmAe3fXo pranav.narayan@tigeranalytics.com
+The key's randomart image is:
++--[ED25519 256]--+
+|%=o  .+=... +o=+o|
+|=B o  . o  . o =o|
+|+o=.. .+. . . +..|
+|.o. .oo  o + . +o|
+| . o..E.S o   o .|
+|  . ..+          |
+|     o           |
+|                 |
+|                 |
++----[SHA256]-----+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ hit[K[K[Kgit status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.ssh/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git clone https;[K://github.com/pranavnarayan3898
+Cloning into 'pranavnarayan3898'...
+remote: Not Found
+fatal: repository 'https://github.com/pranavnarayan3898/' not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git clone https://github.com/pranavnarayan3898/blink
+Cloning into 'blink'...
+remote: Enumerating objects: 9, done.[K
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 9[K
+Unpacking objects:  11% (1/9)Unpacking objects:  22% (2/9)Unpacking objects:  33% (3/9)Unpacking objects:  44% (4/9)Unpacking objects:  55% (5/9)Unpacking objects:  66% (6/9)Unpacking objects:  77% (7/9)Unpacking objects:  88% (8/9)Unpacking objects: 100% (9/9)Unpacking objects: 100% (9/9), 1.14 KiB | 233.00 KiB/s, done.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+README  contribute.txt  error.log   my_unix_session
+[0m[01;34mblink[0m   draft.txt       [01;34mmy_project[0m  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ ls
+README.md  blink.ino
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git branch'[K
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git che[K[K[Kbranch slow-[K_blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git branch
+[?1h=* [32mmaster[m[m
+  slow_blink[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git checkout slow_blink
+Switched to branch 'slow_blink'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git checkout slow_blinkbranch[K
+[?1h=  master[m[m
+* [32mslow_blink[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ ls
+README.md  blink.ino
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ sed -i 's/1000/3000/' blink.ino
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git fi==[K[K[K[Kdiff --word-Script started on 2022-07-20 22:27:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="83" LINES="43"]
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ssh-keyden[K[K[Kgen -t ed25519 -C "pranav.narayan@tigeranalytics.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/pranav/.ssh/id_ed25519): 
+Created directory '/home/pranav/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/pranav/.ssh/id_ed25519
+Your public key has been saved in /home/pranav/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:8bEVFXNJs18a6QEhwBoU0bpsQrgQgcTjERDgmAe3fXo pranav.narayan@tigeranalytics.com
+The key's randomart image is:
++--[ED25519 256]--+
+|%=o  .+=... +o=+o|
+|=B o  . o  . o =o|
+|+o=.. .+. . . +..|
+|.o. .oo  o + . +o|
+| . o..E.S o   o .|
+|  . ..+          |
+|     o           |
+|                 |
+|                 |
++----[SHA256]-----+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ hit[K[K[Kgit status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   my_unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.ssh/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git clone https;[K://github.com/pranavnarayan3898
+Cloning into 'pranavnarayan3898'...
+remote: Not Found
+fatal: repository 'https://github.com/pranavnarayan3898/' not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git clone https://github.com/pranavnarayan3898/blink
+Cloning into 'blink'...
+remote: Enumerating objects: 9, done.[K
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 9[K
+Unpacking objects:  11% (1/9)Unpacking objects:  22% (2/9)Unpacking objects:  33% (3/9)Unpacking objects:  44% (4/9)Unpacking objects:  55% (5/9)Unpacking objects:  66% (6/9)Unpacking objects:  77% (7/9)Unpacking objects:  88% (8/9)Unpacking objects: 100% (9/9)Unpacking objects: 100% (9/9), 1.14 KiB | 233.00 KiB/s, done.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ls
+README  contribute.txt  error.log   my_unix_session
+[0m[01;34mblink[0m   draft.txt       [01;34mmy_project[0m  [01;34mthesis[0m
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ ls
+README.md  blink.ino
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git branch'[K
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git che[K[K[Kbranch slow-[K_blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git branch
+[?1h=* [32mmaster[m[m
+  slow_blink[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git checkout slow_blink
+Switched to branch 'slow_blink'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git checkout slow_blinkbranch[K
+[?1h=  master[m[m
+* [32mslow_blink[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ ls
+README.md  blink.ino
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ sed -i 's/1000/3000/' blink.ino
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git fi==[K[K[K[Kdiff --word-diff
+[?1h=[1mdiff --git a/blink.ino b/blink.ino[m[m
+[1mindex 54d7e42..b83fcfe 100644[m[m
+[1m--- a/blink.ino[m[m
+[1m+++ b/blink.ino[m[m
+[36m@@ -18,7 +18,7 @@[m [mvoid setup() {[m[m
+// the loop routine runs over and over again forever:[m[m
+void loop() {[m[m
+  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)[m[m
+  [31m[-delay(1000);-][m[32m{+delay(3000);+}[m               // wait for a second[m
+  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW[m[m
+  delay(2000);               // wait for a second[m[m
+}[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git status
+On branch slow_blink
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   blink.ino[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ di[K[Kgit cok[Kmmit - [Ka -m 'change delay time to 3 S[K[KSwx[K[Kec'
+[slow_blink f41152e] change delay time to 3Sec
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git push origin slow_blink
+Username for 'https://github.com': pranav Narayan
+Password for 'https://pranav Narayan@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git push origin slow_blinkcommit -a -m 'change delay time to 3Sec'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kcommit -a -m 'change delay time to 3Sec'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Ppush origin slow_blink
+Username for 'https://github.com': ^[[A^[[A^[[B^[[B^[[B^[[B                        pranav narayan
+Password for 'https://pranav narayan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git ci[Konfig --global user.name Pra[K[K[Kpranavnarayan3898
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.el[Kmail pranav.narayan@tigeranalu[Kytics.c om
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.email pranav.narayan@tigeranalytics.com[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pname pranavnarayan3898
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"' pranavnarayan3898"[1P pranavnarayan3898"[C pranavnarayan3898"" pranavnarayan3898"[1Ppranavnarayan3898"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.name "pranavnarayan3898"email pranav.narayan@tigeranalytics.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[diff
+[?1h=[1mdiff --git a/blink.ino b/blink.ino[m[m
+[1mindex 54d7e42..b83fcfe 100644[m[m
+[1m--- a/blink.ino[m[m
+[1m+++ b/blink.ino[m[m
+[36m@@ -18,7 +18,7 @@[m [mvoid setup() {[m[m
+// the loop routine runs over and over again forever:[m[m
+void loop() {[m[m
+  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)[m[m
+  [31m[-delay(1000);-][m[32m{+delay(3000);+}[m               // wait for a second[m
+  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW[m[m
+  delay(2000);               // wait for a second[m[m
+}[m[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git status
+On branch slow_blink
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   blink.ino[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ di[K[Kgit cok[Kmmit - [Ka -m 'change delay time to 3 S[K[KSwx[K[Kec'
+[slow_blink f41152e] change delay time to 3Sec
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git push origin slow_blink
+Username for 'https://github.com': pranav Narayan
+Password for 'https://pranav Narayan@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git push origin slow_blinkcommit -a -m 'change delay time to 3Sec'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kcommit -a -m 'change delay time to 3Sec'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Ppush origin slow_blink
+Username for 'https://github.com': ^[[A^[[A^[[B^[[B^[[B^[[B                        pranav narayan
+Password for 'https://pranav narayan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git ci[Konfig --global user.name Pra[K[K[Kpranavnarayan3898
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.el[Kmail pranav.narayan@tigeranalu[Kytics.c om
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.email pranav.narayan@tigeranalytics.com[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pname pranavnarayan3898
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"' pranavnarayan3898"[1P pranavnarayan3898"[C pranavnarayan3898"" pranavnarayan3898"[1Ppranavnarayan3898"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.name "pranavnarayan3898"email pranav.narayan@tigeranalytics.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.email "pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pname "pranavnarayan3898"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kl
+[?1h=user.name=pranavnarayan3898[m
+user.email=pranav.narayan@tigeranalytics.com[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config -l-global user.email "pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pname "pranavnarayan3898"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail pranav.narayan@tigeranalytics.com[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pname pranavnarayan3898
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit push origin slow_blinkcommit -a -m 'change delay time to 3Sec'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kdiff --word-diffsed -i 's/1000/3000/' blink.ino[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[K[Kcd blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd blinkgit config -l
+[?1h=user.name=pranavnarayan3898[m
+user.email=pranav.narayan@tigeranalytics.com[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+remote.origin.url=https://github.com/pranavnarayan3898/blink[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+branch.master.remote=origin[m
+branch.master.merge=refs/heads/master[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git config -l[5Pcd blinkgit config -l-global user.email "pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pname "pranavnarayan3898"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail pranav.narayan@tigeranalytics.com[A]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pname pranavnarayan3898
+[K[A[C[C[C[C[C[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config --global user.email "pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pname "pranavnarayan3898"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kl
+[?1h=user.name=pranavnarayan3898[m
+user.email=pranav.narayan@tigeranalytics.com[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+[K[?1l>]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ git config -l-global user.email "pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pname "pranavnarayan3898"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail pranav.narayan@tigeranalytics.com[A]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pname pranavnarayan3898
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit push origin slow_blinkcommit -a -m 'change delay time to 3Sec'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kdiff --word-diffsed -i 's/1000/3000/' blink.ino[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[K[Kcd blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd blinkgit config -l
+[?1h=user.name=pranavnarayan3898[m
+user.email=pranav.narayan@tigeranalytics.com[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+remote.origin.url=https://github.com/pranavnarayan3898/blink[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+branch.master.remote=origin[m
+branch.master.merge=refs/heads/master[m
+[K[?1l>]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git config -l[5Pcd blinkgit config -l-global user.email "pranav.narayan@tigeranalytics.com"[A]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pname "pranavnarayan3898"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail pranav.narayan@tigeranalytics.com[A]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pname pranavnarayan3898
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit push origin slow_blink
+Username for 'https://github.com': pranavnarayan3898
+Password for 'https://pranavnarayan3898@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git push origin slow_blink
+Username for 'https://github.com': ^[[A^[[A        P pranavnarahyan    yan3898
+Password for 'https://pranavnarayan3898@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ ee[K[Klls^V^V5~5~5~5~5~5~5~^V^X5~5~5~6~6~6~6~^[[2;6~6~6~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudi\[K[Ko apt-get install xclip
+[sudo] password for pranav: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package xclip is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'xclip' has no installation candidate
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^V^V^V^V^C^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^V^C^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^V^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^SS^V^Vunable to paste text on linux terminal from windows[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KCL[K[Kclear
+[H[2J[3J]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ clearsudo apt-get install xclip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit push origin slow_blink
+error: src refspec slow_blink does not match any
+[31merror: failed to push some refs to 'origin'
+[m]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cs[Kd bli[K[K[Kblink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd blinkgit push origin slow_blink
+Username for 'https://github.com': pranavnarayan3898
+Password for 'https://pranavnarayan3898@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit push origin slow_blink
+Username for 'https://github.com': pranavnarayan3898
+Password for 'https://pranavnarayan3898@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ git push origin slow_blink
+Username for 'https://github.com': ^[[A^[[A        P pranavnarahyan    yan3898
+Password for 'https://pranavnarayan3898@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pranavnarayan3898/blink/'
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ ee[K[Klls^V^V5~5~5~5~5~5~5~^V^X5~5~5~6~6~6~6~^[[2;6~6~6~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ sudi\[K[Ko apt-get install xclip
+[sudo] password for pranav: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package xclip is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'xclip' has no installation candidate
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^V^V^V^V^C^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^V^C^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^V^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ ^SS^V^Vunable to paste text on linux terminal from windows[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KCL[K[Kclear
+[H[2J[3J]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ clearsudo apt-get install xclip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit push origin slow_blink
+error: src refspec slow_blink does not match any
+[31merror: failed to push some refs to 'origin'
+[m]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cs[Kd bli[K[K[Kblink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd blinkgit push origin slow_blink
+Username for 'https://github.com': pranavnarayan3898
+Password for 'https://pranavnarayan3898@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'slow_blink' on GitHub by visiting:[K
+remote:      https://github.com/pranavnarayan3898/blink/pull/new/slow_blink[K
+remote: 
+To https://github.com/pranavnarayan3898/blink
+ * [new branch]      slow_blink -> slow_blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ b[Kexit[Kst
+exist: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ exist[K[Kyt[K[Kt
+exit
+
+Script done on 2022-07-21 01:02:32+05:30 [COMMAND_EXIT_CODE="127"]
+), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'slow_blink' on GitHub by visiting:[K
+remote:      https://github.com/pranavnarayan3898/blink/pull/new/slow_blink[K
+remote: 
+To https://github.com/pranavnarayan3898/blink
+ * [new branch]      slow_blink -> slow_blink
+]0;pranav@TIGER03427: ~/blink[01;32mpranav@TIGER03427[00m:[01;34m~/blink[00m$ cd ..
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ b[Kexit[Kst
+exist: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ exist[K[Kyt[K[Kt
+exit
+Script done, file is /home/pranav/my_unix_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ script -a ~/my_unix_session[1Px_session[1Px_session[1Px_session[C[1P_sessionm_sessioni_sessionm_session[1P_sessionn_sessioni_sessionc_sessiono_sessionn_sessiond_sessiona_session[C[C[C[C[C[C[C[C
+Script started, file is /home/pranav/my_miniconda_session
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ conda --version
+conda: command not found
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ bash Miniconda3-latest-Linux-x86_64.sh
+bash: Miniconda3-latest-Linux-x86_64.sh: No such file or directory
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ bash Miniconda3-latest-Linux-x86_64.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+Miniconda3-py37_4.12.0-Linux-x86_64.sh                  error.log
+Miniconda3-py37_4.12.0-Linux-x86_64.sh:Zone.Identifier  my_miniconda_session
+README                                                  [0m[01;34mmy_project[0m
+[01;34mblink[0m                                                   my_unix_session
+contribute.txt                                          [01;34mthesis[0m
+draft.txt
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ lsbash Miniconda3-latest-Linux-x86_64.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KMiniconda3-py37_4.12.0-Linux-x86_64
+bash: Miniconda3-py37_4.12.0-Linux-x86_64: No such file or directory
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ bash Miniconda3-py37_4.12.0-Linux-x86_64.sh
+
+Welcome to Miniconda3 py37_4.12.0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+======================================
+End User License Agreement - Miniconda
+======================================
+
+Copyright 2015-2022, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+This End User License Agreement (the "Agreement") is a legal agreement between you 
+and Anaconda, Inc. ("Anaconda") and governs your use of Miniconda.
+
+Subject to the terms of this Agreement, Anaconda hereby grants you a non-exclusive,
+ non-transferable license to:
+
+  * Install and use the Miniconda,
+  * Modify and create derivative works of sample source code delivered in Miniconda
+ subject to the Terms of Service for the Repository (as defined hereinafter) availa
+ble at https://www.anaconda.com/terms-of-service, and
+  * Redistribute code files in source (if provided to you by Anaconda as source) an
+d binary forms, with or without modification subject to the requirements set forth 
+below.
+
+Anaconda may, at its option, make available patches, workarounds or other updates t
+o Miniconda. Unless the updates are provided with their separate governing terms, t
+hey are deemed part of Miniconda licensed to you as provided in this Agreement. Thi
+s Agreement does not entitle you to any support for Miniconda.
+
+Anaconda reserves all rights not expressly granted to you in this Agreement.
+
+Redistribution and use in source and binary forms, with or without modification, ar
+e permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this lis
+t of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this 
+list of conditions and the following disclaimer in the documentation and/or other m
+aterials provided with the distribution.
+  * Neither the name of Anaconda nor the names of its contributors may be used to e
+ndorse or promote products derived from this software without specific prior writte
+n permission.
+
+You acknowledge that, as between you and Anaconda, Anaconda owns all right, title, 
+[7m--More--[27mand interest, including all intellectual property rights, in and to Miniconda and, 
+[7m--More--[27mwith respect to third-party products distributed with or through Miniconda, the app
+[7m--More--[27mlicable third-party licensors own all right, title and interest, including all inte
+[7m--More--[27mllectual property rights, in and to such products. If you send or transmit any comm
+[7m--More--[27munications or materials to Anaconda suggesting or recommending changes to the softw
+[7m--More--[27mare or documentation, including without limitation, new features or functionality r
+[7m--More--[27melating thereto, or any comments, questions, suggestions or the like ("Feedback"), 
+[7m--More--[27mAnaconda is free to use such Feedback. You hereby assign to Anaconda all right, tit
+[7m--More--[27mle, and interest in, and Anaconda is free to use, without any attribution or compen
+[7m--More--[27msation to any party, any ideas, know-how, concepts, techniques or other intellectual property rights contained in the Feedback, for any purpose whatsoever, although Ana
+[7m--More--[27mconda is not required to use any Feedback.
+[7m--More--[27m[K
+[7m--More--[27mDISCLAIMER
+[7m--More--[27m==========
+[7m--More--[27m[K
+[7m--More--[27mTHIS SOFTWARE IS PROVIDED BY ANACONDA AND ITS CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCH
+[7m--More--[27mANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANACONDA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQ
+[7m--More--[27mUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+[7m--More--[27m ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+[7m--More--[27m IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+[7m--More--[27m[K
+[7m--More--[27mTO THE MAXIMUM EXTENT PERMITTED BY LAW, ANACONDA AND ITS AFFILIATES SHALL NOT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES, OR ANY LOST PROF
+[7m--More--[27mITS, LOSS OF USE, LOSS OF DATA OR LOSS OF GOODWILL, OR THE COSTS OF PROCURING SUBSTITUTE PRODUCTS, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR PER
+[7m--More--[27mFORMANCE OF MINICONDA, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR
+[7m--More--[27m ANY OTHER CAUSE OF ACTION OR THEORY OF LIABILITY. IN NO EVENT WILL THE TOTAL CUMULATIVE LIABILITY OF ANACONDA AND ITS AFFILIATES UNDER OR ARISING OUT OF THIS AGREEMENT
+[7m--More--[27m EXCEED US0.00.
+[7m--More--[27m[K
+[7m--More--[27mMiscellaneous
+[7m--More--[27m=============
+[7m--More--[27m[K
+[7m--More--[27mIf you want to terminate this Agreement, you may do so by discontinuing use of Miniconda. Anaconda may, at any time, terminate this Agreement and the license granted he
+[7m--More--[27mreunder if you fail to comply with any term of this Agreement. Upon any termination of this Agreement, you agree to promptly discontinue use of the Miniconda and destro
+[7m--More--[27my all copies in your possession or control. Upon any termination of this Agreement all provisions survive except for the licenses granted to you.
+[7m--More--[27m[K
+[7m--More--[27mThis Agreement is governed by and construed in accordance with the internal laws of the State of Texas without giving effect to any choice or conflict of law provision 
+[7m--More--[27mor rule that would require or permit the application of the laws of any jurisdiction other than those of the State of Texas. Any legal suit, action, or proceeding arisi
+[7m--More--[27mng out of or related to this Agreement or the licenses granted hereunder by you must be instituted exclusively in the federal courts of the United States or the courts 
+[7m--More--[27mof the State of Texas in each case located in Travis County, Texas, and you irrevocably submit to the jurisdiction of such courts in any such suit, action, or proceedin
+[7m--More--[27mg.[K
+[7m--More--[27m[K
+[7m--More--[27mNotice of Third Party Software Licenses
+[7m--More--[27m=======================================
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to a repository (the "Repository") which contains software packages or tools licensed on an open source basis from third parties and binary pa
+[7m--More--[27mckages of these third party tools. These third party software packages or tools are provided on an "as is" basis and are subject to their respective license agreements 
+[7m--More--[27mas well as this Agreement and the Terms of Service for the Repository located at https://www.anaconda.com/terms-of-service; provided, however, no restriction contained 
+[7m--More--[27min the Terms of Service shall be construed so as to limit Your ability to download the packages contained in Miniconda provided you comply with the license for each suc
+[7m--More--[27mh package. These licenses may be accessed from within the Miniconda software[1] or https://www.anaconda.com/legal. Information regarding which license is applicable is 
+[7m--More--[27mavailable from within many of the third party software packages and tools and at https://repo.anaconda.com/pkgs/main/ and https://repo.anaconda.com/pkgs/r/. Anaconda re
+[7m--More--[27mserves the right, in its sole discretion, to change which third party tools are included in the Repository accessible through Miniconda.
+[7m--More--[27m[K
+[7m--More--[27m[K
+[7m--More--[27mIntel Math Kernel Library
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to re-distributable, run-time, shared-library files from the Intel Math Kernel Library ("MKL binaries").
+[7m--More--[27m[K
+[7m--More--[27mCopyright 2018 Intel Corporation. License available at https://software.intel.com/en-us/license/intel-simplified-software-license (the "MKL License").
+[7m--More--[27m[K
+[7m--More--[27mYou may use and redistribute the MKL binaries, without modification, provided the following conditions are met:
+[7m--More--[27m[K
+[7m--More--[27m  * Redistributions must reproduce the above copyright notice and the following terms of use in the MKL binaries and in the documentation and/or other materials provide
+[7m--More--[27md with the distribution.
+[7m--More--[27m  * Neither the name of Intel nor the names of its suppliers may be used to endorse or promote products derived from the MKL binaries without specific prior written per
+[7m--More--[27mmission.
+[7m--More--[27m  * No reverse engineering, decompilation, or disassembly of the MKL binaries is permitted.
+[7m--More--[27m[K
+[7m--More--[27mYou are specifically authorized to use and redistribute the MKL binaries with your installation of Miniconda subject to the terms set forth in the MKL License. You are 
+[7m--More--[27malso authorized to redistribute the MKL binaries with Miniconda or in the Anaconda package that contains the MKL binaries. If needed, instructions for removing the MKL 
+[7m--More--[27mbinaries after installation of Miniconda are available at https://docs.anaconda.com.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN Software
+[7m--More--[27m--------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda also provides access to cuDNN software binaries ("cuDNN binaries") from NVIDIA Corporation. You are specifically authorized to use the cuDNN binaries with you
+[7m--More--[27mr installation of Miniconda subject to your compliance with the license agreement located at https://docs.nvidia.com/deeplearning/sdk/cudnn-sla/index.html. You are also
+[7m--More--[27m authorized to redistribute the cuDNN binaries with an Miniconda package that contains the cuDNN binaries. You can add or remove the cuDNN binaries utilizing the instal
+[7m--More--[27ml and uninstall features in Miniconda.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN binaries contain source code provided by NVIDIA Corporation.
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries (Free Version): Anaconda provides access to software and related documentation from the Arm Performance Libraries ("Arm PL") provided by Arm L
+[7m--More--[27mimited. By installing or otherwise accessing the Arm PL, you acknowledge and agree that use and distribution of the Arm PL is subject to your compliance with the Arm PL
+[7m--More--[27m end user license agreement located at: https://developer.arm.com/tools-and-software/server-and-hpc/downloads/arm-performance-libraries/eula.
+[7m--More--[27m[K
+[7m--More--[27mExport; Cryptography Notice
+[7m--More--[27m===========================
+[7m--More--[27m[K
+[7m--More--[27mYou must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and e
+[7m--More--[27mnd use. Miniconda includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to a
+[7m--More--[27mnother country, of encryption software. BEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possessi
+[7m--More--[27mon, or use, and re-export of encryption software, to see if this is permitted. See the Wassenaar Arrangement http://www.wassenaar.org/ for more information.
+[7m--More--[27m[K
+[7m--More--[27mAnaconda has self-classified this software as Export Commodity Control Number (ECCN) EAR99, which includes mass market information security software using or performing
+[7m--More--[27m cryptographic functions with asymmetric algorithms. No license is required for export of this software to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe Intel Math Kernel Library contained in Miniconda is classified by Intel as ECCN 5D992.c with no license required for export to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe following packages listed on https://www.anaconda.com/cryptography are included in the Repository accessible through Miniconda that relate to cryptography.
+[7m--More--[27m[K
+[7m--More--[27mLast updated March 21, 2022
+
+Do you accept the license terms? [yes|no]
+[no] >>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> yes
+
+Miniconda3 will now be installed into this location:
+/home/pranav/miniconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/pranav/miniconda3] >>> /home
+ERROR: File or directory already exists: '/home'
+If you want to update an existing installation, use the -u option.
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ c[K^C
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ bash Miniconda3-py37_4.12.0-Linux-x86_64.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ cd ..bash Miniconda3-py37_4.12.0-Linux-x86_64.sh
+bash: Miniconda3-py37_4.12.0-Linux-x86_64.sh: No such file or directory
+]0;pranav@TIGER03427: /home[01;32mpranav@TIGER03427[00m:[01;34m/home[00m$ cs[Kd pranav
+]0;pranav@TIGER03427: ~[01;32mpranav@TIGER03427[00m:[01;34m~[00m$ cd pranavbash Miniconda3-py37_4.12.0-Linux-x86_64.sh
+
+Welcome to Miniconda3 py37_4.12.0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+======================================
+End User License Agreement - Miniconda
+======================================
+
+Copyright 2015-2022, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+This End User License Agreement (the "Agreement") is a legal agreement between you and Anaconda, Inc. ("Anaconda") and governs your use of Miniconda.
+
+Subject to the terms of this Agreement, Anaconda hereby grants you a non-exclusive, non-transferable license to:
+
+  * Install and use the Miniconda,
+  * Modify and create derivative works of sample source code delivered in Miniconda subject to the Terms of Service for the Repository (as defined hereinafter) availabl
+e at https://www.anaconda.com/terms-of-service, and
+  * Redistribute code files in source (if provided to you by Anaconda as source) and binary forms, with or without modification subject to the requirements set forth be
+low.
+
+Anaconda may, at its option, make available patches, workarounds or other updates to Miniconda. Unless the updates are provided with their separate governing terms, the
+y are deemed part of Miniconda licensed to you as provided in this Agreement. This Agreement does not entitle you to any support for Miniconda.
+
+Anaconda reserves all rights not expressly granted to you in this Agreement.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other mat
+erials provided with the distribution.
+  * Neither the name of Anaconda nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written 
+permission.
+
+You acknowledge that, as between you and Anaconda, Anaconda owns all right, title, and interest, including all intellectual property rights, in and to Miniconda and, wi
+th respect to third-party products distributed with or through Miniconda, the applicable third-party licensors own all right, title and interest, including all intellec
+tual property rights, in and to such products. If you send or transmit any communications or materials to Anaconda suggesting or recommending changes to the software or
+ documentation, including without limitation, new features or functionality relating thereto, or any comments, questions, suggestions or the like ("Feedback"), Anaconda
+ is free to use such Feedback. You hereby assign to Anaconda all right, title, and interest in, and Anaconda is free to use, without any attribution or compensation to 
+any party, any ideas, know-how, concepts, techniques or other intellectual property rights contained in the Feedback, for any purpose whatsoever, although Anaconda is n
+ot required to use any Feedback.
+
+DISCLAIMER
+==========
+
+[7m--More--[27mTHIS SOFTWARE IS PROVIDED BY ANACONDA AND ITS CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCH
+[7m--More--[27mANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANACONDA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQ
+[7m--More--[27mUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+[7m--More--[27m ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+[7m--More--[27m IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+[7m--More--[27m[K
+[7m--More--[27mTO THE MAXIMUM EXTENT PERMITTED BY LAW, ANACONDA AND ITS AFFILIATES SHALL NOT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES, OR ANY LOST PROF
+[7m--More--[27mITS, LOSS OF USE, LOSS OF DATA OR LOSS OF GOODWILL, OR THE COSTS OF PROCURING SUBSTITUTE PRODUCTS, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR PER
+[7m--More--[27mFORMANCE OF MINICONDA, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR
+[7m--More--[27m ANY OTHER CAUSE OF ACTION OR THEORY OF LIABILITY. IN NO EVENT WILL THE TOTAL CUMULATIVE LIABILITY OF ANACONDA AND ITS AFFILIATES UNDER OR ARISING OUT OF THIS AGREEMENT
+[7m--More--[27m EXCEED US0.00.
+[7m--More--[27m[K
+[7m--More--[27mMiscellaneous
+[7m--More--[27m=============
+[7m--More--[27m[K
+[7m--More--[27mIf you want to terminate this Agreement, you may do so by discontinuing use of Miniconda. Anaconda may, at any time, terminate this Agreement and the license granted he
+[7m--More--[27mreunder if you fail to comply with any term of this Agreement. Upon any termination of this Agreement, you agree to promptly discontinue use of the Miniconda and destro
+[7m--More--[27my all copies in your possession or control. Upon any termination of this Agreement all provisions survive except for the licenses granted to you.
+[7m--More--[27m[K
+[7m--More--[27mThis Agreement is governed by and construed in accordance with the internal laws of the State of Texas without giving effect to any choice or conflict of law provision 
+[7m--More--[27mor rule that would require or permit the application of the laws of any jurisdiction other than those of the State of Texas. Any legal suit, action, or proceeding arisi
+[7m--More--[27mng out of or related to this Agreement or the licenses granted hereunder by you must be instituted exclusively in the federal courts of the United States or the courts 
+[7m--More--[27mof the State of Texas in each case located in Travis County, Texas, and you irrevocably submit to the jurisdiction of such courts in any such suit, action, or proceedin
+[7m--More--[27mg.[K
+[7m--More--[27m[K
+[7m--More--[27mNotice of Third Party Software Licenses
+[7m--More--[27m=======================================
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to a repository (the "Repository") which contains software packages or tools licensed on an open source basis from third parties and binary pa
+[7m--More--[27mckages of these third party tools. These third party software packages or tools are provided on an "as is" basis and are subject to their respective license agreements 
+[7m--More--[27mas well as this Agreement and the Terms of Service for the Repository located at https://www.anaconda.com/terms-of-service; provided, however, no restriction contained 
+[7m--More--[27min the Terms of Service shall be construed so as to limit Your ability to download the packages contained in Miniconda provided you comply with the license for each suc
+[7m--More--[27mh package. These licenses may be accessed from within the Miniconda software[1] or https://www.anaconda.com/legal. Information regarding which license is applicable is 
+[7m--More--[27mavailable from within many of the third party software packages and tools and at https://repo.anaconda.com/pkgs/main/ and https://repo.anaconda.com/pkgs/r/. Anaconda re
+[7m--More--[27mserves the right, in its sole discretion, to change which third party tools are included in the Repository accessible through Miniconda.
+[7m--More--[27m[K
+[7m--More--[27m[K
+[7m--More--[27mIntel Math Kernel Library
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to re-distributable, run-time, shared-library files from the Intel Math Kernel Library ("MKL binaries").
+[7m--More--[27m[K
+[7m--More--[27mCopyright 2018 Intel Corporation. License available at https://software.intel.com/en-us/license/intel-simplified-software-license (the "MKL License").
+[7m--More--[27m[K
+[7m--More--[27mYou may use and redistribute the MKL binaries, without modification, provided the following conditions are met:
+[7m--More--[27m[K
+[7m--More--[27m  * Redistributions must reproduce the above copyright notice and the following terms of use in the MKL binaries and in the documentation and/or other materials provide
+[7m--More--[27md with the distribution.
+[7m--More--[27m  * Neither the name of Intel nor the names of its suppliers may be used to endorse or promote products derived from the MKL binaries without specific prior written per
+[7m--More--[27mmission.
+[7m--More--[27m  * No reverse engineering, decompilation, or disassembly of the MKL binaries is permitted.
+[7m--More--[27m[K
+[7m--More--[27mYou are specifically authorized to use and redistribute the MKL binaries with your installation of Miniconda subject to the terms set forth in the MKL License. You are 
+[7m--More--[27malso authorized to redistribute the MKL binaries with Miniconda or in the Anaconda package that contains the MKL binaries. If needed, instructions for removing the MKL 
+[7m--More--[27mbinaries after installation of Miniconda are available at https://docs.anaconda.com.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN Software
+[7m--More--[27m--------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda also provides access to cuDNN software binaries ("cuDNN binaries") from NVIDIA Corporation. You are specifically authorized to use the cuDNN binaries with you
+[7m--More--[27mr installation of Miniconda subject to your compliance with the license agreement located at https://docs.nvidia.com/deeplearning/sdk/cudnn-sla/index.html. You are also
+[7m--More--[27m authorized to redistribute the cuDNN binaries with an Miniconda package that contains the cuDNN binaries. You can add or remove the cuDNN binaries utilizing the instal
+[7m--More--[27ml and uninstall features in Miniconda.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN binaries contain source code provided by NVIDIA Corporation.
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries (Free Version): Anaconda provides access to software and related documentation from the Arm Performance Libraries ("Arm PL") provided by Arm L
+[7m--More--[27mimited. By installing or otherwise accessing the Arm PL, you acknowledge and agree that use and distribution of the Arm PL is subject to your compliance with the Arm PL
+[7m--More--[27m end user license agreement located at: https://developer.arm.com/tools-and-software/server-and-hpc/downloads/arm-performance-libraries/eula.
+[7m--More--[27m[K
+[7m--More--[27mExport; Cryptography Notice
+[7m--More--[27m===========================
+[7m--More--[27m[K
+[7m--More--[27mYou must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and e
+[7m--More--[27mnd use. Miniconda includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to a
+[7m--More--[27mnother country, of encryption software. BEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possessi
+[7m--More--[27mon, or use, and re-export of encryption software, to see if this is permitted. See the Wassenaar Arrangement http://www.wassenaar.org/ for more information.
+[7m--More--[27m[K
+[7m--More--[27mAnaconda has self-classified this software as Export Commodity Control Number (ECCN) EAR99, which includes mass market information security software using or performing
+[7m--More--[27m cryptographic functions with asymmetric algorithms. No license is required for export of this software to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe Intel Math Kernel Library contained in Miniconda is classified by Intel as ECCN 5D992.c with no license required for export to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe following packages listed on https://www.anaconda.com/cryptography are included in the Repository accessible through Miniconda that relate to cryptography.
+[7m--More--[27m[K
+[7m--More--[27mLast updated March 21, 2022
+
+Do you accept the license terms? [yes|no]
+[no] >>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> y
+Please answer 'yes' or 'no':'
+>>> yes
+
+Miniconda3 will now be installed into this location:
+/home/pranav/miniconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/pranav/miniconda3] >>> 
+PREFIX=/home/pranav/miniconda3
+Unpacking payload ...
+  0%|                                                                                                                                            | 0/39 [00:00<?, ?it/s]Extracting : conda-content-trust-0.1.1-pyhd3eb1b0_0.conda:   0%|                                                                                 | 0/39 [00:00<?, ?it/s]Extracting : sqlite-3.38.2-hc218d9a_0.conda:   3%|██▏                                                                                    | 1/39 [00:00<00:06,  6.01it/s]Extracting : sqlite-3.38.2-hc218d9a_0.conda:   5%|████▍                                                                                  | 2/39 [00:00<00:03, 11.98it/s]Extracting : openssl-1.1.1n-h7f8727e_0.conda:   5%|████▍                                                                                 | 2/39 [00:00<00:03, 11.98it/s]Extracting : libffi-3.3-he6710b0_2.conda:   8%|██████▉                                                                                   | 3/39 [00:00<00:03, 11.98it/s]Extracting : idna-3.3-pyhd3eb1b0_0.conda:  10%|█████████▏                                                                                | 4/39 [00:00<00:02, 11.98it/s]Extracting : tqdm-4.63.0-pyhd3eb1b0_0.conda:  13%|███████████▏                                                                           | 5/39 [00:00<00:02, 11.98it/s]Extracting : libgomp-9.3.0-h5101ec6_17.conda:  15%|█████████████▏                                                                        | 6/39 [00:00<00:02, 11.98it/s]Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:  18%|███████████████                                                                     | 7/39 [00:00<00:02, 11.98it/s]Extracting : cryptography-36.0.0-py37h9ce1e76_0.conda:  21%|███████████████▊                                                             | 8/39 [00:00<00:02, 11.98it/s]Extracting : colorama-0.4.4-pyhd3eb1b0_0.conda:  23%|███████████████████▍                                                                | 9/39 [00:00<00:02, 11.98it/s]Extracting : six-1.16.0-pyhd3eb1b0_1.conda:  26%|██████████████████████▎                                                                | 10/39 [00:00<00:02, 11.98it/s]Extracting : ncurses-6.3-h7f8727e_2.conda:  28%|████████████████████████▊                                                               | 11/39 [00:00<00:02, 11.98it/s]Extracting : ncurses-6.3-h7f8727e_2.conda:  31%|███████████████████████████                                                             | 12/39 [00:00<00:00, 28.98it/s]Extracting : setuptools-61.2.0-py37h06a4308_0.conda:  31%|████████████████████████                                                      | 12/39 [00:00<00:00, 28.98it/s]Extracting : tk-8.6.11-h1ccaba5_0.conda:  33%|██████████████████████████████                                                            | 13/39 [00:00<00:00, 28.98it/s]Extracting : charset-normalizer-2.0.4-pyhd3eb1b0_0.conda:  36%|██████████████████████████▏                                              | 14/39 [00:00<00:00, 28.98it/s]Extracting : cffi-1.15.0-py37hd667e15_1.conda:  38%|████████████████████████████████▎                                                   | 15/39 [00:00<00:00, 28.98it/s]Extracting : conda-package-handling-1.8.1-py37h7f8727e_0.conda:  41%|███████████████████████████▍                                       | 16/39 [00:00<00:00, 28.98it/s]Extracting : ld_impl_linux-64-2.35.1-h7274673_9.conda:  44%|█████████████████████████████████▏                                          | 17/39 [00:00<00:00, 28.98it/s]Extracting : zlib-1.2.12-h7f8727e_1.conda:  46%|████████████████████████████████████████▌                                               | 18/39 [00:00<00:00, 28.98it/s]Extracting : _libgcc_mutex-0.1-main.conda:  49%|██████████████████████████████████████████▊                                             | 19/39 [00:00<00:00, 28.98it/s]Extracting : ca-certificates-2022.3.29-h06a4308_1.conda:  51%|█████████████████████████████████████▉                                    | 20/39 [00:00<00:00, 28.98it/s]Extracting : pip-21.2.2-py37h06a4308_0.conda:  54%|█████████████████████████████████████████████▊                                       | 21/39 [00:00<00:00, 28.98it/s]Extracting : libgcc-ng-9.3.0-h5101ec6_17.conda:  56%|██████████████████████████████████████████████▊                                    | 22/39 [00:00<00:00, 28.98it/s]Extracting : xz-5.2.5-h7b6447c_0.conda:  59%|█████████████████████████████████████████████████████▋                                     | 23/39 [00:00<00:00, 28.98it/s]Extracting : conda-4.12.0-py37h06a4308_0.conda:  62%|███████████████████████████████████████████████████                                | 24/39 [00:00<00:00, 28.98it/s]Extracting : conda-4.12.0-py37h06a4308_0.conda:  64%|█████████████████████████████████████████████████████▏                             | 25/39 [00:00<00:00, 43.79it/s]Extracting : yaml-0.2.5-h7b6447c_0.conda:  64%|█████████████████████████████████████████████████████████                                | 25/39 [00:00<00:00, 43.79it/s]Extracting : urllib3-1.26.8-pyhd3eb1b0_0.conda:  67%|███████████████████████████████████████████████████████▎                           | 26/39 [00:00<00:00, 43.79it/s]Extracting : pycosat-0.6.3-py37h27cfd23_0.conda:  69%|████████████████████████████████████████████████████████▊                         | 27/39 [00:00<00:00, 43.79it/s]Extracting : ruamel_yaml-0.15.100-py37h27cfd23_0.conda:  72%|█████████████████████████████████████████████████████▊                     | 28/39 [00:00<00:00, 43.79it/s]Extracting : pysocks-1.7.1-py37_1.conda:  74%|██████████████████████████████████████████████████████████████████▉                       | 29/39 [00:00<00:00, 43.79it/s]Extracting : python-3.7.13-h12debd9_0.conda:  77%|██████████████████████████████████████████████████████████████████▏                   | 30/39 [00:00<00:00, 43.79it/s]Extracting : python-3.7.13-h12debd9_0.conda:  79%|████████████████████████████████████████████████████████████████████▎                 | 31/39 [00:00<00:00, 39.84it/s]Extracting : wheel-0.37.1-pyhd3eb1b0_0.conda:  79%|███████████████████████████████████████████████████████████████████▌                 | 31/39 [00:00<00:00, 39.84it/s]Extracting : readline-8.1.2-h7f8727e_1.conda:  82%|█████████████████████████████████████████████████████████████████████▋               | 32/39 [00:00<00:00, 39.84it/s]Extracting : certifi-2021.10.8-py37h06a4308_2.conda:  85%|██████████████████████████████████████████████████████████████████            | 33/39 [00:00<00:00, 39.84it/s]Extracting : requests-2.27.1-pyhd3eb1b0_0.conda:  87%|███████████████████████████████████████████████████████████████████████▍          | 34/39 [00:00<00:00, 39.84it/s]Extracting : libstdcxx-ng-9.3.0-hd4cf53a_17.conda:  90%|███████████████████████████████████████████████████████████████████████▊        | 35/39 [00:00<00:00, 39.84it/s]Extracting : brotlipy-0.7.0-py37h27cfd23_1003.conda:  92%|████████████████████████████████████████████████████████████████████████      | 36/39 [00:00<00:00, 39.84it/s]Extracting : pyopenssl-22.0.0-pyhd3eb1b0_0.conda:  95%|████████████████████████████████████████████████████████████████████████████▊    | 37/39 [00:00<00:00, 39.84it/s]Extracting : _openmp_mutex-4.5-1_gnu.tar.bz2:  97%|██████████████████████████████████████████████████████████████████████████████████▊  | 38/39 [00:00<00:00, 39.84it/s]                                                                                                                                                                        Collecting package metadata (current_repodata.json): - done
+Solving environment: | / done
+
+## Package Plan ##
+
+  environment location: /home/pranav/miniconda3
+
+  added / updated specs:
+    - _libgcc_mutex==0.1=main
+    - _openmp_mutex==4.5=1_gnu
+    - brotlipy==0.7.0=py37h27cfd23_1003
+    - ca-certificates==2022.3.29=h06a4308_1
+    - certifi==2021.10.8=py37h06a4308_2
+    - cffi==1.15.0=py37hd667e15_1
+    - charset-normalizer==2.0.4=pyhd3eb1b0_0
+    - colorama==0.4.4=pyhd3eb1b0_0
+    - conda-content-trust==0.1.1=pyhd3eb1b0_0
+    - conda-package-handling==1.8.1=py37h7f8727e_0
+    - conda==4.12.0=py37h06a4308_0
+    - cryptography==36.0.0=py37h9ce1e76_0
+    - idna==3.3=pyhd3eb1b0_0
+    - ld_impl_linux-64==2.35.1=h7274673_9
+    - libffi==3.3=he6710b0_2
+    - libgcc-ng==9.3.0=h5101ec6_17
+    - libgomp==9.3.0=h5101ec6_17
+    - libstdcxx-ng==9.3.0=hd4cf53a_17
+    - ncurses==6.3=h7f8727e_2
+    - openssl==1.1.1n=h7f8727e_0
+    - pip==21.2.2=py37h06a4308_0
+    - pycosat==0.6.3=py37h27cfd23_0
+    - pycparser==2.21=pyhd3eb1b0_0
+    - pyopenssl==22.0.0=pyhd3eb1b0_0
+    - pysocks==1.7.1=py37_1
+    - python==3.7.13=h12debd9_0
+    - readline==8.1.2=h7f8727e_1
+    - requests==2.27.1=pyhd3eb1b0_0
+    - ruamel_yaml==0.15.100=py37h27cfd23_0
+    - setuptools==61.2.0=py37h06a4308_0
+    - six==1.16.0=pyhd3eb1b0_1
+    - sqlite==3.38.2=hc218d9a_0
+    - tk==8.6.11=h1ccaba5_0
+    - tqdm==4.63.0=pyhd3eb1b0_0
+    - urllib3==1.26.8=pyhd3eb1b0_0
+    - wheel==0.37.1=pyhd3eb1b0_0
+    - xz==5.2.5=h7b6447c_0
+    - yaml==0.2.5=h7b6447c_0
+    - zlib==1.2.12=h7f8727e_1
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-4.5-1_gnu
+  brotlipy           pkgs/main/linux-64::brotlipy-0.7.0-py37h27cfd23_1003
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.3.29-h06a4308_1
+  certifi            pkgs/main/linux-64::certifi-2021.10.8-py37h06a4308_2
+  cffi               pkgs/main/linux-64::cffi-1.15.0-py37hd667e15_1
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  colorama           pkgs/main/noarch::colorama-0.4.4-pyhd3eb1b0_0
+  conda              pkgs/main/linux-64::conda-4.12.0-py37h06a4308_0
+  conda-content-tru~ pkgs/main/noarch::conda-content-trust-0.1.1-pyhd3eb1b0_0
+  conda-package-han~ pkgs/main/linux-64::conda-package-handling-1.8.1-py37h7f8727e_0
+  cryptography       pkgs/main/linux-64::cryptography-36.0.0-py37h9ce1e76_0
+  idna               pkgs/main/noarch::idna-3.3-pyhd3eb1b0_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.35.1-h7274673_9
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng 

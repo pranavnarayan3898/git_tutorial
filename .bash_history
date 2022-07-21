@@ -412,3 +412,201 @@ vit --help
 vim --help
 vim answer.txt
 exit
+ssh-keygen -t ed25519 -C "pranav.narayan@tigeranalytics.com"
+git status
+git clone https://github.com/pranavnarayan3898
+git clone https://github.com/pranavnarayan3898/blink
+ls
+cd blink
+ls
+git branch
+git status
+git branch slow_blink
+git branch
+git checkout slow_blink
+git branch
+ls
+sed -i 's/1000/3000/' blink.ino
+git diff --word-diff
+git status
+git commit -a -m 'change delay time to 3Sec'
+git push origin slow_blink
+cd ..
+git config --global user.name pranavnarayan3898
+git config --global user.email pranav.narayan@tigeranalytics.com
+git config --global user.name "pranavnarayan3898"
+git config --global user.email "pranav.narayan@tigeranalytics.com"
+git config -l
+cd blink
+git config -l
+git push origin slow_blink
+cd ..
+sudo apt-get install xclip
+clear
+git push origin slow_blink
+cd blink
+git push origin slow_blink
+cd ..
+exist
+exit
+conda --version
+bash Miniconda3-latest-Linux-x86_64.sh
+ls
+bash Miniconda3-py37_4.12.0-Linux-x86_64
+bash Miniconda3-py37_4.12.0-Linux-x86_64.sh
+cd ..
+bash Miniconda3-py37_4.12.0-Linux-x86_64.sh
+cd pranav
+bash Miniconda3-py37_4.12.0-Linux-x86_64.sh
+exit
+script -a ~/my_unix_session
+ls
+git status
+cd thesis
+git status
+rm .answer.txt.swp
+git status
+git info
+git log
+nano answer.txt
+git status
+git add answer.txt
+git status
+git commit -m 'modified the answer file'
+git status
+git nano answer
+nano answer.txt
+git checkout master
+nano answer.txt
+git checkout testing
+git checkout master
+git status
+git checkout testing
+git log
+git log testing
+git checkout master
+nano answer.txt
+git add answer.txt
+git commit -m 'edited answer file in master branch'
+git log
+git log testing
+git log
+git log -online -decorate
+git log --online -- decorate
+git log --oneline --decorate
+git status
+git checkout testing
+git log --oneline --decorate
+git log --oneline --decorate --graph -all
+git log --oneline --decorate --graph --all
+git checkout master
+git merge testing
+git status
+nano answer.txt
+git status
+git mergetool
+git add answer.txt
+git status
+git commint -m 'editing answer in merge file'
+git commit -m 'editing answer in merge file'
+git status
+git checkout testing
+git status
+git checkout master
+merge testing
+git merge testing
+git status
+git branch -d testing
+git status
+git add --all
+git commit -m 'master and testting branch are successfully merged'
+git status
+git branch
+git branch test1
+got branch
+git branch
+nano ans0.txt
+git branch
+git status
+add ans0.txt
+git add ans0.txt
+git commit -m "ans0 is added"
+git branch
+git branch test2
+git branch
+git checkout test1
+nano ans1.txt
+git status
+git add ans1.txt
+git commit -m "ans1 is added"
+git branch
+git checkout test2
+git status
+nano ans2.txt
+git add ans2.txt
+git commit -m "ans2 file is added
+"
+git log --oneline --decorate --graph -all
+git log --oneline --decorate --graph --all
+git checkout master
+git branch
+git branch -v
+git branch --merged
+git branch --no-merged
+git branch -d testing
+git branch - test1
+git branch -d test1
+git status
+git branch test1
+git checkout testing
+git checkout test1
+git branch --no-merged master
+git branch --move test1 testing1
+git branch
+git branch --all
+git branch --v
+git status
+cd ..
+git status
+git add -add
+git status
+git add --all
+git status
+git commint -m "chapter 3 done!"
+git status
+git commit -m "chapter 3 done!"
+git status
+exit
+script -a ~/my_unix_session
+script -a ~/my_miniconda_session
+conda --version
+conda update conda
+conda create --name snowflakes biopython
+conda activate snowflakes
+conda info --envs
+conda activate
+conda source activate
+conda activate snowflakes
+source activate
+conda activate
+conda create --name snakes python=3.9
+conda info --envs
+python --version
+conda activate snakes
+python --version
+conda activate
+conda search beautifulsoup4
+conda install beautifulsoup4
+conda list
+exit
+ls
+git status
+exit
+git status
+git add my_miniconda_session
+git add my_unix_session
+git status
+git commint -m 'miniconda file is added'
+git commit -m 'miniconda file is added'
+git status
+git add --all
